@@ -1,0 +1,705 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "netkeiba" [level=1] [ref=e5]:
+          - link "netkeiba" [ref=e6] [cursor=pointer]:
+            - /url: https://www.netkeiba.com/?rf=logo
+            - img "netkeiba" [ref=e7]
+        - generic [ref=e11]:
+          - textbox "キーワードで検索" [ref=e13]
+          - generic [ref=e14]:
+            - img [ref=e15]
+            - button "検 索" [ref=e20]
+        - generic [ref=e21]:
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "プレミアムサービス" [ref=e24] [cursor=pointer]:
+                - /url: https://regist.netkeiba.com/?pid=premium&rf=header
+            - listitem [ref=e25]:
+              - link "お気に入り馬" [ref=e26] [cursor=pointer]:
+                - /url: https://race.netkeiba.com/bookmark/bookmark.html?rf=navi
+            - listitem [ref=e27]:
+              - link "メモ" [ref=e28] [cursor=pointer]:
+                - /url: https://race.netkeiba.com/notes/schedule.html?rf=navi
+            - listitem [ref=e29]:
+              - link "ログイン/会員登録" [ref=e30] [cursor=pointer]:
+                - /url: https://regist.netkeiba.com/account/?pid=login
+          - link "LIVE 競輪" [ref=e32] [cursor=pointer]:
+            - /url: https://keirin.netkeiba.com/?rf=nk_pc_header
+            - generic [ref=e33]: LIVE
+            - text: 競輪
+    - navigation [ref=e34]:
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "トップ" [ref=e37] [cursor=pointer]:
+            - /url: https://www.netkeiba.com/?rf=navi
+        - listitem [ref=e38]:
+          - link "ニュース" [ref=e39] [cursor=pointer]:
+            - /url: https://news.netkeiba.com/?rf=navi
+        - listitem [ref=e40]:
+          - link "レース" [ref=e41] [cursor=pointer]:
+            - /url: https://race.netkeiba.com/top/?rf=navi
+        - listitem [ref=e42]:
+          - link "A I" [ref=e43] [cursor=pointer]:
+            - /url: https://race.netkeiba.com/AI/AI.html?rf=navi
+        - listitem [ref=e44]:
+          - link "日本ダービー" [ref=e45] [cursor=pointer]:
+            - /url: https://race.netkeiba.com/special/index.html?id=0059&rf=navi
+        - listitem [ref=e46]:
+          - link "10th 予想" [ref=e47] [cursor=pointer]:
+            - /url: https://yoso.netkeiba.com/?access=init&rf=navi
+        - listitem [ref=e48]:
+          - link "UMAIビルダー" [ref=e49] [cursor=pointer]:
+            - /url: https://builder.netkeiba.com/?rf=navi
+        - listitem [ref=e50]:
+          - link "コラム" [ref=e51] [cursor=pointer]:
+            - /url: https://news.netkeiba.com/?pid=column_top&rf=navi
+        - listitem [ref=e52]:
+          - link "netkeibaTV" [ref=e53] [cursor=pointer]:
+            - /url: https://tv.netkeiba.com/?rf=navi
+        - listitem [ref=e54]:
+          - link "地方競馬" [ref=e55] [cursor=pointer]:
+            - /url: https://nar.netkeiba.com/top/?rf=navi
+        - listitem [ref=e56]:
+          - link "データベース" [ref=e57] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/?rf=navi
+        - listitem [ref=e58]:
+          - link "ショップ" [ref=e59] [cursor=pointer]:
+            - /url: https://shop.netkeiba.com/?utm_source=netkeiba&utm_medium=+referral&utm_campaign=pcgnavi_20240425
+        - listitem [ref=e60]:
+          - link "競馬新聞" [ref=e61] [cursor=pointer]:
+            - /url: https://yoso.netkeiba.com/senmonshi/?rf=navi
+        - listitem [ref=e62]:
+          - link "俺プロ" [ref=e63] [cursor=pointer]:
+            - /url: https://orepro.netkeiba.com/?rf=navi
+        - listitem [ref=e64]:
+          - link "一口馬主" [ref=e65] [cursor=pointer]:
+            - /url: https://owner.netkeiba.com/?pid=migration&rf=navi
+        - listitem [ref=e66]:
+          - link "POG" [ref=e67] [cursor=pointer]:
+            - /url: https://pog.netkeiba.com/?rf=navi
+        - listitem [ref=e68]:
+          - link "まとめ" [ref=e69] [cursor=pointer]:
+            - /url: https://dir.netkeiba.com/keibamatome/index.html?rf=navi
+        - listitem [ref=e70]:
+          - link "イベント" [ref=e71] [cursor=pointer]:
+            - /url: https://dir.netkeiba.com/event/?rf=navi
+    - generic [ref=e72]:
+      - list:
+        - listitem [ref=e73]:
+          - link "競馬データTOP" [ref=e74] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/
+        - listitem [ref=e75]:
+          - link "競走馬" [ref=e76] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/horse/top.html
+        - listitem [ref=e77]:
+          - link "騎手" [ref=e78] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/jockey/top.html
+        - listitem [ref=e79]:
+          - link "調教師" [ref=e80] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/trainer/top.html
+        - listitem [ref=e81]:
+          - link "馬主" [ref=e82] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/owner/top.html
+        - listitem [ref=e83]:
+          - link "生産者" [ref=e84] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/breeder/top.html
+        - listitem [ref=e85]:
+          - link "レース" [ref=e86] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/?pid=race_top
+        - listitem [ref=e87]:
+          - link "クラシック" [ref=e88] [cursor=pointer]:
+            - /url: https://db.netkeiba.com/classic/
+        - listitem [ref=e89]:
+          - link "勝ち馬サーチ" [ref=e90] [cursor=pointer]:
+            - /url: https://db.sp.netkeiba.com/winner_search/home
+    - generic [ref=e91]:
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - generic:
+            - heading "ゴーイントゥスカイ" [level=1] [ref=e96]
+            - paragraph [ref=e97]:
+              - link "Going to Sky" [ref=e98] [cursor=pointer]:
+                - /url: https://en.netkeiba.com/db/horse/2023105378/
+            - paragraph [ref=e99]: 現役 牡3歳 鹿毛
+          - generic [ref=e100]:
+            - link "共有" [ref=e102] [cursor=pointer]:
+              - /url: ""
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link "お気に入り馬登録" [ref=e105] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/account/?pid=login
+                  - generic [ref=e106]: お気に入り馬登録
+            - paragraph [ref=e107]:
+              - link "8,028人" [ref=e108] [cursor=pointer]:
+                - /url: https://db.netkeiba.com/social/horse_favorite_user_list.html?id=2023105378
+            - list [ref=e109]:
+              - listitem [ref=e110]:
+                - link "POG登録" [ref=e111] [cursor=pointer]:
+                  - /url: https://pog.netkeiba.com/?pid=pog_regist_list&horseid=2023105378
+          - generic:
+            - generic: シェアする
+            - list:
+              - listitem:
+                - link "X":
+                  - /url: https://twitter.com/share?text=_share_title_&url=_share_url_
+                  - generic: X
+              - listitem:
+                - link "Facebook":
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=_share_url_
+                  - generic: Facebook
+              - listitem:
+                - link "LINE":
+                  - /url: https://social-plugins.line.me/lineit/share?url=_share_url_&text=_share_title_
+                  - generic: LINE
+              - listitem:
+                - link "URLをコピー":
+                  - /url: javascript:void(0);
+                  - generic: URLをコピー
+        - list [ref=e113]:
+          - listitem
+          - listitem [ref=e114]:
+            - link "TOP" [ref=e115] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/2023105378/
+          - listitem [ref=e116]:
+            - link "戦績" [ref=e117] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/result/2023105378/
+          - listitem [ref=e118]:
+            - link "血統" [ref=e119] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/ped/2023105378/
+          - listitem [ref=e120]:
+            - link "掲示板" [ref=e121] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/?pid=horse_board&id=2023105378
+          - listitem [ref=e122]:
+            - link "写真" [ref=e123] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/photo/list.html?id=2023105378
+          - listitem [ref=e124]:
+            - link "メモ" [ref=e125] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/notes.html?id=2023105378
+              - text: メモ
+          - listitem [ref=e126]:
+            - link "調教" [ref=e127] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/training.html?id=2023105378
+          - listitem [ref=e128]:
+            - link "短評" [ref=e129] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/race_comment.html?id=2023105378
+          - listitem [ref=e130]:
+            - link "コメント" [ref=e131] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/kyusya_comment.html?id=2023105378
+          - listitem [ref=e132]:
+            - link "パドック映像" [ref=e133] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/paddock_movie.html?id=2023105378
+          - listitem [ref=e134]:
+            - link "フォトパドック" [ref=e135] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/horse/photo_paddock.html?id=2023105378
+          - listitem [ref=e136]:
+            - link "近況" [ref=e137] [cursor=pointer]:
+              - /url: https://db.netkeiba.com/social/horse_info_next.html?id=2023105378
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - heading "ゴーイントゥスカイの競走成績" [level=2] [ref=e141]
+          - generic [ref=e142]:
+            - paragraph [ref=e143]: スマホでもこの馬のデータをチェック！
+            - link "詳しく見る" [ref=e144] [cursor=pointer]:
+              - /url: https://www.netkeiba.com/?pid=sogoch_introduction&id=2023105378
+              - img "詳しく見る" [ref=e145]
+        - table "ゴーイントゥスカイの競走戦績" [ref=e146]:
+          - rowgroup [ref=e147]:
+            - row "日付 開催 天 気 R レース名 映 像 頭 数 枠 番 馬 番 オ ッ ズ 人 気 着 順 騎手 斤 量 距離 馬 場 馬場 指数 タイム 着差 ﾀｲﾑ 指数 通過 ペース 上り 馬体重 厩舎 ｺﾒﾝﾄ 備考 勝ち馬 (2着馬) 賞金" [ref=e148]:
+              - columnheader "日付" [ref=e149]
+              - columnheader "開催" [ref=e150]
+              - columnheader "天 気" [ref=e151]:
+                - text: 天
+                - text: 気
+              - columnheader "R" [ref=e152]
+              - columnheader "レース名" [ref=e153]
+              - columnheader "映 像" [ref=e154]:
+                - text: 映
+                - text: 像
+              - columnheader "頭 数" [ref=e155]:
+                - text: 頭
+                - text: 数
+              - columnheader "枠 番" [ref=e156]:
+                - text: 枠
+                - text: 番
+              - columnheader "馬 番" [ref=e157]:
+                - text: 馬
+                - text: 番
+              - columnheader "オ ッ ズ" [ref=e158]:
+                - text: オ
+                - text: ッ
+                - text: ズ
+              - columnheader "人 気" [ref=e159]:
+                - text: 人
+                - text: 気
+              - columnheader "着 順" [ref=e160]:
+                - text: 着
+                - text: 順
+              - columnheader "騎手" [ref=e161]
+              - columnheader "斤 量" [ref=e162]:
+                - text: 斤
+                - text: 量
+              - columnheader "距離" [ref=e163]
+              - columnheader "馬 場" [ref=e164]:
+                - text: 馬
+                - text: 場
+              - columnheader "馬場 指数" [ref=e165]:
+                - text: 馬場
+                - text: 指数
+              - columnheader "タイム" [ref=e166]
+              - columnheader "着差" [ref=e167]
+              - columnheader "ﾀｲﾑ 指数" [ref=e168]:
+                - link "ﾀｲﾑ 指数" [ref=e170] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - text: ﾀｲﾑ
+                  - text: 指数
+              - columnheader "通過" [ref=e172]
+              - columnheader "ペース" [ref=e173]
+              - columnheader "上り" [ref=e174]
+              - columnheader "馬体重" [ref=e175]
+              - columnheader "厩舎 ｺﾒﾝﾄ" [ref=e176]:
+                - text: 厩舎
+                - text: ｺﾒﾝﾄ
+              - columnheader "備考" [ref=e177]: 備考
+              - columnheader "勝ち馬 (2着馬)" [ref=e178]:
+                - text: 勝ち馬
+                - text: (2着馬)
+              - columnheader "賞金" [ref=e179]
+          - rowgroup [ref=e180]:
+            - row "2026/04/25 2東京1 晴 11 テレビ東京杯青葉賞(GII) 18 8 16 8.1 4 1 武豊 57 芝2400 良 -23 2:23.0 -0.1 105 10-8-8-7 35.9-34.2 33.4 504(-8) (タイダルロック) 5,530.2" [ref=e181]:
+              - cell "2026/04/25" [ref=e182]:
+                - link "2026/04/25" [ref=e183] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/list/20260425/
+              - cell "2東京1" [ref=e184]:
+                - link "2東京1" [ref=e185] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/sum/05/20260425/
+              - cell "晴" [ref=e186]
+              - cell "11" [ref=e187]
+              - cell "テレビ東京杯青葉賞(GII)" [ref=e188]:
+                - link "テレビ東京杯青葉賞(GII)" [ref=e189] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/202605020111/
+              - cell [ref=e190]:
+                - link "テレビ東京杯青葉賞(GII)の映像" [ref=e191] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/movie/202605020111
+                  - img [ref=e192]
+              - cell "18" [ref=e193]
+              - cell "8" [ref=e194]
+              - cell "16" [ref=e195]
+              - cell "8.1" [ref=e196]
+              - cell "4" [ref=e197]
+              - cell "1" [ref=e198]
+              - cell "武豊" [ref=e199]:
+                - link "武豊" [ref=e200] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/00666/
+              - cell "57" [ref=e201]
+              - cell "芝2400" [ref=e202]
+              - cell "良" [ref=e203]
+              - cell "-23" [ref=e204]
+              - cell "2:23.0" [ref=e205]
+              - cell "-0.1" [ref=e206]
+              - cell "105" [ref=e207]
+              - cell "10-8-8-7" [ref=e208]
+              - cell "35.9-34.2" [ref=e209]
+              - cell "33.4" [ref=e210]
+              - cell "504(-8)" [ref=e211]
+              - cell [ref=e212]:
+                - link [ref=e213] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/?pid=horse_comment&id=2023105378&rid=202605020111
+                  - img [ref=e214]
+              - cell [ref=e215]
+              - cell "(タイダルロック)" [ref=e216]:
+                - link "(タイダルロック)" [ref=e217] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023106861/
+              - cell "5,530.2" [ref=e218]
+            - row "2026/02/10 2京都4 曇 11 きさらぎ賞(GIII) 9 4 4 4.2 3 6 荻野極 57 芝1800 良 ** 1:48.3 0.3 ** 7-7 36.6-33.7 33.2 512(+16) ゾロアストロ" [ref=e219]:
+              - cell "2026/02/10" [ref=e220]:
+                - link "2026/02/10" [ref=e221] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/list/20260210/
+              - cell "2京都4" [ref=e222]:
+                - link "2京都4" [ref=e223] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/sum/08/20260210/
+              - cell "曇" [ref=e224]
+              - cell "11" [ref=e225]
+              - cell "きさらぎ賞(GIII)" [ref=e226]:
+                - link "きさらぎ賞(GIII)" [ref=e227] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/202608020411/
+              - cell [ref=e228]:
+                - link "きさらぎ賞(GIII)の映像" [ref=e229] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/movie/202608020411
+                  - img [ref=e230]
+              - cell "9" [ref=e231]
+              - cell "4" [ref=e232]
+              - cell "4" [ref=e233]
+              - cell "4.2" [ref=e234]
+              - cell "3" [ref=e235]
+              - cell "6" [ref=e236]
+              - cell "荻野極" [ref=e237]:
+                - link "荻野極" [ref=e238] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01160/
+              - cell "57" [ref=e239]
+              - cell "芝1800" [ref=e240]
+              - cell "良" [ref=e241]
+              - cell "**" [ref=e242]:
+                - link "**" [ref=e244] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/?pid=premium&service=p44
+              - cell "1:48.3" [ref=e245]
+              - cell "0.3" [ref=e246]
+              - cell "**" [ref=e247]:
+                - link "**" [ref=e249] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/?pid=premium&service=p04
+              - cell "7-7" [ref=e250]
+              - cell "36.6-33.7" [ref=e251]
+              - cell "33.2" [ref=e252]
+              - cell "512(+16)" [ref=e253]
+              - cell [ref=e254]:
+                - link [ref=e255] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/?pid=horse_comment&id=2023105378&rid=202608020411
+                  - img [ref=e256]
+              - cell [ref=e257]:
+                - link [ref=e259] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/?pid=premium&service=p31
+                  - img [ref=e260]
+              - cell "ゾロアストロ" [ref=e261]:
+                - link "ゾロアストロ" [ref=e262] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023106850/
+              - cell [ref=e263]
+            - row "2025/11/29 4京都7 晴 11 ラジオN杯京都2歳S(GIII) 11 8 10 6.2 3 3 荻野極 56 芝2000 良 ** 2:00.6 0.2 ** 10-10-7-5 35.6-35.6 35.2 496(+8) ジャスティンビスタ 835.6" [ref=e264]:
+              - cell "2025/11/29" [ref=e265]:
+                - link "2025/11/29" [ref=e266] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/list/20251129/
+              - cell "4京都7" [ref=e267]:
+                - link "4京都7" [ref=e268] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/sum/08/20251129/
+              - cell "晴" [ref=e269]
+              - cell "11" [ref=e270]
+              - cell "ラジオN杯京都2歳S(GIII)" [ref=e271]:
+                - link "ラジオN杯京都2歳S(GIII)" [ref=e272] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/202508040711/
+              - cell [ref=e273]:
+                - link "ラジオN杯京都2歳S(GIII)の映像" [ref=e274] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/movie/202508040711
+                  - img [ref=e275]
+              - cell "11" [ref=e276]
+              - cell "8" [ref=e277]
+              - cell "10" [ref=e278]
+              - cell "6.2" [ref=e279]
+              - cell "3" [ref=e280]
+              - cell "3" [ref=e281]
+              - cell "荻野極" [ref=e282]:
+                - link "荻野極" [ref=e283] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01160/
+              - cell "56" [ref=e284]
+              - cell "芝2000" [ref=e285]
+              - cell "良" [ref=e286]
+              - cell "**" [ref=e287]:
+                - link "**" [ref=e289] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/?pid=premium&service=p44
+              - cell "2:00.6" [ref=e290]
+              - cell "0.2" [ref=e291]
+              - cell "**" [ref=e292]:
+                - link "**" [ref=e294] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/?pid=premium&service=p04
+              - cell "10-10-7-5" [ref=e295]
+              - cell "35.6-35.6" [ref=e296]
+              - cell "35.2" [ref=e297]
+              - cell "496(+8)" [ref=e298]
+              - cell [ref=e299]:
+                - link [ref=e300] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/?pid=horse_comment&id=2023105378&rid=202508040711
+                  - img [ref=e301]
+              - cell [ref=e302]:
+                - link [ref=e304] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/?pid=premium&service=p31
+                  - img [ref=e305]
+              - cell "ジャスティンビスタ" [ref=e306]:
+                - link "ジャスティンビスタ" [ref=e307] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023102807/
+              - cell "835.6" [ref=e308]
+            - row "2025/10/05 4東京2 晴 5 2歳新馬 15 4 6 4.0 2 1 荻野極 56 芝2000 良 ** 2:00.8 0.0 ** 3-3-3 37.6-34.5 34.3 488(0) (ミスターライト) 750.0" [ref=e309]:
+              - cell "2025/10/05" [ref=e310]:
+                - link "2025/10/05" [ref=e311] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/list/20251005/
+              - cell "4東京2" [ref=e312]:
+                - link "4東京2" [ref=e313] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/sum/05/20251005/
+              - cell "晴" [ref=e314]
+              - cell "5" [ref=e315]
+              - cell "2歳新馬" [ref=e316]:
+                - link "2歳新馬" [ref=e317] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/202505040205/
+              - cell [ref=e318]:
+                - link "2歳新馬の映像" [ref=e319] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/race/movie/202505040205
+                  - img [ref=e320]
+              - cell "15" [ref=e321]
+              - cell "4" [ref=e322]
+              - cell "6" [ref=e323]
+              - cell "4.0" [ref=e324]
+              - cell "2" [ref=e325]
+              - cell "1" [ref=e326]
+              - cell "荻野極" [ref=e327]:
+                - link "荻野極" [ref=e328] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01160/
+              - cell "56" [ref=e329]
+              - cell "芝2000" [ref=e330]
+              - cell "良" [ref=e331]
+              - cell "**" [ref=e332]:
+                - link "**" [ref=e334] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/?pid=premium&service=p44
+              - cell "2:00.8" [ref=e335]
+              - cell "0.0" [ref=e336]
+              - cell "**" [ref=e337]:
+                - link "**" [ref=e339] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com/?pid=premium&service=p04
+              - cell "3-3-3" [ref=e340]
+              - cell "37.6-34.5" [ref=e341]
+              - cell "34.3" [ref=e342]
+              - cell "488(0)" [ref=e343]
+              - cell [ref=e344]:
+                - link [ref=e345] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/?pid=horse_comment&id=2023105378&rid=202505040205
+                  - img [ref=e346]
+              - cell [ref=e347]
+              - cell "(ミスターライト)" [ref=e348]:
+                - link "(ミスターライト)" [ref=e349] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023101102/
+              - cell "750.0" [ref=e350]
+    - contentinfo [ref=e351]:
+      - generic [ref=e352]:
+        - link "ページトップへ" [ref=e353] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - link "いま競輪が熱い！nerkeirinで競輪を気軽に楽しもう" [ref=e355] [cursor=pointer]:
+          - /url: //keirin.netkeiba.com/?rf=nk_pc_footer
+          - img "いま競輪が熱い！nerkeirinで競輪を気軽に楽しもう" [ref=e356]
+        - generic [ref=e357]:
+          - term [ref=e358]:
+            - link "netkeiba" [ref=e359] [cursor=pointer]:
+              - /url: https://www.netkeiba.com/?rf=footer
+              - img "netkeiba" [ref=e360]
+          - definition [ref=e361]:
+            - paragraph [ref=e362]:
+              - text: 利用者数
+              - strong [ref=e363]: "1700"
+              - text: 万人突破！
+              - strong [ref=e364]: No.1
+              - text: 競馬サイト
+        - generic [ref=e365]:
+          - generic [ref=e366]:
+            - term [ref=e367]: カテゴリ
+            - definition [ref=e368]:
+              - list [ref=e369]:
+                - listitem [ref=e370]:
+                  - link "ニュース" [ref=e371] [cursor=pointer]:
+                    - /url: https://news.netkeiba.com/?rf=footer
+                - listitem [ref=e372]:
+                  - link "レース" [ref=e373] [cursor=pointer]:
+                    - /url: https://race.netkeiba.com/top/?rf=footer
+                - listitem [ref=e374]:
+                  - link "ウマい馬券" [ref=e375] [cursor=pointer]:
+                    - /url: https://yoso.netkeiba.com/?rf=footer
+                - listitem [ref=e376]:
+                  - link "コラム" [ref=e377] [cursor=pointer]:
+                    - /url: https://news.netkeiba.com/?pid=column_top&rf=footer
+                - listitem [ref=e378]:
+                  - link "netkeibaTV" [ref=e379] [cursor=pointer]:
+                    - /url: https://tv.netkeiba.com/?rf=footer
+                - listitem [ref=e380]:
+                  - link "地方競馬" [ref=e381] [cursor=pointer]:
+                    - /url: https://nar.netkeiba.com/top/?rf=footer
+                - listitem [ref=e382]:
+                  - link "データベース" [ref=e383] [cursor=pointer]:
+                    - /url: https://db.netkeiba.com/?rf=footer
+                - listitem [ref=e384]:
+                  - link "俺プロ" [ref=e385] [cursor=pointer]:
+                    - /url: https://orepro.netkeiba.com/?rf=footer
+              - list [ref=e386]:
+                - listitem [ref=e387]:
+                  - link "一口馬主" [ref=e388] [cursor=pointer]:
+                    - /url: https://owner.netkeiba.com/?pid=migration&rf=footer
+                - listitem [ref=e389]:
+                  - link "POG" [ref=e390] [cursor=pointer]:
+                    - /url: https://pog.netkeiba.com/?rf=footer
+                - listitem [ref=e391]:
+                  - link "競馬広場" [ref=e392] [cursor=pointer]:
+                    - /url: https://bbs.pc.keiba.findfriends.jp/?rf=footer
+                - listitem [ref=e393]:
+                  - link "まとめ" [ref=e394] [cursor=pointer]:
+                    - /url: https://dir.netkeiba.com/keibamatome/index.html?rf=footer
+                - listitem [ref=e395]:
+                  - link "競馬新聞" [ref=e396] [cursor=pointer]:
+                    - /url: https://yoso.netkeiba.com/senmonshi/?rf=footer
+                - listitem [ref=e397]:
+                  - link "お気に入り馬" [ref=e398] [cursor=pointer]:
+                    - /url: https://race.netkeiba.com/bookmark/bookmark.html?rf=footer
+                - listitem [ref=e399]:
+                  - link "アカウント" [ref=e400] [cursor=pointer]:
+                    - /url: https://regist.netkeiba.com/?rf=footer
+          - generic [ref=e401]:
+            - term [ref=e402]: ヘルプ＆ガイド
+            - definition [ref=e403]:
+              - list [ref=e404]:
+                - listitem [ref=e405]:
+                  - link "お知らせ" [ref=e406] [cursor=pointer]:
+                    - /url: https://info.netkeiba.com/?rf=footer
+                - listitem [ref=e407]:
+                  - link "プレミアムサービスのご案内" [ref=e408] [cursor=pointer]:
+                    - /url: https://regist.netkeiba.com/?pid=premium&rf=footer
+                - listitem [ref=e409]:
+                  - link "よくある質問・お問い合わせ" [ref=e410] [cursor=pointer]:
+                    - /url: https://regist.netkeiba.com/?pid=help&rf=footer
+                - listitem [ref=e411]:
+                  - link "のめり込む不安のある方へ" [ref=e412] [cursor=pointer]:
+                    - /url: https://info.netkeiba.com/?pid=info_detail&id=1172
+          - generic [ref=e413]:
+            - term [ref=e414]: netkeibaについて
+            - definition [ref=e415]:
+              - list [ref=e416]:
+                - listitem [ref=e417]:
+                  - link "採用情報" [ref=e418] [cursor=pointer]:
+                    - /url: https://www.netkeiba.com/recruit/?rf=footer
+                - listitem [ref=e419]:
+                  - link "広告掲載について" [ref=e420] [cursor=pointer]:
+                    - /url: https://www.netkeiba.com/info/ad/?rf=footer
+                - listitem [ref=e421]:
+                  - link "利用規約" [ref=e422] [cursor=pointer]:
+                    - /url: https://www.netkeiba.com/info/kiyaku.html?rf=footer
+                - listitem [ref=e423]:
+                  - link "プライバシーポリシー" [ref=e424] [cursor=pointer]:
+                    - /url: https://www.netdreamers.co.jp/company/about/privacy.html?rf=footer
+                - listitem [ref=e425]:
+                  - link "投稿ガイドライン" [ref=e426] [cursor=pointer]:
+                    - /url: https://www.netkeiba.com/info/guide.html?rf=footer
+                - listitem [ref=e427]:
+                  - link "特定商取引法に基づく表記" [ref=e428] [cursor=pointer]:
+                    - /url: https://www.netkeiba.com/info/tokusyo.html?rf=footer
+                - listitem [ref=e429]:
+                  - link "ライセンス" [ref=e430] [cursor=pointer]:
+                    - /url: https://www.netkeiba.com/info/license.html?rf=footer
+                - listitem [ref=e431]:
+                  - link "運営会社" [ref=e432] [cursor=pointer]:
+                    - /url: https://www.netdreamers.co.jp/?rf=footer
+          - generic [ref=e433]:
+            - term [ref=e434]: スマホでnetkeiba
+            - definition [ref=e435]:
+              - img "検索" [ref=e436]
+              - img "バーコード" [ref=e437]
+            - term [ref=e438]: アプリでサクサクnetkeiba
+            - definition [ref=e439]:
+              - list [ref=e440]:
+                - listitem [ref=e441]:
+                  - link "Appstore" [ref=e442] [cursor=pointer]:
+                    - /url: https://itunes.apple.com/jp/app/id464562684/
+                    - img "Appstore" [ref=e443]
+                - listitem [ref=e444]:
+                  - link "googleplay" [ref=e445] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=jp.co.netdreamers.netkeiba
+                    - img "googleplay" [ref=e446]
+            - term [ref=e447]: みんなで一緒に競馬を楽しもう!
+            - definition [ref=e448]:
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - generic [ref=e451]: netkeibaを
+                  - text: おすすめする
+                - list [ref=e452]:
+                  - listitem [ref=e453]:
+                    - link [ref=e454] [cursor=pointer]:
+                      - /url: https://twitter.com/intent/tweet?text=%E3%80%8C%E3%83%8D%E3%83%83%E3%83%88%E3%82%B1%E3%82%A4%E3%83%90%E3%80%8D%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%AB%B6%E9%A6%AC%E3%82%92%E6%A5%BD%E3%81%97%E3%82%82%E3%81%86%EF%BC%81%0A%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%84%E3%83%AC%E3%83%BC%E3%82%B9%E3%81%AE%E6%83%85%E5%A0%B1%E3%81%AA%E3%81%A9%E7%84%A1%E6%96%99%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%8C%E7%9B%9B%E3%82%8A%E3%81%A0%E3%81%8F%E3%81%95%E3%82%93%EF%BC%81%0A%0A%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%AF%E2%86%93%E3%81%93%E3%81%A1%E3%82%89%E3%81%8B%E3%82%89%0Ahttps%3A%2F%2Fnetkeiba.onelink.me%2Fcexk%2Fyj5ftwq9
+                      - img [ref=e455]
+                  - listitem [ref=e456]:
+                    - link [ref=e457] [cursor=pointer]:
+                      - /url: https://line.me/R/share?text=netkeiba%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%97%E3%81%A6%E7%AB%B6%E9%A6%AC%E3%82%92%E3%82%82%E3%81%A3%E3%81%A8%E6%A5%BD%E3%81%97%E3%82%82%E3%81%86%EF%BC%81%0D%0Ahttps%3A%2F%2Fnetkeiba.onelink.me%2Fcexk%2Fki89eacp
+                      - img [ref=e458]
+                  - listitem [ref=e459]:
+                    - link [ref=e460] [cursor=pointer]:
+                      - /url: "#"
+                      - img [ref=e461]
+                - generic [ref=e462]:
+                  - img [ref=e463]
+                  - text: URLリンクをコピーしました
+            - term [ref=e467]: netkeiba公式SNS!
+            - definition [ref=e468]:
+              - list [ref=e469]:
+                - listitem [ref=e470]:
+                  - link "公式 X" [ref=e471] [cursor=pointer]:
+                    - /url: https://twitter.com/netkeiba
+                    - img [ref=e472]
+                - listitem [ref=e474]:
+                  - link "公式 Facebook" [ref=e475] [cursor=pointer]:
+                    - /url: https://ja-jp.facebook.com/netkeiba
+                    - img [ref=e476]
+                - listitem [ref=e478]:
+                  - link "LINE" [ref=e479] [cursor=pointer]:
+                    - /url: https://line.me/R/ti/p/%40oa-netkeiba
+                    - img [ref=e480]
+                - listitem [ref=e487]:
+                  - link "netkeibaチャンネル" [ref=e488] [cursor=pointer]:
+                    - /url: http://www.youtube.com/user/netkeibaTV
+                    - img [ref=e489]
+                - listitem [ref=e492]:
+                  - link "Instagram" [ref=e493] [cursor=pointer]:
+                    - /url: https://www.instagram.com/netkeiba/
+                    - img [ref=e494]
+                - listitem [ref=e498]:
+                  - link "RSS" [ref=e499] [cursor=pointer]:
+                    - /url: https://www.netkeiba.com/?pid=rss
+                    - img [ref=e500]
+      - generic [ref=e502]:
+        - generic [ref=e503]:
+          - generic [ref=e504]:
+            - term [ref=e505]: netkeiba 公式競馬ゲーム
+            - definition [ref=e506]:
+              - list [ref=e507]:
+                - listitem [ref=e508]:
+                  - link "みんなの愛馬とバトル！ うまいるスタジアム" [ref=e509] [cursor=pointer]:
+                    - /url: https://www.netkeiba.com/game/umasta.html?rf=footer
+                    - text: みんなの愛馬とバトル！
+                    - strong [ref=e510]: うまいるスタジアム
+            - term [ref=e511]: netkeiba 姉妹サイト
+            - definition [ref=e512]:
+              - list [ref=e513]:
+                - listitem [ref=e514]:
+                  - link "愛馬の管理はお任せ！ netkeibaオーナーズ" [ref=e515] [cursor=pointer]:
+                    - /url: //own.netkeiba.com/?rf=footer
+                    - text: 愛馬の管理はお任せ！
+                    - strong [ref=e516]: netkeibaオーナーズ
+                - listitem [ref=e517]:
+                  - link "競輪総合メディア netkeirin(ネットケイリン)" [ref=e518] [cursor=pointer]:
+                    - /url: //keirin.netkeiba.com/?rf=footer
+                    - text: 競輪総合メディア
+                    - strong [ref=e519]: netkeirin(ネットケイリン)
+          - generic [ref=e520]:
+            - term [ref=e521]: 関連メディア
+            - definition [ref=e522]:
+              - list [ref=e523]:
+                - listitem [ref=e524]:
+                  - link "徹底取材！野球情報は 週刊ベースボールONLINE" [ref=e525] [cursor=pointer]:
+                    - /url: https://sp.baseball.findfriends.jp/?rf=footer
+                    - text: 徹底取材！野球情報は
+                    - strong [ref=e526]: 週刊ベースボールONLINE
+                - listitem [ref=e527]:
+                  - link "ゴルフレッスン情報サイト ワッグルオンライン" [ref=e528] [cursor=pointer]:
+                    - /url: https://sp.golf.findfriends.jp/?rf=footer
+                    - text: ゴルフレッスン情報サイト
+                    - strong [ref=e529]: ワッグルオンライン
+                - listitem [ref=e530]:
+                  - link "小林カツ代直伝！ KATSUYOレシピ" [ref=e531] [cursor=pointer]:
+                    - /url: https://recipe.sp.findfriends.jp/?rf=footer
+                    - text: 小林カツ代直伝！
+                    - strong [ref=e532]: KATSUYOレシピ
+          - generic [ref=e533]:
+            - term [ref=e534]: ソフトウェア・プロダクト
+            - definition [ref=e535]:
+              - list [ref=e536]:
+                - listitem [ref=e537]:
+                  - link "もっともセキュアな店舗売上向上アプリ SMART会員証" [ref=e538] [cursor=pointer]:
+                    - /url: https://smart.lets-ktai.jp/?rf=footer
+                    - text: もっともセキュアな店舗売上向上アプリ
+                    - strong [ref=e539]: SMART会員証
+                - listitem [ref=e540]:
+                  - link "サイト運営を劇的に効率化するCMS WEB SPIRAL" [ref=e541] [cursor=pointer]:
+                    - /url: https://webspiral.jp/?rf=footer
+                    - text: サイト運営を劇的に効率化するCMS
+                    - strong [ref=e542]: WEB SPIRAL
+        - paragraph [ref=e543]: © NET DREAMERS, Co., Ltd. All Rights Reserved.
+  - iframe

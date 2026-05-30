@@ -1,0 +1,2490 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "netkeiba" [level=1] [ref=e5]:
+          - link "netkeiba" [ref=e6] [cursor=pointer]:
+            - /url: https://www.netkeiba.com/?rf=logo
+            - img "netkeiba" [ref=e7]
+        - generic [ref=e11]:
+          - textbox "キーワードで検索" [ref=e13]
+          - generic [ref=e14]:
+            - img [ref=e15]
+            - button "検 索" [ref=e20]
+        - generic [ref=e21]:
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "プレミアムサービス" [ref=e24] [cursor=pointer]:
+                - /url: https://regist.netkeiba.com/?pid=premium&rf=header
+            - listitem [ref=e25]:
+              - link "お気に入り馬" [ref=e26] [cursor=pointer]:
+                - /url: https://race.netkeiba.com/bookmark/bookmark.html?rf=navi
+            - listitem [ref=e27]:
+              - link "メモ" [ref=e28] [cursor=pointer]:
+                - /url: https://race.netkeiba.com/notes/schedule.html?rf=navi
+            - listitem [ref=e29]:
+              - link "ログイン/会員登録" [ref=e30] [cursor=pointer]:
+                - /url: https://regist.netkeiba.com/account/?pid=login
+          - link "LIVE 競輪" [ref=e32] [cursor=pointer]:
+            - /url: https://keirin.netkeiba.com/?rf=nk_pc_header
+            - generic [ref=e33]: LIVE
+            - text: 競輪
+    - navigation [ref=e34]:
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "トップ" [ref=e37] [cursor=pointer]:
+            - /url: https://www.netkeiba.com/?rf=navi
+        - listitem [ref=e38]:
+          - link "ニュース" [ref=e39] [cursor=pointer]:
+            - /url: https://news.netkeiba.com?rf=navi
+        - listitem [ref=e40]:
+          - link "レース" [ref=e41] [cursor=pointer]:
+            - /url: ../top/
+        - listitem [ref=e42]:
+          - link "A I" [ref=e43] [cursor=pointer]:
+            - /url: ../AI/AI.html?rf=navi
+        - listitem [ref=e44]:
+          - link "日本ダービー" [ref=e45] [cursor=pointer]:
+            - /url: https://race.netkeiba.com/special/index.html?id=0059&rf=navi
+        - listitem [ref=e46]:
+          - link "10th 予想" [ref=e47] [cursor=pointer]:
+            - /url: https://yoso.netkeiba.com?access=init&rf=navi
+        - listitem [ref=e48]:
+          - link "UMAIビルダー" [ref=e49] [cursor=pointer]:
+            - /url: https://builder.netkeiba.com/?rf=navi
+        - listitem [ref=e50]:
+          - link "コラム" [ref=e51] [cursor=pointer]:
+            - /url: https://news.netkeiba.com?pid=column_top&rf=navi
+        - listitem [ref=e52]:
+          - link "netkeibaTV" [ref=e53] [cursor=pointer]:
+            - /url: https://tv.netkeiba.com/?rf=navi
+        - listitem [ref=e54]:
+          - link "地方競馬" [ref=e55] [cursor=pointer]:
+            - /url: https://nar.netkeiba.com/top/?rf=navi
+        - listitem [ref=e56]:
+          - link "データベース" [ref=e57] [cursor=pointer]:
+            - /url: https://db.netkeiba.com?rf=navi
+        - listitem [ref=e58]:
+          - link "ショップ" [ref=e59] [cursor=pointer]:
+            - /url: https://shop.netkeiba.com/?utm_source=netkeiba&utm_medium=+referral&utm_campaign=pcgnavi_20240425
+        - listitem [ref=e60]:
+          - link "競馬新聞" [ref=e61] [cursor=pointer]:
+            - /url: https://yoso.netkeiba.com/senmonshi/?rf=navi
+        - listitem [ref=e62]:
+          - link "俺プロ" [ref=e63] [cursor=pointer]:
+            - /url: https://orepro.netkeiba.com?rf=navi
+        - listitem [ref=e64]:
+          - link "一口馬主" [ref=e65] [cursor=pointer]:
+            - /url: https://owner.netkeiba.com?pid=migration&rf=navi
+        - listitem [ref=e66]:
+          - link "POG" [ref=e67] [cursor=pointer]:
+            - /url: https://pog.netkeiba.com?rf=navi
+        - listitem [ref=e68]:
+          - link "まとめ" [ref=e69] [cursor=pointer]:
+            - /url: https://dir.netkeiba.com/keibamatome/index.html?rf=navi
+        - listitem [ref=e70]:
+          - link "イベント" [ref=e71] [cursor=pointer]:
+            - /url: https://dir.netkeiba.com/event/?rf=navi
+    - generic [ref=e73]:
+      - link "前" [ref=e75] [cursor=pointer]:
+        - /url: ../top/race_list.html?kaisai_date=20260524#racelist_top_a
+      - generic [ref=e76]:
+        - definition [ref=e77] [cursor=pointer]:
+          - link "5月23日(土)" [ref=e78]:
+            - /url: ../top/race_list.html?&kaisai_date=20260523&kaisai_id=2026080309&current_group=1020260530#racelist_top_a
+        - definition [ref=e79] [cursor=pointer]:
+          - link "5月24日(日)" [ref=e80]:
+            - /url: ../top/race_list.html?&kaisai_date=20260524&kaisai_id=2026080310&current_group=1020260530#racelist_top_a
+        - definition [ref=e81] [cursor=pointer]:
+          - link "5月30日(土)" [ref=e82]:
+            - /url: ../top/race_list.html?&kaisai_date=20260530&kaisai_id=2026080311&current_group=1020260530#racelist_top_a
+        - definition [ref=e83] [cursor=pointer]:
+          - link "5月31日(日)" [ref=e84]:
+            - /url: ../top/race_list.html?kaisai_date=20260531&kaisai_id=2026080312&current_group=1020260530#racelist_top_a
+        - definition [ref=e85] [cursor=pointer]:
+          - link "6月7日(日)" [ref=e86]:
+            - /url: ../top/race_list.html?&kaisai_date=20260607&kaisai_id=2026050302&current_group=1020260530#racelist_top_a
+      - generic [ref=e88]: 次
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "東京" [ref=e95] [cursor=pointer]:
+              - /url: "?race_id=202605021211"
+          - listitem [ref=e96]:
+            - link "京都" [ref=e97] [cursor=pointer]:
+              - /url: "?race_id=202608031211"
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - link "1R" [ref=e101] [cursor=pointer]:
+              - /url: "?race_id=202605021201"
+          - listitem [ref=e102]:
+            - link "2R" [ref=e103] [cursor=pointer]:
+              - /url: "?race_id=202605021202"
+          - listitem [ref=e104]:
+            - link "3R" [ref=e105] [cursor=pointer]:
+              - /url: "?race_id=202605021203"
+          - listitem [ref=e106]:
+            - link "4R" [ref=e107] [cursor=pointer]:
+              - /url: "?race_id=202605021204"
+          - listitem [ref=e108]:
+            - link "5R" [ref=e109] [cursor=pointer]:
+              - /url: "?race_id=202605021205"
+          - listitem [ref=e110]:
+            - link "6R" [ref=e111] [cursor=pointer]:
+              - /url: "?race_id=202605021206"
+          - listitem [ref=e112]:
+            - link "7R" [ref=e113] [cursor=pointer]:
+              - /url: "?race_id=202605021207"
+          - listitem [ref=e114]:
+            - link "8R" [ref=e115] [cursor=pointer]:
+              - /url: "?race_id=202605021208"
+          - listitem [ref=e116]:
+            - link "9R" [ref=e117] [cursor=pointer]:
+              - /url: "?race_id=202605021209"
+          - listitem [ref=e118]:
+            - link "10R" [ref=e119] [cursor=pointer]:
+              - /url: "?race_id=202605021210"
+          - listitem [ref=e120]:
+            - link "11R" [ref=e121] [cursor=pointer]:
+              - /url: "?race_id=202605021211"
+          - listitem [ref=e122]:
+            - link "12R" [ref=e123] [cursor=pointer]:
+              - /url: "?race_id=202605021212"
+        - generic [ref=e124]:
+          - generic [ref=e126]: 11R
+          - generic [ref=e127]:
+            - heading "日本ダービー GI" [level=1] [ref=e128]:
+              - text: 日本ダービー
+              - generic [ref=e129]: GI
+            - generic [ref=e131]:
+              - text: 15:40発走 / 芝2400m (左 C) / 天候:晴
+              - text: / 馬場:良
+            - generic [ref=e133]:
+              - text: 2回 東京 12日目 サラ系３歳 オープン (国際) 牡・牝(指) 馬齢 18頭
+              - text: 本賞金:30000,12000,7500,4500,3000万円
+          - generic [ref=e134]:
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - link "Course コース詳細" [ref=e137] [cursor=pointer]:
+                  - /url: https://cdn.netkeiba.com/img.race/common/img/course/05_t2400.png?2019073001
+                  - img "Course" [ref=e139]
+                  - text: コース詳細
+              - listitem [ref=e140]:
+                - link "IPAT連携" [ref=e141] [cursor=pointer]:
+                  - /url: /ipat/dispatch.html?race_id=202605021211
+                  - img "IPAT" [ref=e142]
+                  - text: 連携
+            - generic [ref=e143]:
+              - link "特集へ" [ref=e144] [cursor=pointer]:
+                - /url: ../special/index.html?race_id=202605021211
+              - link "俺プロへ" [ref=e145] [cursor=pointer]:
+                - /url: https://orepro.netkeiba.com/bet/shutuba.html?race_id=202605021211&mode=init
+      - iframe [ref=e149]:
+        - generic [ref=f20e3]:
+          - link [ref=f20e4] [cursor=pointer]:
+            - /url: //discovery.popin.cc/home/privacy.html
+            - img [ref=f20e5]
+          - link "睡眠時無呼吸はこの家庭用品と関係があります（使用をやめてください） 睡眠時無呼吸はこの家庭用品と関係があります（使用をやめてください） derilamemoryfoam.com" [ref=f20e7] [cursor=pointer]:
+            - /url: https://trace.popin.cc/ju/ic?tn=c92aad1999f497c1a6c2ff886123e07c&trackingid=5b6917b288f2bffa71fa5ad2a999b4a2&acid=34391&data=IllZTdJu4g_X9rMXry3H8RfQQy9Xp9XTbFIwRhrYmWd-CRGAmIwDJBL0f5pLb6Y7GdTFAJcfAyfSWh8f_rtqgwUPhXvXnRJtC-tGRz_RlTrAObgF2u2LfNY_AcWiiQe4OWvXzg5IDsAR4sO6NF1H3MR2UsFZXEY2Xz1_V0PmSx-tXPdZU000HNBaD0o0YiVroLZhmtT1moTBlM_nqtZTHa_T9Mg4w8yDoI0MXncFv4fNYNUb2Lb8uXFT7EtIgFTtY8aGyQy91lgt-VYgS8ROWSlV_nBgYDhKNfCRJOWKbGYUF2r3BlmTUd_MvkpndAddiYj7LjfwUeMsEecS5kJaLQ97ZESW4X1L-bfGQPqI_nA69FDlNJaCyBs-ClR7gAmam1Dr4XR54aGJ9coBTVNC7h7-yXakSazhB-fQG6M-aTHE5GEpN-IS8iwro4euWXty67XOI-lW_gG_vGSWyOXyvImtljTvNO53f-sFeT2ypPNgiaLpSJ7pMZjcLVGYn3G8ykxzffrgxO3cQwIBL09PX-Bas0Ogv6V91Wcw6PRc3gzmdvc0VLjne-NNpI-P_-BQsT3KSswMh2bfk-Vy2nh98teJl24mTR9EuRl3164sJKefQCWGuD3EIMyfC9s2IE-tDkjmsGID8YIEioSzHrvJsOnm8EmCz6G60afGwylNeu_qBXkfBfU_gk032K-_FNry0onAoL3MRz0zqJ2cJWe9sPTDzP6lmoV-livwOImvAGP4vEwJdhBHWGEB55nH-t73wb7Aayrp2UZINHwZUfRxQ57NoeouB0pxZPmqlC4UqnQfetx4RSFxv2yiLpMajSU38v2iph8K5UTOn6RrMWQOOQ6BKzXS_2M5e9wc5yvzY_fzqBInsZCBOnIWuoQl_NtUtp6eC8rLErALlKmcsBVJeAFk4-4IMNeZz6ZZ8XQ-s89oCSqlIbMXWcBRMNIJTj4g3xfJaA8DLZ5KjeToNgKEmZxbE0yu5_8Y5pfkpgftKGPaPNDzNvpKUi9R8b6kaVbPtBwdlIQ4lvVxclMilRjMxv-h7fKXicyn2Hwm_h3_gK5Uwzm7yG-cKYRt_KE5prKhxvtklaTD713z7auzzielr5hiXGgENBBTkwq2L0sUpf8t9JT15cTarK8ovJg2IbCwx5y2LVbCNkMKyn1wHqXA9RxKdQYQ_RUQWNnlq5aJlGy7fHyTf37_HyJAnrdyymIbLL5fq7YTw8R1n-VtZ9wD_ZH8fnQmET_RBq_E3exPRAlUaxenubGMh5PXKv5lWmqkcFZnsUPUtJ1J5NeNfJEgkHQOZVH1jVMGepwL0uBrRNpnrTa9YXq7s6kAo9QpEejhCuxKJmaMDcDvkfTscvExVfndIhkzuvrNC6lwb__B0zpMWtP4nQax_0F5k56HAUfiPW1TCpHP16Svj6lS03dL8TfsC-qxg5ZvfsiKi8EQ1qOigDmrJ78lY1dinZPw2viCvec0-QcDik9YF8oEmlA525PzkidoQevknI7awCMqZaNNOm8ZsD0hUFKyruav8UGrwH5DMTMObnE9ebX6Ous7sHuabcJWZwxJrEE9cuyXDSSzCzgP9ok1oVTwD6W2zzlpnUYUJVBmsGn5-Can1ewRA4I68O7Yiz6uQIHXy4tVH3KgBbrJgQH2Msws07doYRr67KR4_UzLW2xdSDL1I2VRi7UhzBN-8ygIdeqEa0SkW6lw542HvtFz-1Z84FoZhBYHexBrM6QRsOWPZd0bwdc4PKp1-unVtavMQh0TMc27NMhds4JJFaxh5GN6-nE8DNjRSiUUyqFikuNaOKX5sYJJfoX5KC9uwjnC3czsDedcXDL6SQt8Lb4Kfve64hmV20qPUBmIFEw0csL1K1cuG2ds-b6PDw4tN49W6MD5kpesxcvGcw0leSj6yxm-rB8igU0SlCLqD1BsIqyWCz8NUn3cboUJeBqeG6joWPCCVAMURP3Q_nuxw1v-wT-s8pPPVyp7tvXf7O-0bvLrLGYyPd_IE2waMZXUdLXxOsTNYDthjBFZsNYRsc4BuBBt1dgIxotkOrQ4Yf_cAtZEvlU9T7dJ_Q&uid=CAESEGT3L39T9hrroYBcbI-prAo&mguid=&ap=0.028194&tid=72&gprice=9n8RoBR_j9pyDQ_e3v9YCeaF86dE8EubW3btSkYbXQ4&campaignid=5131738&c_sync=1&google_click_url=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCXxMH3s8aaqm6O4vwjeYP64fFuQiNvdz8a-u-jsKuEMCNtwEQASCb-OaqAWCJ28WE9BPIAQngAgCoAwHIAwKqBNwCT9DU5K9H0u1LzNtopP1Qw2PmnCsNvUR7xtF6Va6GVs9Z9Zh_zMQW5tOrIp1ngCcLmoq619qMqbbd4x0xm4oFtjKTcK5gK-OBTXTQafKzfusnBH5PoqraJ3D0hiysI0vbk7f_niH2hscRK0OlsF7kw9MQA_S83hxFTm7df1W5QB46HYDMI14dftOX2RFonMeLv8zKG1izqzXWEniQi-lywmCY9_331IAmRFwERUYUTjz1j8NWat9lSHrPZQO_RbrRCNTrTjGFzXFXa6OMR2Fors_2dTVvFv6FCAziW-NkyljBZ689zHTVkjtuw2bJFv_GcFHbVoeqDcx8KvDZTYBVwEueSfu6mCowKobvU_s3fKLJ-yocDHs5f9Cz02zwFmuCRjK3-7_9K_aGp3cqiDugePnRcUFunQ-ZqtdNXrbjSZFRRBocOcHK3YXAf-d1mHiZCz33JvsBW20VPZhS4AQBgAbR0t_9r_en1XmgBiGoB5PYsQKoB5TYsQKoB5XYsQKoB6a-G6gHltgbqAeqm7ECqAf_nrECqAffn7ECqAetvrECqAe_07EC2AcA0gguCIBhEAEyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljIlu3y-eCUA_oLAggBgAwBqg0CSlDiDRMIzP7u8vnglAMVC3jDBh3rQzGH6g0TCMzS7_L54JQDFQt4wwYd60Mxh4gO____________AdAVAYAXAbIXEBgMKgo5NDgyMTA3NDkwUAGqGBcJOIlBYAXg1UASCjk0ODIxMDc0OTAYAQ%26num%3D1%26sig%3DAOD64_37l-roijAhKYF1wq_wjRUtaJYxYw%26client%3Dca-pub-3990516030544803%26adurl%3D
+            - img "睡眠時無呼吸はこの家庭用品と関係があります（使用をやめてください）" [ref=f20e8]
+            - heading "睡眠時無呼吸はこの家庭用品と関係があります（使用をやめてください）" [level=3] [ref=f20e9]
+            - generic [ref=f20e10]: derilamemoryfoam.com
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - list [ref=e152]:
+          - listitem [ref=e153]:
+            - link "出馬表" [ref=e154] [cursor=pointer]:
+              - /url: ../race/shutuba.html?race_id=202605021211&rf=race_submenu
+              - text: 出馬表
+          - listitem [ref=e156]:
+            - link "オッズ・購入" [ref=e157] [cursor=pointer]:
+              - /url: ../odds/index.html?race_id=202605021211&rf=race_submenu
+              - text: オッズ・購入
+          - listitem [ref=e159]:
+            - link "予想" [ref=e160] [cursor=pointer]:
+              - /url: ../yoso/mark_list.html?race_id=202605021211&rf=race_submenu
+              - text: 予想
+          - listitem [ref=e162]:
+            - link "調教" [ref=e163] [cursor=pointer]:
+              - /url: ../race/oikiri.html?race_id=202605021211&rf=race_submenu
+              - text: 調教
+          - listitem [ref=e165]:
+            - link "厩舎コメント" [ref=e166] [cursor=pointer]:
+              - /url: ../race/comment.html?race_id=202605021211&rf=race_submenu
+              - text: 厩舎コメント
+          - listitem [ref=e168]:
+            - link "データ分析" [ref=e169] [cursor=pointer]:
+              - /url: ../race/data_top.html?race_id=202605021211&rf=race_submenu
+              - text: データ分析
+          - listitem [ref=e171]:
+            - link "結果・払戻" [ref=e172] [cursor=pointer]:
+              - /url: ../race/result.html?race_id=202605021211&rf=race_submenu
+              - text: 結果・払戻
+          - listitem [ref=e174]:
+            - link "レース映像" [ref=e175] [cursor=pointer]:
+              - /url: ../race/movie.html?race_id=202605021211&rf=race_submenu
+              - text: レース映像
+          - listitem [ref=e177]:
+            - link "掲示板" [ref=e178] [cursor=pointer]:
+              - /url: ../race/bbs.html?race_id=202605021211&rf=race_submenu
+              - text: 掲示板
+        - list [ref=e181]:
+          - listitem [ref=e182]:
+            - link "出走馬":
+              - /url: ../race/shutuba.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e183]:
+            - link "競馬新聞" [ref=e184] [cursor=pointer]:
+              - /url: ../race/newspaper.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e185]:
+            - link "専門紙" [ref=e186] [cursor=pointer]:
+              - /url: https://yoso.netkeiba.com/senmonshi/jra/yoso_list.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e187]:
+            - link "馬柱(5走)" [ref=e188] [cursor=pointer]:
+              - /url: ../race/shutuba_past.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e189]:
+            - link "馬柱(9走)" [ref=e190] [cursor=pointer]:
+              - /url: ../race/shutuba_past_9.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e191]:
+            - link "タイム指数" [ref=e192] [cursor=pointer]:
+              - /url: ../race/speed.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e193]:
+            - link "メモ" [ref=e194] [cursor=pointer]:
+              - /url: ../race/note_past5.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e195]:
+            - link "持ちタイム" [ref=e196] [cursor=pointer]:
+              - /url: ../race/holding_time.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e197]:
+            - link "パドック" [ref=e198] [cursor=pointer]:
+              - /url: ../race/paddock.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e199]:
+            - link "血統" [ref=e200] [cursor=pointer]:
+              - /url: ../race/bias.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e201]:
+            - link "対戦表" [ref=e202] [cursor=pointer]:
+              - /url: ../race/match.html?race_id=202605021211&rf=shutuba_submenu
+          - listitem [ref=e203]:
+            - link "調子偏差値" [ref=e204] [cursor=pointer]:
+              - /url: https://race.sp.netkeiba.com/barometer/score.html?race_id=202605021211&rf=shutuba_submenu
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - link [ref=e210] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e213]:
+              - heading "馬メモ" [level=2] [ref=e215]
+              - generic [ref=e217] [cursor=pointer]: ライヒスアドラー
+              - generic [ref=e218]:
+                - textbox "全角100文字以内で入力してください" [ref=e219]
+                - paragraph [ref=e220]: 0/100
+                - generic [ref=e221]:
+                  - button "削除" [ref=e222] [cursor=pointer]
+                  - button "保存" [ref=e223] [cursor=pointer]
+          - generic [ref=e224] [cursor=pointer]: 閉じる
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - link [ref=e229] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e232]:
+              - heading "レース別馬メモ" [level=2] [ref=e234]
+              - generic [ref=e236] [cursor=pointer]: ライヒスアドラー
+              - generic [ref=e237]:
+                - generic [ref=e238] [cursor=pointer]: 次走買い
+                - generic [ref=e239] [cursor=pointer]: 次走消し
+                - generic [ref=e240] [cursor=pointer]: 不利
+                - generic [ref=e241] [cursor=pointer]: 馬場向かず
+                - generic [ref=e242] [cursor=pointer]: ペース合わず
+                - generic [ref=e243] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e244] [cursor=pointer]: 好ラップ
+              - generic [ref=e245]:
+                - textbox "全角500文字以内で入力してください" [ref=e246]
+                - paragraph [ref=e247]: 0/500
+                - generic [ref=e248]:
+                  - button "削除" [ref=e249] [cursor=pointer]
+                  - button "保存" [ref=e250] [cursor=pointer]
+          - generic [ref=e251] [cursor=pointer]: 閉じる
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - link [ref=e256] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e259]:
+              - heading "馬メモ" [level=2] [ref=e261]
+              - generic [ref=e263] [cursor=pointer]: マテンロウゲイル
+              - generic [ref=e264]:
+                - textbox "全角100文字以内で入力してください" [ref=e265]
+                - paragraph [ref=e266]: 0/100
+                - generic [ref=e267]:
+                  - button "削除" [ref=e268] [cursor=pointer]
+                  - button "保存" [ref=e269] [cursor=pointer]
+          - generic [ref=e270] [cursor=pointer]: 閉じる
+        - generic [ref=e271]:
+          - generic [ref=e272]:
+            - link [ref=e275] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e278]:
+              - heading "レース別馬メモ" [level=2] [ref=e280]
+              - generic [ref=e282] [cursor=pointer]: マテンロウゲイル
+              - generic [ref=e283]:
+                - generic [ref=e284] [cursor=pointer]: 次走買い
+                - generic [ref=e285] [cursor=pointer]: 次走消し
+                - generic [ref=e286] [cursor=pointer]: 不利
+                - generic [ref=e287] [cursor=pointer]: 馬場向かず
+                - generic [ref=e288] [cursor=pointer]: ペース合わず
+                - generic [ref=e289] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e290] [cursor=pointer]: 好ラップ
+              - generic [ref=e291]:
+                - textbox "全角500文字以内で入力してください" [ref=e292]
+                - paragraph [ref=e293]: 0/500
+                - generic [ref=e294]:
+                  - button "削除" [ref=e295] [cursor=pointer]
+                  - button "保存" [ref=e296] [cursor=pointer]
+          - generic [ref=e297] [cursor=pointer]: 閉じる
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - link [ref=e302] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e305]:
+              - heading "馬メモ" [level=2] [ref=e307]
+              - generic [ref=e309] [cursor=pointer]: ケントン
+              - generic [ref=e310]:
+                - textbox "全角100文字以内で入力してください" [ref=e311]
+                - paragraph [ref=e312]: 0/100
+                - generic [ref=e313]:
+                  - button "削除" [ref=e314] [cursor=pointer]
+                  - button "保存" [ref=e315] [cursor=pointer]
+          - generic [ref=e316] [cursor=pointer]: 閉じる
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - link [ref=e321] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e324]:
+              - heading "レース別馬メモ" [level=2] [ref=e326]
+              - generic [ref=e328] [cursor=pointer]: ケントン
+              - generic [ref=e329]:
+                - generic [ref=e330] [cursor=pointer]: 次走買い
+                - generic [ref=e331] [cursor=pointer]: 次走消し
+                - generic [ref=e332] [cursor=pointer]: 不利
+                - generic [ref=e333] [cursor=pointer]: 馬場向かず
+                - generic [ref=e334] [cursor=pointer]: ペース合わず
+                - generic [ref=e335] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e336] [cursor=pointer]: 好ラップ
+              - generic [ref=e337]:
+                - textbox "全角500文字以内で入力してください" [ref=e338]
+                - paragraph [ref=e339]: 0/500
+                - generic [ref=e340]:
+                  - button "削除" [ref=e341] [cursor=pointer]
+                  - button "保存" [ref=e342] [cursor=pointer]
+          - generic [ref=e343] [cursor=pointer]: 閉じる
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - link [ref=e348] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e351]:
+              - heading "馬メモ" [level=2] [ref=e353]
+              - generic [ref=e355] [cursor=pointer]: アルトラムス
+              - generic [ref=e356]:
+                - textbox "全角100文字以内で入力してください" [ref=e357]
+                - paragraph [ref=e358]: 0/100
+                - generic [ref=e359]:
+                  - button "削除" [ref=e360] [cursor=pointer]
+                  - button "保存" [ref=e361] [cursor=pointer]
+          - generic [ref=e362] [cursor=pointer]: 閉じる
+        - generic [ref=e363]:
+          - generic [ref=e364]:
+            - link [ref=e367] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e370]:
+              - heading "レース別馬メモ" [level=2] [ref=e372]
+              - generic [ref=e374] [cursor=pointer]: アルトラムス
+              - generic [ref=e375]:
+                - generic [ref=e376] [cursor=pointer]: 次走買い
+                - generic [ref=e377] [cursor=pointer]: 次走消し
+                - generic [ref=e378] [cursor=pointer]: 不利
+                - generic [ref=e379] [cursor=pointer]: 馬場向かず
+                - generic [ref=e380] [cursor=pointer]: ペース合わず
+                - generic [ref=e381] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e382] [cursor=pointer]: 好ラップ
+              - generic [ref=e383]:
+                - textbox "全角500文字以内で入力してください" [ref=e384]
+                - paragraph [ref=e385]: 0/500
+                - generic [ref=e386]:
+                  - button "削除" [ref=e387] [cursor=pointer]
+                  - button "保存" [ref=e388] [cursor=pointer]
+          - generic [ref=e389] [cursor=pointer]: 閉じる
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - link [ref=e394] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e397]:
+              - heading "馬メモ" [level=2] [ref=e399]
+              - generic [ref=e401] [cursor=pointer]: バステール
+              - generic [ref=e402]:
+                - textbox "全角100文字以内で入力してください" [ref=e403]
+                - paragraph [ref=e404]: 0/100
+                - generic [ref=e405]:
+                  - button "削除" [ref=e406] [cursor=pointer]
+                  - button "保存" [ref=e407] [cursor=pointer]
+          - generic [ref=e408] [cursor=pointer]: 閉じる
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - link [ref=e413] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e416]:
+              - heading "レース別馬メモ" [level=2] [ref=e418]
+              - generic [ref=e420] [cursor=pointer]: バステール
+              - generic [ref=e421]:
+                - generic [ref=e422] [cursor=pointer]: 次走買い
+                - generic [ref=e423] [cursor=pointer]: 次走消し
+                - generic [ref=e424] [cursor=pointer]: 不利
+                - generic [ref=e425] [cursor=pointer]: 馬場向かず
+                - generic [ref=e426] [cursor=pointer]: ペース合わず
+                - generic [ref=e427] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e428] [cursor=pointer]: 好ラップ
+              - generic [ref=e429]:
+                - textbox "全角500文字以内で入力してください" [ref=e430]
+                - paragraph [ref=e431]: 0/500
+                - generic [ref=e432]:
+                  - button "削除" [ref=e433] [cursor=pointer]
+                  - button "保存" [ref=e434] [cursor=pointer]
+          - generic [ref=e435] [cursor=pointer]: 閉じる
+        - generic [ref=e436]:
+          - generic [ref=e437]:
+            - link [ref=e440] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e443]:
+              - heading "馬メモ" [level=2] [ref=e445]
+              - generic [ref=e447] [cursor=pointer]: コンジェスタス
+              - generic [ref=e448]:
+                - textbox "全角100文字以内で入力してください" [ref=e449]
+                - paragraph [ref=e450]: 0/100
+                - generic [ref=e451]:
+                  - button "削除" [ref=e452] [cursor=pointer]
+                  - button "保存" [ref=e453] [cursor=pointer]
+          - generic [ref=e454] [cursor=pointer]: 閉じる
+        - generic [ref=e455]:
+          - generic [ref=e456]:
+            - link [ref=e459] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e462]:
+              - heading "レース別馬メモ" [level=2] [ref=e464]
+              - generic [ref=e466] [cursor=pointer]: コンジェスタス
+              - generic [ref=e467]:
+                - generic [ref=e468] [cursor=pointer]: 次走買い
+                - generic [ref=e469] [cursor=pointer]: 次走消し
+                - generic [ref=e470] [cursor=pointer]: 不利
+                - generic [ref=e471] [cursor=pointer]: 馬場向かず
+                - generic [ref=e472] [cursor=pointer]: ペース合わず
+                - generic [ref=e473] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e474] [cursor=pointer]: 好ラップ
+              - generic [ref=e475]:
+                - textbox "全角500文字以内で入力してください" [ref=e476]
+                - paragraph [ref=e477]: 0/500
+                - generic [ref=e478]:
+                  - button "削除" [ref=e479] [cursor=pointer]
+                  - button "保存" [ref=e480] [cursor=pointer]
+          - generic [ref=e481] [cursor=pointer]: 閉じる
+        - generic [ref=e482]:
+          - generic [ref=e483]:
+            - link [ref=e486] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e489]:
+              - heading "馬メモ" [level=2] [ref=e491]
+              - generic [ref=e493] [cursor=pointer]: メイショウハチコウ
+              - generic [ref=e494]:
+                - textbox "全角100文字以内で入力してください" [ref=e495]
+                - paragraph [ref=e496]: 0/100
+                - generic [ref=e497]:
+                  - button "削除" [ref=e498] [cursor=pointer]
+                  - button "保存" [ref=e499] [cursor=pointer]
+          - generic [ref=e500] [cursor=pointer]: 閉じる
+        - generic [ref=e501]:
+          - generic [ref=e502]:
+            - link [ref=e505] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e508]:
+              - heading "レース別馬メモ" [level=2] [ref=e510]
+              - generic [ref=e512] [cursor=pointer]: メイショウハチコウ
+              - generic [ref=e513]:
+                - generic [ref=e514] [cursor=pointer]: 次走買い
+                - generic [ref=e515] [cursor=pointer]: 次走消し
+                - generic [ref=e516] [cursor=pointer]: 不利
+                - generic [ref=e517] [cursor=pointer]: 馬場向かず
+                - generic [ref=e518] [cursor=pointer]: ペース合わず
+                - generic [ref=e519] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e520] [cursor=pointer]: 好ラップ
+              - generic [ref=e521]:
+                - textbox "全角500文字以内で入力してください" [ref=e522]
+                - paragraph [ref=e523]: 0/500
+                - generic [ref=e524]:
+                  - button "削除" [ref=e525] [cursor=pointer]
+                  - button "保存" [ref=e526] [cursor=pointer]
+          - generic [ref=e527] [cursor=pointer]: 閉じる
+        - generic [ref=e528]:
+          - generic [ref=e529]:
+            - link [ref=e532] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e535]:
+              - heading "馬メモ" [level=2] [ref=e537]
+              - generic [ref=e539] [cursor=pointer]: ショウナンガルフ
+              - generic [ref=e540]:
+                - textbox "全角100文字以内で入力してください" [ref=e541]
+                - paragraph [ref=e542]: 0/100
+                - generic [ref=e543]:
+                  - button "削除" [ref=e544] [cursor=pointer]
+                  - button "保存" [ref=e545] [cursor=pointer]
+          - generic [ref=e546] [cursor=pointer]: 閉じる
+        - generic [ref=e547]:
+          - generic [ref=e548]:
+            - link [ref=e551] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e554]:
+              - heading "レース別馬メモ" [level=2] [ref=e556]
+              - generic [ref=e558] [cursor=pointer]: ショウナンガルフ
+              - generic [ref=e559]:
+                - generic [ref=e560] [cursor=pointer]: 次走買い
+                - generic [ref=e561] [cursor=pointer]: 次走消し
+                - generic [ref=e562] [cursor=pointer]: 不利
+                - generic [ref=e563] [cursor=pointer]: 馬場向かず
+                - generic [ref=e564] [cursor=pointer]: ペース合わず
+                - generic [ref=e565] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e566] [cursor=pointer]: 好ラップ
+              - generic [ref=e567]:
+                - textbox "全角500文字以内で入力してください" [ref=e568]
+                - paragraph [ref=e569]: 0/500
+                - generic [ref=e570]:
+                  - button "削除" [ref=e571] [cursor=pointer]
+                  - button "保存" [ref=e572] [cursor=pointer]
+          - generic [ref=e573] [cursor=pointer]: 閉じる
+        - generic [ref=e574]:
+          - generic [ref=e575]:
+            - link [ref=e578] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e581]:
+              - heading "馬メモ" [level=2] [ref=e583]
+              - generic [ref=e585] [cursor=pointer]: アウダーシア
+              - generic [ref=e586]:
+                - textbox "全角100文字以内で入力してください" [ref=e587]
+                - paragraph [ref=e588]: 0/100
+                - generic [ref=e589]:
+                  - button "削除" [ref=e590] [cursor=pointer]
+                  - button "保存" [ref=e591] [cursor=pointer]
+          - generic [ref=e592] [cursor=pointer]: 閉じる
+        - generic [ref=e593]:
+          - generic [ref=e594]:
+            - link [ref=e597] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e600]:
+              - heading "レース別馬メモ" [level=2] [ref=e602]
+              - generic [ref=e604] [cursor=pointer]: アウダーシア
+              - generic [ref=e605]:
+                - generic [ref=e606] [cursor=pointer]: 次走買い
+                - generic [ref=e607] [cursor=pointer]: 次走消し
+                - generic [ref=e608] [cursor=pointer]: 不利
+                - generic [ref=e609] [cursor=pointer]: 馬場向かず
+                - generic [ref=e610] [cursor=pointer]: ペース合わず
+                - generic [ref=e611] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e612] [cursor=pointer]: 好ラップ
+              - generic [ref=e613]:
+                - textbox "全角500文字以内で入力してください" [ref=e614]
+                - paragraph [ref=e615]: 0/500
+                - generic [ref=e616]:
+                  - button "削除" [ref=e617] [cursor=pointer]
+                  - button "保存" [ref=e618] [cursor=pointer]
+          - generic [ref=e619] [cursor=pointer]: 閉じる
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - link [ref=e624] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e627]:
+              - heading "馬メモ" [level=2] [ref=e629]
+              - generic [ref=e631] [cursor=pointer]: ジャスティンビスタ
+              - generic [ref=e632]:
+                - textbox "全角100文字以内で入力してください" [ref=e633]
+                - paragraph [ref=e634]: 0/100
+                - generic [ref=e635]:
+                  - button "削除" [ref=e636] [cursor=pointer]
+                  - button "保存" [ref=e637] [cursor=pointer]
+          - generic [ref=e638] [cursor=pointer]: 閉じる
+        - generic [ref=e639]:
+          - generic [ref=e640]:
+            - link [ref=e643] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e646]:
+              - heading "レース別馬メモ" [level=2] [ref=e648]
+              - generic [ref=e650] [cursor=pointer]: ジャスティンビスタ
+              - generic [ref=e651]:
+                - generic [ref=e652] [cursor=pointer]: 次走買い
+                - generic [ref=e653] [cursor=pointer]: 次走消し
+                - generic [ref=e654] [cursor=pointer]: 不利
+                - generic [ref=e655] [cursor=pointer]: 馬場向かず
+                - generic [ref=e656] [cursor=pointer]: ペース合わず
+                - generic [ref=e657] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e658] [cursor=pointer]: 好ラップ
+              - generic [ref=e659]:
+                - textbox "全角500文字以内で入力してください" [ref=e660]
+                - paragraph [ref=e661]: 0/500
+                - generic [ref=e662]:
+                  - button "削除" [ref=e663] [cursor=pointer]
+                  - button "保存" [ref=e664] [cursor=pointer]
+          - generic [ref=e665] [cursor=pointer]: 閉じる
+        - generic [ref=e666]:
+          - generic [ref=e667]:
+            - link [ref=e670] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e673]:
+              - heading "馬メモ" [level=2] [ref=e675]
+              - generic [ref=e677] [cursor=pointer]: リアライズシリウス
+              - generic [ref=e678]:
+                - textbox "全角100文字以内で入力してください" [ref=e679]
+                - paragraph [ref=e680]: 0/100
+                - generic [ref=e681]:
+                  - button "削除" [ref=e682] [cursor=pointer]
+                  - button "保存" [ref=e683] [cursor=pointer]
+          - generic [ref=e684] [cursor=pointer]: 閉じる
+        - generic [ref=e685]:
+          - generic [ref=e686]:
+            - link [ref=e689] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e692]:
+              - heading "レース別馬メモ" [level=2] [ref=e694]
+              - generic [ref=e696] [cursor=pointer]: リアライズシリウス
+              - generic [ref=e697]:
+                - generic [ref=e698] [cursor=pointer]: 次走買い
+                - generic [ref=e699] [cursor=pointer]: 次走消し
+                - generic [ref=e700] [cursor=pointer]: 不利
+                - generic [ref=e701] [cursor=pointer]: 馬場向かず
+                - generic [ref=e702] [cursor=pointer]: ペース合わず
+                - generic [ref=e703] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e704] [cursor=pointer]: 好ラップ
+              - generic [ref=e705]:
+                - textbox "全角500文字以内で入力してください" [ref=e706]
+                - paragraph [ref=e707]: 0/500
+                - generic [ref=e708]:
+                  - button "削除" [ref=e709] [cursor=pointer]
+                  - button "保存" [ref=e710] [cursor=pointer]
+          - generic [ref=e711] [cursor=pointer]: 閉じる
+        - generic [ref=e712]:
+          - generic [ref=e713]:
+            - link [ref=e716] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e719]:
+              - heading "馬メモ" [level=2] [ref=e721]
+              - generic [ref=e723] [cursor=pointer]: アスクエジンバラ
+              - generic [ref=e724]:
+                - textbox "全角100文字以内で入力してください" [ref=e725]
+                - paragraph [ref=e726]: 0/100
+                - generic [ref=e727]:
+                  - button "削除" [ref=e728] [cursor=pointer]
+                  - button "保存" [ref=e729] [cursor=pointer]
+          - generic [ref=e730] [cursor=pointer]: 閉じる
+        - generic [ref=e731]:
+          - generic [ref=e732]:
+            - link [ref=e735] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e738]:
+              - heading "レース別馬メモ" [level=2] [ref=e740]
+              - generic [ref=e742] [cursor=pointer]: アスクエジンバラ
+              - generic [ref=e743]:
+                - generic [ref=e744] [cursor=pointer]: 次走買い
+                - generic [ref=e745] [cursor=pointer]: 次走消し
+                - generic [ref=e746] [cursor=pointer]: 不利
+                - generic [ref=e747] [cursor=pointer]: 馬場向かず
+                - generic [ref=e748] [cursor=pointer]: ペース合わず
+                - generic [ref=e749] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e750] [cursor=pointer]: 好ラップ
+              - generic [ref=e751]:
+                - textbox "全角500文字以内で入力してください" [ref=e752]
+                - paragraph [ref=e753]: 0/500
+                - generic [ref=e754]:
+                  - button "削除" [ref=e755] [cursor=pointer]
+                  - button "保存" [ref=e756] [cursor=pointer]
+          - generic [ref=e757] [cursor=pointer]: 閉じる
+        - generic [ref=e758]:
+          - generic [ref=e759]:
+            - link [ref=e762] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e765]:
+              - heading "馬メモ" [level=2] [ref=e767]
+              - generic [ref=e769] [cursor=pointer]: パントルナイーフ
+              - generic [ref=e770]:
+                - textbox "全角100文字以内で入力してください" [ref=e771]
+                - paragraph [ref=e772]: 0/100
+                - generic [ref=e773]:
+                  - button "削除" [ref=e774] [cursor=pointer]
+                  - button "保存" [ref=e775] [cursor=pointer]
+          - generic [ref=e776] [cursor=pointer]: 閉じる
+        - generic [ref=e777]:
+          - generic [ref=e778]:
+            - link [ref=e781] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e784]:
+              - heading "レース別馬メモ" [level=2] [ref=e786]
+              - generic [ref=e788] [cursor=pointer]: パントルナイーフ
+              - generic [ref=e789]:
+                - generic [ref=e790] [cursor=pointer]: 次走買い
+                - generic [ref=e791] [cursor=pointer]: 次走消し
+                - generic [ref=e792] [cursor=pointer]: 不利
+                - generic [ref=e793] [cursor=pointer]: 馬場向かず
+                - generic [ref=e794] [cursor=pointer]: ペース合わず
+                - generic [ref=e795] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e796] [cursor=pointer]: 好ラップ
+              - generic [ref=e797]:
+                - textbox "全角500文字以内で入力してください" [ref=e798]
+                - paragraph [ref=e799]: 0/500
+                - generic [ref=e800]:
+                  - button "削除" [ref=e801] [cursor=pointer]
+                  - button "保存" [ref=e802] [cursor=pointer]
+          - generic [ref=e803] [cursor=pointer]: 閉じる
+        - generic [ref=e804]:
+          - generic [ref=e805]:
+            - link [ref=e808] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e811]:
+              - heading "馬メモ" [level=2] [ref=e813]
+              - generic [ref=e815] [cursor=pointer]: ゴーイントゥスカイ
+              - generic [ref=e816]:
+                - textbox "全角100文字以内で入力してください" [ref=e817]
+                - paragraph [ref=e818]: 0/100
+                - generic [ref=e819]:
+                  - button "削除" [ref=e820] [cursor=pointer]
+                  - button "保存" [ref=e821] [cursor=pointer]
+          - generic [ref=e822] [cursor=pointer]: 閉じる
+        - generic [ref=e823]:
+          - generic [ref=e824]:
+            - link [ref=e827] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e830]:
+              - heading "レース別馬メモ" [level=2] [ref=e832]
+              - generic [ref=e834] [cursor=pointer]: ゴーイントゥスカイ
+              - generic [ref=e835]:
+                - generic [ref=e836] [cursor=pointer]: 次走買い
+                - generic [ref=e837] [cursor=pointer]: 次走消し
+                - generic [ref=e838] [cursor=pointer]: 不利
+                - generic [ref=e839] [cursor=pointer]: 馬場向かず
+                - generic [ref=e840] [cursor=pointer]: ペース合わず
+                - generic [ref=e841] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e842] [cursor=pointer]: 好ラップ
+              - generic [ref=e843]:
+                - textbox "全角500文字以内で入力してください" [ref=e844]
+                - paragraph [ref=e845]: 0/500
+                - generic [ref=e846]:
+                  - button "削除" [ref=e847] [cursor=pointer]
+                  - button "保存" [ref=e848] [cursor=pointer]
+          - generic [ref=e849] [cursor=pointer]: 閉じる
+        - generic [ref=e850]:
+          - generic [ref=e851]:
+            - link [ref=e854] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e857]:
+              - heading "馬メモ" [level=2] [ref=e859]
+              - generic [ref=e861] [cursor=pointer]: フォルテアンジェロ
+              - generic [ref=e862]:
+                - textbox "全角100文字以内で入力してください" [ref=e863]
+                - paragraph [ref=e864]: 0/100
+                - generic [ref=e865]:
+                  - button "削除" [ref=e866] [cursor=pointer]
+                  - button "保存" [ref=e867] [cursor=pointer]
+          - generic [ref=e868] [cursor=pointer]: 閉じる
+        - generic [ref=e869]:
+          - generic [ref=e870]:
+            - link [ref=e873] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e876]:
+              - heading "レース別馬メモ" [level=2] [ref=e878]
+              - generic [ref=e880] [cursor=pointer]: フォルテアンジェロ
+              - generic [ref=e881]:
+                - generic [ref=e882] [cursor=pointer]: 次走買い
+                - generic [ref=e883] [cursor=pointer]: 次走消し
+                - generic [ref=e884] [cursor=pointer]: 不利
+                - generic [ref=e885] [cursor=pointer]: 馬場向かず
+                - generic [ref=e886] [cursor=pointer]: ペース合わず
+                - generic [ref=e887] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e888] [cursor=pointer]: 好ラップ
+              - generic [ref=e889]:
+                - textbox "全角500文字以内で入力してください" [ref=e890]
+                - paragraph [ref=e891]: 0/500
+                - generic [ref=e892]:
+                  - button "削除" [ref=e893] [cursor=pointer]
+                  - button "保存" [ref=e894] [cursor=pointer]
+          - generic [ref=e895] [cursor=pointer]: 閉じる
+        - generic [ref=e896]:
+          - generic [ref=e897]:
+            - link [ref=e900] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e903]:
+              - heading "馬メモ" [level=2] [ref=e905]
+              - generic [ref=e907] [cursor=pointer]: グリーンエナジー
+              - generic [ref=e908]:
+                - textbox "全角100文字以内で入力してください" [ref=e909]
+                - paragraph [ref=e910]: 0/100
+                - generic [ref=e911]:
+                  - button "削除" [ref=e912] [cursor=pointer]
+                  - button "保存" [ref=e913] [cursor=pointer]
+          - generic [ref=e914] [cursor=pointer]: 閉じる
+        - generic [ref=e915]:
+          - generic [ref=e916]:
+            - link [ref=e919] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e922]:
+              - heading "レース別馬メモ" [level=2] [ref=e924]
+              - generic [ref=e926] [cursor=pointer]: グリーンエナジー
+              - generic [ref=e927]:
+                - generic [ref=e928] [cursor=pointer]: 次走買い
+                - generic [ref=e929] [cursor=pointer]: 次走消し
+                - generic [ref=e930] [cursor=pointer]: 不利
+                - generic [ref=e931] [cursor=pointer]: 馬場向かず
+                - generic [ref=e932] [cursor=pointer]: ペース合わず
+                - generic [ref=e933] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e934] [cursor=pointer]: 好ラップ
+              - generic [ref=e935]:
+                - textbox "全角500文字以内で入力してください" [ref=e936]
+                - paragraph [ref=e937]: 0/500
+                - generic [ref=e938]:
+                  - button "削除" [ref=e939] [cursor=pointer]
+                  - button "保存" [ref=e940] [cursor=pointer]
+          - generic [ref=e941] [cursor=pointer]: 閉じる
+        - generic [ref=e942]:
+          - generic [ref=e943]:
+            - link [ref=e946] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e949]:
+              - heading "馬メモ" [level=2] [ref=e951]
+              - generic [ref=e953] [cursor=pointer]: ロブチェン
+              - generic [ref=e954]:
+                - textbox "全角100文字以内で入力してください" [ref=e955]
+                - paragraph [ref=e956]: 0/100
+                - generic [ref=e957]:
+                  - button "削除" [ref=e958] [cursor=pointer]
+                  - button "保存" [ref=e959] [cursor=pointer]
+          - generic [ref=e960] [cursor=pointer]: 閉じる
+        - generic [ref=e961]:
+          - generic [ref=e962]:
+            - link [ref=e965] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e968]:
+              - heading "レース別馬メモ" [level=2] [ref=e970]
+              - generic [ref=e972] [cursor=pointer]: ロブチェン
+              - generic [ref=e973]:
+                - generic [ref=e974] [cursor=pointer]: 次走買い
+                - generic [ref=e975] [cursor=pointer]: 次走消し
+                - generic [ref=e976] [cursor=pointer]: 不利
+                - generic [ref=e977] [cursor=pointer]: 馬場向かず
+                - generic [ref=e978] [cursor=pointer]: ペース合わず
+                - generic [ref=e979] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e980] [cursor=pointer]: 好ラップ
+              - generic [ref=e981]:
+                - textbox "全角500文字以内で入力してください" [ref=e982]
+                - paragraph [ref=e983]: 0/500
+                - generic [ref=e984]:
+                  - button "削除" [ref=e985] [cursor=pointer]
+                  - button "保存" [ref=e986] [cursor=pointer]
+          - generic [ref=e987] [cursor=pointer]: 閉じる
+        - generic [ref=e988]:
+          - generic [ref=e989]:
+            - link [ref=e992] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e995]:
+              - heading "馬メモ" [level=2] [ref=e997]
+              - generic [ref=e999] [cursor=pointer]: エムズビギン
+              - generic [ref=e1000]:
+                - textbox "全角100文字以内で入力してください" [ref=e1001]
+                - paragraph [ref=e1002]: 0/100
+                - generic [ref=e1003]:
+                  - button "削除" [ref=e1004] [cursor=pointer]
+                  - button "保存" [ref=e1005] [cursor=pointer]
+          - generic [ref=e1006] [cursor=pointer]: 閉じる
+        - generic [ref=e1007]:
+          - generic [ref=e1008]:
+            - link [ref=e1011] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - generic [ref=e1014]:
+              - heading "レース別馬メモ" [level=2] [ref=e1016]
+              - generic [ref=e1018] [cursor=pointer]: エムズビギン
+              - generic [ref=e1019]:
+                - generic [ref=e1020] [cursor=pointer]: 次走買い
+                - generic [ref=e1021] [cursor=pointer]: 次走消し
+                - generic [ref=e1022] [cursor=pointer]: 不利
+                - generic [ref=e1023] [cursor=pointer]: 馬場向かず
+                - generic [ref=e1024] [cursor=pointer]: ペース合わず
+                - generic [ref=e1025] [cursor=pointer]: ハイレベル戦
+                - generic [ref=e1026] [cursor=pointer]: 好ラップ
+              - generic [ref=e1027]:
+                - textbox "全角500文字以内で入力してください" [ref=e1028]
+                - paragraph [ref=e1029]: 0/500
+                - generic [ref=e1030]:
+                  - button "削除" [ref=e1031] [cursor=pointer]
+                  - button "保存" [ref=e1032] [cursor=pointer]
+          - generic [ref=e1033] [cursor=pointer]: 閉じる
+        - grid [ref=e1034]:
+          - rowgroup [ref=e1035]:
+            - 'row "枠: No sort applied, sorting is disabled 馬番: No sort applied, activate to apply an ascending sort 印: No sort applied, sorting is disabled 馬名: No sort applied, activate to apply an ascending sort 性齢: No sort applied, sorting is disabled 斤量: No sort applied, activate to apply an ascending sort 騎手: No sort applied, sorting is disabled 厩舎: No sort applied, sorting is disabled 馬体重(増減): No sort applied, sorting is disabled オッズ 更新: No sort applied, sorting is disabled 人気: No sort applied, activate to apply an ascending sort お気に入り馬: No sort applied, sorting is disabled 馬メモ切替: No sort applied, sorting is disabled" [ref=e1036]':
+              - 'columnheader "枠: No sort applied, sorting is disabled" [disabled] [ref=e1037]':
+                - generic [ref=e1038]: 枠
+              - 'columnheader "馬番: No sort applied, activate to apply an ascending sort"':
+                - generic:
+                  - generic:
+                    - text: 馬
+                    - text: 番
+              - 'columnheader "印: No sort applied, sorting is disabled" [disabled] [ref=e1040]':
+                - generic [ref=e1041]:
+                  - text: 印
+                  - button "切替" [disabled] [ref=e1044] [cursor=pointer]
+              - 'columnheader "馬名: No sort applied, activate to apply an ascending sort"':
+                - generic:
+                  - generic: 馬名
+              - 'columnheader "性齢: No sort applied, sorting is disabled" [disabled] [ref=e1046]':
+                - generic [ref=e1047]: 性齢
+              - 'columnheader "斤量: No sort applied, activate to apply an ascending sort"':
+                - generic:
+                  - generic: 斤量
+              - 'columnheader "騎手: No sort applied, sorting is disabled" [disabled] [ref=e1049]':
+                - generic [ref=e1050]: 騎手
+              - 'columnheader "厩舎: No sort applied, sorting is disabled" [disabled] [ref=e1051]':
+                - generic [ref=e1052]: 厩舎
+              - 'columnheader "馬体重(増減): No sort applied, sorting is disabled" [disabled]':
+                - generic:
+                  - generic:
+                    - text: 馬体重
+                    - text: (増減)
+              - 'columnheader "オッズ 更新: No sort applied, sorting is disabled" [disabled] [ref=e1053]':
+                - generic [ref=e1055]:
+                  - generic [ref=e1056]: オッズ
+                  - button "更新" [disabled] [ref=e1057] [cursor=pointer]
+              - 'columnheader "人気: No sort applied, activate to apply an ascending sort"':
+                - generic:
+                  - generic: 人気
+              - 'columnheader "お気に入り馬: No sort applied, sorting is disabled" [disabled] [ref=e1059]':
+                - link "お気に入り馬" [disabled] [ref=e1061] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/bookmark/horse_bookmark_list.html
+              - 'columnheader "馬メモ切替: No sort applied, sorting is disabled" [disabled] [ref=e1062]':
+                - generic [ref=e1063]:
+                  - text: 馬メモ
+                  - button "切替" [disabled] [ref=e1064] [cursor=pointer]
+            - 'row "登録: No sort applied, activate to apply an ascending sort グループ: No sort applied, activate to apply an ascending sort" [ref=e1065]':
+              - 'columnheader "登録: No sort applied, activate to apply an ascending sort" [ref=e1066]':
+                - generic [ref=e1067]: 登録
+              - 'columnheader "グループ: No sort applied, activate to apply an ascending sort" [ref=e1068]':
+                - generic [ref=e1069]: グループ
+          - rowgroup [ref=e1070]:
+            - row "1 1 -- ライヒスアドラー 牡3 57.0 佐々木 美浦 上原佑 11.6 6 編集" [ref=e1071]:
+              - gridcell "1" [ref=e1072]
+              - gridcell "1" [ref=e1073]
+              - gridcell "--" [ref=e1074]:
+                - generic [ref=e1076] [cursor=pointer]: "--"
+              - gridcell "ライヒスアドラー" [ref=e1077]:
+                - link "ライヒスアドラー" [ref=e1081] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023103687
+              - gridcell "牡3" [ref=e1082]
+              - gridcell "57.0" [ref=e1083]
+              - gridcell "佐々木" [ref=e1084]:
+                - link "佐々木" [ref=e1085] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01197/
+              - gridcell "美浦 上原佑" [ref=e1086]:
+                - generic [ref=e1087]: 美浦
+                - link "上原佑" [ref=e1088] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01192/
+              - gridcell [ref=e1089]
+              - gridcell "11.6" [ref=e1090]
+              - gridcell "6" [ref=e1091]
+              - gridcell [ref=e1092]:
+                - link "お気に入り馬登録" [ref=e1093] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023103687&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1094]
+              - gridcell [ref=e1095]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023103687&race_id=202605021211
+              - gridcell "編集" [ref=e1096] [cursor=pointer]:
+                - link "編集" [ref=e1097]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "1 2 -- マテンロウゲイル 牡3 57.0 横山和 栗東 野中 47.7 12 編集" [ref=e1098]:
+              - gridcell "1" [ref=e1099]
+              - gridcell "2" [ref=e1100]
+              - gridcell "--" [ref=e1101]:
+                - generic [ref=e1103] [cursor=pointer]: "--"
+              - gridcell "マテンロウゲイル" [ref=e1104]:
+                - link "マテンロウゲイル" [ref=e1108] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023100946
+              - gridcell "牡3" [ref=e1109]
+              - gridcell "57.0" [ref=e1110]
+              - gridcell "横山和" [ref=e1111]:
+                - link "横山和" [ref=e1112] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01140/
+              - gridcell "栗東 野中" [ref=e1113]:
+                - generic [ref=e1114]: 栗東
+                - link "野中" [ref=e1115] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01098/
+              - gridcell [ref=e1116]
+              - gridcell "47.7" [ref=e1117]
+              - gridcell "12" [ref=e1118]
+              - gridcell [ref=e1119]:
+                - link "お気に入り馬登録" [ref=e1120] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023100946&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1121]
+              - gridcell [ref=e1122]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023100946&race_id=202605021211
+              - gridcell "編集" [ref=e1123] [cursor=pointer]:
+                - link "編集" [ref=e1124]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "2 3 -- ケントン 牡3 57.0 丹内 美浦 田島 197.7 18 編集" [ref=e1125]:
+              - gridcell "2" [ref=e1126]
+              - gridcell "3" [ref=e1127]
+              - gridcell "--" [ref=e1128]:
+                - generic [ref=e1130] [cursor=pointer]: "--"
+              - gridcell "ケントン" [ref=e1131]:
+                - link "ケントン" [ref=e1135] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023103824
+              - gridcell "牡3" [ref=e1136]
+              - gridcell "57.0" [ref=e1137]
+              - gridcell "丹内" [ref=e1138]:
+                - link "丹内" [ref=e1139] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01091/
+              - gridcell "美浦 田島" [ref=e1140]:
+                - generic [ref=e1141]: 美浦
+                - link "田島" [ref=e1142] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01112/
+              - gridcell [ref=e1143]
+              - gridcell "197.7" [ref=e1144]
+              - gridcell "18" [ref=e1145]
+              - gridcell [ref=e1146]:
+                - link "お気に入り馬登録" [ref=e1147] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023103824&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1148]
+              - gridcell [ref=e1149]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023103824&race_id=202605021211
+              - gridcell "編集" [ref=e1150] [cursor=pointer]:
+                - link "編集" [ref=e1151]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "2 4 -- アルトラムス 牡3 57.0 横山武 栗東 野中 178.3 16 編集" [ref=e1152]:
+              - gridcell "2" [ref=e1153]
+              - gridcell "4" [ref=e1154]
+              - gridcell "--" [ref=e1155]:
+                - generic [ref=e1157] [cursor=pointer]: "--"
+              - gridcell "アルトラムス" [ref=e1158]:
+                - link "アルトラムス" [ref=e1162] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023103480
+              - gridcell "牡3" [ref=e1163]
+              - gridcell "57.0" [ref=e1164]
+              - gridcell "横山武" [ref=e1165]:
+                - link "横山武" [ref=e1166] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01170/
+              - gridcell "栗東 野中" [ref=e1167]:
+                - generic [ref=e1168]: 栗東
+                - link "野中" [ref=e1169] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01098/
+              - gridcell [ref=e1170]
+              - gridcell "178.3" [ref=e1171]
+              - gridcell "16" [ref=e1172]
+              - gridcell [ref=e1173]:
+                - link "お気に入り馬登録" [ref=e1174] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023103480&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1175]
+              - gridcell [ref=e1176]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023103480&race_id=202605021211
+              - gridcell "編集" [ref=e1177] [cursor=pointer]:
+                - link "編集" [ref=e1178]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "3 5 -- バステール 牡3 57.0 川田 栗東 斉藤崇 31.9 11 編集" [ref=e1179]:
+              - gridcell "3" [ref=e1180]
+              - gridcell "5" [ref=e1181]
+              - gridcell "--" [ref=e1182]:
+                - generic [ref=e1184] [cursor=pointer]: "--"
+              - gridcell "バステール" [ref=e1185]:
+                - link "バステール" [ref=e1189] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023107247
+              - gridcell "牡3" [ref=e1190]
+              - gridcell "57.0" [ref=e1191]
+              - gridcell "川田" [ref=e1192]:
+                - link "川田" [ref=e1193] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01088/
+              - gridcell "栗東 斉藤崇" [ref=e1194]:
+                - generic [ref=e1195]: 栗東
+                - link "斉藤崇" [ref=e1196] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01151/
+              - gridcell [ref=e1197]
+              - gridcell "31.9" [ref=e1198]
+              - gridcell "11" [ref=e1199]
+              - gridcell [ref=e1200]:
+                - link "お気に入り馬登録" [ref=e1201] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023107247&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1202]
+              - gridcell [ref=e1203]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023107247&race_id=202605021211
+              - gridcell "編集" [ref=e1204] [cursor=pointer]:
+                - link "編集" [ref=e1205]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "3 6 -- コンジェスタス 牡3 57.0 西村淳 栗東 高野 10.6 4 編集" [ref=e1206]:
+              - gridcell "3" [ref=e1207]
+              - gridcell "6" [ref=e1208]
+              - gridcell "--" [ref=e1209]:
+                - generic [ref=e1211] [cursor=pointer]: "--"
+              - gridcell "コンジェスタス" [ref=e1212]:
+                - link "コンジェスタス" [ref=e1216] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023106963
+              - gridcell "牡3" [ref=e1217]
+              - gridcell "57.0" [ref=e1218]
+              - gridcell "西村淳" [ref=e1219]:
+                - link "西村淳" [ref=e1220] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01171/
+              - gridcell "栗東 高野" [ref=e1221]:
+                - generic [ref=e1222]: 栗東
+                - link "高野" [ref=e1223] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01117/
+              - gridcell [ref=e1224]
+              - gridcell "10.6" [ref=e1225]
+              - gridcell "4" [ref=e1226]
+              - gridcell [ref=e1227]:
+                - link "お気に入り馬登録" [ref=e1228] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023106963&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1229]
+              - gridcell [ref=e1230]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023106963&race_id=202605021211
+              - gridcell "編集" [ref=e1231] [cursor=pointer]:
+                - link "編集" [ref=e1232]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "4 7 -- メイショウハチコウ 牡3 57.0 ディー 栗東 牧浦 49.4 13 編集" [ref=e1233]:
+              - gridcell "4" [ref=e1234]
+              - gridcell "7" [ref=e1235]
+              - gridcell "--" [ref=e1236]:
+                - generic [ref=e1238] [cursor=pointer]: "--"
+              - gridcell "メイショウハチコウ" [ref=e1239]:
+                - link "メイショウハチコウ" [ref=e1243] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023102039
+              - gridcell "牡3" [ref=e1244]
+              - gridcell "57.0" [ref=e1245]
+              - gridcell "ディー" [ref=e1246]:
+                - link "ディー" [ref=e1247] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/05674/
+              - gridcell "栗東 牧浦" [ref=e1248]:
+                - generic [ref=e1249]: 栗東
+                - link "牧浦" [ref=e1250] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01113/
+              - gridcell [ref=e1251]
+              - gridcell "49.4" [ref=e1252]
+              - gridcell "13" [ref=e1253]
+              - gridcell [ref=e1254]:
+                - link "お気に入り馬登録" [ref=e1255] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023102039&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1256]
+              - gridcell [ref=e1257]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023102039&race_id=202605021211
+              - gridcell "編集" [ref=e1258] [cursor=pointer]:
+                - link "編集" [ref=e1259]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "4 8 -- ショウナンガルフ 牡3 57.0 浜中 栗東 須貝 178.7 17 編集" [ref=e1260]:
+              - gridcell "4" [ref=e1261]
+              - gridcell "8" [ref=e1262]
+              - gridcell "--" [ref=e1263]:
+                - generic [ref=e1265] [cursor=pointer]: "--"
+              - gridcell "ショウナンガルフ" [ref=e1266]:
+                - link "ショウナンガルフ" [ref=e1270] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023105332
+              - gridcell "牡3" [ref=e1271]
+              - gridcell "57.0" [ref=e1272]
+              - gridcell "浜中" [ref=e1273]:
+                - link "浜中" [ref=e1274] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01115/
+              - gridcell "栗東 須貝" [ref=e1275]:
+                - generic [ref=e1276]: 栗東
+                - link "須貝" [ref=e1277] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01105/
+              - gridcell [ref=e1278]
+              - gridcell "178.7" [ref=e1279]
+              - gridcell "17" [ref=e1280]
+              - gridcell [ref=e1281]:
+                - link "お気に入り馬登録" [ref=e1282] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023105332&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1283]
+              - gridcell [ref=e1284]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023105332&race_id=202605021211
+              - gridcell "編集" [ref=e1285] [cursor=pointer]:
+                - link "編集" [ref=e1286]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "5 9 -- アウダーシア 牡3 57.0 レーン 美浦 手塚久 15.7 7 編集" [ref=e1287]:
+              - gridcell "5" [ref=e1288]
+              - gridcell "9" [ref=e1289]
+              - gridcell "--" [ref=e1290]:
+                - generic [ref=e1292] [cursor=pointer]: "--"
+              - gridcell "アウダーシア" [ref=e1293]:
+                - link "アウダーシア" [ref=e1297] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023107321
+              - gridcell "牡3" [ref=e1298]
+              - gridcell "57.0" [ref=e1299]
+              - gridcell "レーン" [ref=e1300]:
+                - link "レーン" [ref=e1301] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/05585/
+              - gridcell "美浦 手塚久" [ref=e1302]:
+                - generic [ref=e1303]: 美浦
+                - link "手塚久" [ref=e1304] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01038/
+              - gridcell [ref=e1305]
+              - gridcell "15.7" [ref=e1306]
+              - gridcell "7" [ref=e1307]
+              - gridcell [ref=e1308]:
+                - link "お気に入り馬登録" [ref=e1309] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023107321&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1310]
+              - gridcell [ref=e1311]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023107321&race_id=202605021211
+              - gridcell "編集" [ref=e1312] [cursor=pointer]:
+                - link "編集" [ref=e1313]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "5 10 -- ジャスティンビスタ 牡3 57.0 坂井 栗東 吉岡 71.0 14 編集" [ref=e1314]:
+              - gridcell "5" [ref=e1315]
+              - gridcell "10" [ref=e1316]
+              - gridcell "--" [ref=e1317]:
+                - generic [ref=e1319] [cursor=pointer]: "--"
+              - gridcell "ジャスティンビスタ" [ref=e1320]:
+                - link "ジャスティンビスタ" [ref=e1324] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023102807
+              - gridcell "牡3" [ref=e1325]
+              - gridcell "57.0" [ref=e1326]
+              - gridcell "坂井" [ref=e1327]:
+                - link "坂井" [ref=e1328] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01163/
+              - gridcell "栗東 吉岡" [ref=e1329]:
+                - generic [ref=e1330]: 栗東
+                - link "吉岡" [ref=e1331] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01176/
+              - gridcell [ref=e1332]
+              - gridcell "71.0" [ref=e1333]
+              - gridcell "14" [ref=e1334]
+              - gridcell [ref=e1335]:
+                - link "お気に入り馬登録" [ref=e1336] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023102807&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1337]
+              - gridcell [ref=e1338]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023102807&race_id=202605021211
+              - gridcell "編集" [ref=e1339] [cursor=pointer]:
+                - link "編集" [ref=e1340]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "6 11 -- リアライズシリウス 牡3 57.0 津村 美浦 手塚久 6.5 2 編集" [ref=e1341]:
+              - gridcell "6" [ref=e1342]
+              - gridcell "11" [ref=e1343]
+              - gridcell "--" [ref=e1344]:
+                - generic [ref=e1346] [cursor=pointer]: "--"
+              - gridcell "リアライズシリウス" [ref=e1347]:
+                - link "リアライズシリウス" [ref=e1351] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023103604
+              - gridcell "牡3" [ref=e1352]
+              - gridcell "57.0" [ref=e1353]
+              - gridcell "津村" [ref=e1354]:
+                - link "津村" [ref=e1355] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01092/
+              - gridcell "美浦 手塚久" [ref=e1356]:
+                - generic [ref=e1357]: 美浦
+                - link "手塚久" [ref=e1358] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01038/
+              - gridcell [ref=e1359]
+              - gridcell "6.5" [ref=e1360]
+              - gridcell "2" [ref=e1361]
+              - gridcell [ref=e1362]:
+                - link "お気に入り馬登録" [ref=e1363] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023103604&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1364]
+              - gridcell [ref=e1365]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023103604&race_id=202605021211
+              - gridcell "編集" [ref=e1366] [cursor=pointer]:
+                - link "編集" [ref=e1367]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "6 12 -- アスクエジンバラ 牡3 57.0 岩田康 栗東 福永 17.8 8 編集" [ref=e1368]:
+              - gridcell "6" [ref=e1369]
+              - gridcell "12" [ref=e1370]
+              - gridcell "--" [ref=e1371]:
+                - generic [ref=e1373] [cursor=pointer]: "--"
+              - gridcell "アスクエジンバラ" [ref=e1374]:
+                - link "アスクエジンバラ" [ref=e1378] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023106400
+              - gridcell "牡3" [ref=e1379]
+              - gridcell "57.0" [ref=e1380]
+              - gridcell "岩田康" [ref=e1381]:
+                - link "岩田康" [ref=e1382] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/05203/
+              - gridcell "栗東 福永" [ref=e1383]:
+                - generic [ref=e1384]: 栗東
+                - link "福永" [ref=e1385] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01203/
+              - gridcell [ref=e1386]
+              - gridcell "17.8" [ref=e1387]
+              - gridcell "8" [ref=e1388]
+              - gridcell [ref=e1389]:
+                - link "お気に入り馬登録" [ref=e1390] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023106400&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1391]
+              - gridcell [ref=e1392]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023106400&race_id=202605021211
+              - gridcell "編集" [ref=e1393] [cursor=pointer]:
+                - link "編集" [ref=e1394]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "7 13 -- パントルナイーフ 牡3 57.0 ルメール 美浦 木村 10.6 5 編集" [ref=e1395]:
+              - gridcell "7" [ref=e1396]
+              - gridcell "13" [ref=e1397]
+              - gridcell "--" [ref=e1398]:
+                - generic [ref=e1400] [cursor=pointer]: "--"
+              - gridcell "パントルナイーフ" [ref=e1401]:
+                - link "パントルナイーフ" [ref=e1405] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023107377
+              - gridcell "牡3" [ref=e1406]
+              - gridcell "57.0" [ref=e1407]
+              - gridcell "ルメール" [ref=e1408]:
+                - link "ルメール" [ref=e1409] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/05339/
+              - gridcell "美浦 木村" [ref=e1410]:
+                - generic [ref=e1411]: 美浦
+                - link "木村" [ref=e1412] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01126/
+              - gridcell [ref=e1413]
+              - gridcell "10.6" [ref=e1414]
+              - gridcell "5" [ref=e1415]
+              - gridcell [ref=e1416]:
+                - link "お気に入り馬登録" [ref=e1417] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023107377&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1418]
+              - gridcell [ref=e1419]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023107377&race_id=202605021211
+              - gridcell "編集" [ref=e1420] [cursor=pointer]:
+                - link "編集" [ref=e1421]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "7 14 -- ゴーイントゥスカイ 牡3 57.0 武豊 美浦 上原佑 7.1 3 編集" [ref=e1422]:
+              - gridcell "7" [ref=e1423]
+              - gridcell "14" [ref=e1424]
+              - gridcell "--" [ref=e1425]:
+                - generic [ref=e1427] [cursor=pointer]: "--"
+              - gridcell "ゴーイントゥスカイ" [ref=e1428]:
+                - link "ゴーイントゥスカイ" [ref=e1432] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023105378
+              - gridcell "牡3" [ref=e1433]
+              - gridcell "57.0" [ref=e1434]
+              - gridcell "武豊" [ref=e1435]:
+                - link "武豊" [ref=e1436] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/00666/
+              - gridcell "美浦 上原佑" [ref=e1437]:
+                - generic [ref=e1438]: 美浦
+                - link "上原佑" [ref=e1439] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01192/
+              - gridcell [ref=e1440]
+              - gridcell "7.1" [ref=e1441]
+              - gridcell "3" [ref=e1442]
+              - gridcell [ref=e1443]:
+                - link "お気に入り馬登録" [ref=e1444] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023105378&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1445]
+              - gridcell [ref=e1446]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023105378&race_id=202605021211
+              - gridcell "編集" [ref=e1447] [cursor=pointer]:
+                - link "編集" [ref=e1448]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "7 15 -- フォルテアンジェロ 牡3 57.0 荻野極 美浦 上原佑 18.5 9 編集" [ref=e1449]:
+              - gridcell "7" [ref=e1450]
+              - gridcell "15" [ref=e1451]
+              - gridcell "--" [ref=e1452]:
+                - generic [ref=e1454] [cursor=pointer]: "--"
+              - gridcell "フォルテアンジェロ" [ref=e1455]:
+                - link "フォルテアンジェロ" [ref=e1459] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023107345
+              - gridcell "牡3" [ref=e1460]
+              - gridcell "57.0" [ref=e1461]
+              - gridcell "荻野極" [ref=e1462]:
+                - link "荻野極" [ref=e1463] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01160/
+              - gridcell "美浦 上原佑" [ref=e1464]:
+                - generic [ref=e1465]: 美浦
+                - link "上原佑" [ref=e1466] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01192/
+              - gridcell [ref=e1467]
+              - gridcell "18.5" [ref=e1468]
+              - gridcell "9" [ref=e1469]
+              - gridcell [ref=e1470]:
+                - link "お気に入り馬登録" [ref=e1471] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023107345&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1472]
+              - gridcell [ref=e1473]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023107345&race_id=202605021211
+              - gridcell "編集" [ref=e1474] [cursor=pointer]:
+                - link "編集" [ref=e1475]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "8 16 -- グリーンエナジー 牡3 57.0 戸崎圭 美浦 上原佑 22.6 10 編集" [ref=e1476]:
+              - gridcell "8" [ref=e1477]
+              - gridcell "16" [ref=e1478]
+              - gridcell "--" [ref=e1479]:
+                - generic [ref=e1481] [cursor=pointer]: "--"
+              - gridcell "グリーンエナジー" [ref=e1482]:
+                - link "グリーンエナジー" [ref=e1486] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023105456
+              - gridcell "牡3" [ref=e1487]
+              - gridcell "57.0" [ref=e1488]
+              - gridcell "戸崎圭" [ref=e1489]:
+                - link "戸崎圭" [ref=e1490] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/05386/
+              - gridcell "美浦 上原佑" [ref=e1491]:
+                - generic [ref=e1492]: 美浦
+                - link "上原佑" [ref=e1493] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01192/
+              - gridcell [ref=e1494]
+              - gridcell "22.6" [ref=e1495]
+              - gridcell "10" [ref=e1496]
+              - gridcell [ref=e1497]:
+                - link "お気に入り馬登録" [ref=e1498] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023105456&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1499]
+              - gridcell [ref=e1500]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023105456&race_id=202605021211
+              - gridcell "編集" [ref=e1501] [cursor=pointer]:
+                - link "編集" [ref=e1502]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "8 17 -- ロブチェン 牡3 57.0 松山 栗東 杉山晴 2.8 1 編集" [ref=e1503]:
+              - gridcell "8" [ref=e1504]
+              - gridcell "17" [ref=e1505]
+              - gridcell "--" [ref=e1506]:
+                - generic [ref=e1508] [cursor=pointer]: "--"
+              - gridcell "ロブチェン" [ref=e1509]:
+                - link "ロブチェン" [ref=e1513] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023107089
+              - gridcell "牡3" [ref=e1514]
+              - gridcell "57.0" [ref=e1515]
+              - gridcell "松山" [ref=e1516]:
+                - link "松山" [ref=e1517] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/01126/
+              - gridcell "栗東 杉山晴" [ref=e1518]:
+                - generic [ref=e1519]: 栗東
+                - link "杉山晴" [ref=e1520] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01157/
+              - gridcell [ref=e1521]
+              - gridcell "2.8" [ref=e1522]
+              - gridcell "1" [ref=e1523]
+              - gridcell [ref=e1524]:
+                - link "お気に入り馬登録" [ref=e1525] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023107089&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1526]
+              - gridcell [ref=e1527]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023107089&race_id=202605021211
+              - gridcell "編集" [ref=e1528] [cursor=pointer]:
+                - link "編集" [ref=e1529]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+            - row "8 18 -- エムズビギン 牡3 57.0 ゴンサルベ 栗東 友道 123.1 15 編集" [ref=e1530]:
+              - gridcell "8" [ref=e1531]
+              - gridcell "18" [ref=e1532]
+              - gridcell "--" [ref=e1533]:
+                - generic [ref=e1535] [cursor=pointer]: "--"
+              - gridcell "エムズビギン" [ref=e1536]:
+                - link "エムズビギン" [ref=e1540] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023107127
+              - gridcell "牡3" [ref=e1541]
+              - gridcell "57.0" [ref=e1542]
+              - gridcell "ゴンサルベ" [ref=e1543]:
+                - link "ゴンサルベ" [ref=e1544] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/jockey/result/recent/05675/
+              - gridcell "栗東 友道" [ref=e1545]:
+                - generic [ref=e1546]: 栗東
+                - link "友道" [ref=e1547] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/trainer/result/recent/01061/
+              - gridcell [ref=e1548]
+              - gridcell "123.1" [ref=e1549]
+              - gridcell "15" [ref=e1550]
+              - gridcell [ref=e1551]:
+                - link "お気に入り馬登録" [ref=e1552] [cursor=pointer]:
+                  - /url: https://db.sp.netkeiba.com?pid=horse_bookmark_add&horse_id=2023107127&rtn_url=https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
+                  - img [ref=e1553]
+              - gridcell [ref=e1554]:
+                - generic:
+                  - link:
+                    - /url: ../popup/horse_bookmark.html?ketto_num=2023107127&race_id=202605021211
+              - gridcell "編集" [ref=e1555] [cursor=pointer]:
+                - link "編集" [ref=e1556]:
+                  - /url: javascript:void(0);
+                  - generic: 編集
+        - generic [ref=e1557]:
+          - button "選んだ馬のオッズを見る" [ref=e1560] [cursor=pointer]: 選んだ馬のオッズを見る
+          - generic [ref=e1564]: オッズの自動更新をONにする(最終更新 20:37)
+          - link "Myレースに登録する" [ref=e1568] [cursor=pointer]:
+            - /url: https://regist.netkeiba.com/account/?pid=login
+      - generic [ref=e1569]:
+        - paragraph [ref=e1570]:
+          - text: プレミアムサービスのご利用で
+          - text: 最新オッズをいち早くお届け！
+        - link "登録済みの方はこちらからログイン" [ref=e1571] [cursor=pointer]:
+          - /url: https://regist.netkeiba.com/account/?pid=login
+        - link "プレミアムサービスの 詳細はこちら" [ref=e1573] [cursor=pointer]:
+          - /url: https://regist.netkeiba.com?pid=premium&service=p16&return_url=http%3A%2F%2Frace.netkeiba.com%2Frace%2Fshutuba.html%3Frace_id%3D202605021211
+          - text: プレミアムサービスの
+          - text: 詳細はこちら
+      - paragraph [ref=e1575]:
+        - text: ※結果・成績・オッズなどのデータは、必ず主催者発表のものと照合しご確認ください。
+        - text: ※予想オッズは戦績や俺プロの投票などを元にnetkeibaが独自に開発したAIによって算出されます。対象は全レースです。 出馬表掲載開始後よりご覧いただけます。 なお、馬券発売開始後は実際のオッズに切り替わります。
+      - heading "AIレース相性度" [level=3] [ref=e1576]
+      - table [ref=e1578]:
+        - rowgroup [ref=e1579]:
+          - row "AIレース相性度 波乱度" [ref=e1580]:
+            - columnheader "AIレース相性度" [ref=e1581]
+            - columnheader "波乱度" [ref=e1582]
+          - row [ref=e1583]:
+            - cell [ref=e1584]
+      - generic [ref=e1586]:
+        - generic [ref=e1587]:
+          - paragraph [ref=e1588]: マスターコースなら
+          - paragraph [ref=e1589]: すべてのデータが見放題
+        - paragraph [ref=e1590]:
+          - text: 今なら
+          - emphasis [ref=e1591]: 14日間無料
+          - text: でお試し
+        - link "相性度・波乱度を見る" [ref=e1592] [cursor=pointer]:
+          - /url: https://regist.netkeiba.com?pid=master_introduction
+        - paragraph [ref=e1593]:
+          - link "登録済みの方はこちらからログイン" [ref=e1594] [cursor=pointer]:
+            - /url: https://regist.netkeiba.com
+      - term [ref=e1597] [cursor=pointer]: 相性度・波乱度の見方
+      - link "画面キャプチャのSNS利用について" [ref=e1600] [cursor=pointer]:
+        - /url: //info.netkeiba.com/?pid=secondary_guide&rf=shutsuba
+        - text: 画面キャプチャのSNS利用について
+      - generic [ref=e1603]:
+        - list [ref=e1605]:
+          - listitem [ref=e1606]:
+            - generic [ref=e1607]: 注目
+            - link "12 アスクエジンバラ 高回収率!岩田康誠J&福永祐一師" [ref=e1609] [cursor=pointer]:
+              - /url: https://race.netkeiba.com/?pid=surf_summary&id=c202605021211&range=4&key1=JockeyCode&key2=TrainerCode
+              - generic [ref=e1610]: "12"
+              - text: アスクエジンバラ 高回収率!岩田康誠J&福永祐一師
+          - listitem [ref=e1611]:
+            - generic [ref=e1612]: 注目
+            - link "5 バステール シルク×川田将雅Jは信頼" [ref=e1614] [cursor=pointer]:
+              - /url: https://race.netkeiba.com/?pid=surf_summary&id=c202605021211&range=4&key1=JockeyCode&key2=OwnerCode
+              - generic [ref=e1615]: "5"
+              - text: バステール シルク×川田将雅Jは信頼
+          - listitem [ref=e1616]:
+            - generic [ref=e1617]: 注目
+            - link "17 ロブチェン 小林昌子×松山弘平Jで勝負" [ref=e1619] [cursor=pointer]:
+              - /url: https://race.netkeiba.com/?pid=surf_summary&id=c202605021211&range=4&key1=JockeyCode&key2=OwnerCode
+              - generic [ref=e1620]: "17"
+              - text: ロブチェン 小林昌子×松山弘平Jで勝負
+          - listitem [ref=e1621]:
+            - generic [ref=e1622]: 特選
+            - link "8819人が日本ダービーを予想中！ 参加費無料の予想大会で馬券力を磨け！" [ref=e1624] [cursor=pointer]:
+              - /url: https://orepro.netkeiba.com/bet/shutuba.html?mode=init&race_id=202605021211&rf=tokusen2
+              - generic [ref=e1625]:
+                - strong [ref=e1626]: 8819人
+                - text: が日本ダービーを予想中！ 参加費無料の予想大会で馬券力を磨け！
+          - listitem [ref=e1627]:
+            - generic [ref=e1628]: 特選
+            - link "偏差値急上昇の16人気テンカラットレター(795.4倍)が3着！3連単払戻は209,080円！" [ref=e1630] [cursor=pointer]:
+              - /url: https://race.sp.netkeiba.com/v2/barometer/score.html?race_id=202605021003&rf=tokusen_baro_p2_d4
+              - generic [ref=e1631]:
+                - text: 偏差値急上昇の
+                - strong [ref=e1632]: 16人気テンカラットレター(795.4倍)
+                - text: が
+                - strong [ref=e1633]: 3着
+                - text: ！3連単払戻は
+                - strong [ref=e1634]: 209,080円
+                - text: ！
+          - listitem [ref=e1635]:
+            - generic [ref=e1636]: 激熱
+            - link "2,099,700円的中！指原数馬の予想に注目！" [ref=e1638] [cursor=pointer]:
+              - /url: https://yoso.netkeiba.com/?pid=yoso_hit&sort=hit&rf=tokusen_umai_202605021211
+              - generic [ref=e1639]:
+                - strong [ref=e1640]: 2,099,700円的中
+                - text: ！
+                - strong [ref=e1641]: 指原数馬
+                - text: の予想に注目！
+          - listitem [ref=e1642]:
+            - generic [ref=e1643]: 特選
+            - link "直近１カ月で159,000円プラス！小田哲也の予想がアツい！" [ref=e1645] [cursor=pointer]:
+              - /url: https://yoso.netkeiba.com/?pid=yosoka_profile&id=77&rf=tokusen_umai_202605021211
+              - generic [ref=e1646]:
+                - strong [ref=e1647]: 直近１カ月で159,000円プラス
+                - text: ！
+                - strong [ref=e1648]: 小田哲也
+                - text: の予想がアツい！
+          - listitem [ref=e1649]:
+            - generic [ref=e1650]: info
+            - link "当日はリアルタイム情報も掲載! 3R終了時点からお知らせします" [ref=e1652] [cursor=pointer]:
+              - /url: https://www.netkeiba.com/auth/?pid=help_detail&id=97
+        - paragraph [ref=e1653]:
+          - generic [ref=e1654]: "3"
+        - text: 注目 注目 注目 特選 特選 激熱 特選 info
+      - generic [ref=e1656]:
+        - heading "日本ダービー 予想参考映像" [level=2] [ref=e1658]
+        - iframe [ref=e1661]:
+          - region "video player" [ref=f5e2]:
+            - generic [ref=f5e3]:
+              - button "Play Video" [ref=f5e5] [cursor=pointer]:
+                - generic [ref=f5e6]: Play Video
+              - text: 
+              - text:          
+      - generic [ref=e1663]:
+        - heading "AI展開予測" [level=2] [ref=e1664]:
+          - generic [ref=e1665]: AI展開予測
+        - generic [ref=e1666]:
+          - generic [ref=e1668]: 旧版の展開予想に切り替える
+          - generic [ref=e1669]:
+            - checkbox [checked]
+      - generic [ref=e1672]:
+        - generic [ref=e1673]:
+          - generic [ref=e1674]: マスターコースに登録すると選択できます
+          - generic [ref=e1675]:
+            - generic:
+              - generic:
+                - checkbox "出遅れ率を考慮"
+              - generic: 出遅れ率を考慮
+            - generic:
+              - generic:
+                - checkbox "騎手傾向を考慮"
+              - generic: 騎手傾向を考慮
+            - generic "トラックバイアスを表示":
+              - checkbox "トラックバイアス" [checked]
+              - generic: トラックバイアス
+        - generic [ref=e1676]:
+          - generic [ref=e1677]:
+            - heading "レースラップ予測" [level=2] [ref=e1680]
+            - table "予測ラップタイム" [ref=e1681]:
+              - rowgroup [ref=e1682]:
+                - row "200m 400m 600m 800m" [ref=e1683]:
+                  - columnheader "200m" [ref=e1684]
+                  - columnheader "400m" [ref=e1685]
+                  - columnheader "600m" [ref=e1686]
+                  - columnheader "800m" [ref=e1687]
+                - row [ref=e1688]:
+                  - cell [ref=e1689]
+                  - cell [ref=e1690]
+                  - cell [ref=e1691]
+                  - cell [ref=e1692]
+          - generic [ref=e1693]:
+            - generic [ref=e1694]:
+              - list [ref=e1696]:
+                - listitem [ref=e1697]:
+                  - link "スタート後" [ref=e1698] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e1699]: スタート後
+                - listitem [ref=e1701]:
+                  - link "3コーナー" [ref=e1702] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e1703]: 3コーナー
+                - listitem [ref=e1705]:
+                  - link "4コーナー" [ref=e1706] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - generic [ref=e1707]: 4コーナー
+              - generic [ref=e1712]:
+                - link "1 ライヒ":
+                  - /url: https://db.netkeiba.com/horse/2023103687
+                  - generic [ref=e1713] [cursor=pointer]:
+                    - generic [ref=e1714]: "1"
+                    - generic [ref=e1715]: ライヒ
+                - link "11 リアラ":
+                  - /url: https://db.netkeiba.com/horse/2023103604
+                  - generic [ref=e1716] [cursor=pointer]:
+                    - generic [ref=e1717]: "11"
+                    - generic [ref=e1718]: リアラ
+                - link "15 フォル":
+                  - /url: https://db.netkeiba.com/horse/2023107345
+                  - generic [ref=e1719] [cursor=pointer]:
+                    - generic [ref=e1720]: "15"
+                    - generic [ref=e1721]: フォル
+                - link "17 ロブチ":
+                  - /url: https://db.netkeiba.com/horse/2023107089
+                  - generic [ref=e1722] [cursor=pointer]:
+                    - generic [ref=e1723]: "17"
+                    - generic [ref=e1724]: ロブチ
+                - link "5 バステ":
+                  - /url: https://db.netkeiba.com/horse/2023107247
+                  - generic [ref=e1725] [cursor=pointer]:
+                    - generic [ref=e1726]: "5"
+                    - generic [ref=e1727]: バステ
+                - link "6 コンジ":
+                  - /url: https://db.netkeiba.com/horse/2023106963
+                  - generic [ref=e1728] [cursor=pointer]:
+                    - generic [ref=e1729]: "6"
+                    - generic [ref=e1730]: コンジ
+                - link "7 メイシ":
+                  - /url: https://db.netkeiba.com/horse/2023102039
+                  - generic [ref=e1731] [cursor=pointer]:
+                    - generic [ref=e1732]: "7"
+                    - generic [ref=e1733]: メイシ
+                - link "10 ジャス":
+                  - /url: https://db.netkeiba.com/horse/2023102807
+                  - generic [ref=e1734] [cursor=pointer]:
+                    - generic [ref=e1735]: "10"
+                    - generic [ref=e1736]: ジャス
+                - link "16 グリー":
+                  - /url: https://db.netkeiba.com/horse/2023105456
+                  - generic [ref=e1737] [cursor=pointer]:
+                    - generic [ref=e1738]: "16"
+                    - generic [ref=e1739]: グリー
+                - link "2 マテン":
+                  - /url: https://db.netkeiba.com/horse/2023100946
+                  - generic [ref=e1740] [cursor=pointer]:
+                    - generic [ref=e1741]: "2"
+                    - generic [ref=e1742]: マテン
+                - link "3 ケント":
+                  - /url: https://db.netkeiba.com/horse/2023103824
+                  - generic [ref=e1743] [cursor=pointer]:
+                    - generic [ref=e1744]: "3"
+                    - generic [ref=e1745]: ケント
+                - link "4 アルト":
+                  - /url: https://db.netkeiba.com/horse/2023103480
+                  - generic [ref=e1746] [cursor=pointer]:
+                    - generic [ref=e1747]: "4"
+                    - generic [ref=e1748]: アルト
+                - link "8 ショウ":
+                  - /url: https://db.netkeiba.com/horse/2023105332
+                  - generic [ref=e1749] [cursor=pointer]:
+                    - generic [ref=e1750]: "8"
+                    - generic [ref=e1751]: ショウ
+                - link "13 パント":
+                  - /url: https://db.netkeiba.com/horse/2023107377
+                  - generic [ref=e1752] [cursor=pointer]:
+                    - generic [ref=e1753]: "13"
+                    - generic [ref=e1754]: パント
+                - link "14 ゴーイ":
+                  - /url: https://db.netkeiba.com/horse/2023105378
+                  - generic [ref=e1755] [cursor=pointer]:
+                    - generic [ref=e1756]: "14"
+                    - generic [ref=e1757]: ゴーイ
+                - link "18 エムズ":
+                  - /url: https://db.netkeiba.com/horse/2023107127
+                  - generic [ref=e1758] [cursor=pointer]:
+                    - generic [ref=e1759]: "18"
+                    - generic [ref=e1760]: エムズ
+                - link "9 アウダ":
+                  - /url: https://db.netkeiba.com/horse/2023107321
+                  - generic [ref=e1761] [cursor=pointer]:
+                    - generic [ref=e1762]: "9"
+                    - generic [ref=e1763]: アウダ
+                - link "12 アスク":
+                  - /url: https://db.netkeiba.com/horse/2023106400
+                  - generic [ref=e1764] [cursor=pointer]:
+                    - generic [ref=e1765]: "12"
+                    - generic [ref=e1766]: アスク
+            - term [ref=e1769] [cursor=pointer]: 展開予測の見方
+            - term [ref=e1773] [cursor=pointer]: トラックバイアスの提供レース
+          - generic [ref=e1775]:
+            - heading "各出走馬の予測タイム" [level=2] [ref=e1778]
+            - grid [ref=e1779]:
+              - rowgroup [ref=e1780]:
+                - 'row "馬番: No sort applied, sorting is disabled 馬名: No sort applied, activate to apply an ascending sort 前半3F: No sort applied, sorting is disabled 後半3F: No sort applied, activate to apply an ascending sort" [ref=e1781]':
+                  - 'columnheader "馬番: No sort applied, sorting is disabled" [disabled] [ref=e1782]':
+                    - generic [ref=e1783]:
+                      - text: 馬
+                      - text: 番
+                  - 'columnheader "馬名: No sort applied, activate to apply an ascending sort" [ref=e1785]':
+                    - generic [ref=e1787]: 馬名
+                  - 'columnheader "前半3F: No sort applied, sorting is disabled" [disabled] [ref=e1789]':
+                    - generic [ref=e1790]: 前半3F
+                  - 'columnheader "後半3F: No sort applied, activate to apply an ascending sort" [ref=e1792]':
+                    - generic [ref=e1793]: 後半3F
+              - rowgroup [ref=e1795]:
+                - row "1 ライヒスアドラー 36.0 35.4" [ref=e1796]:
+                  - gridcell "1" [ref=e1797]:
+                    - generic [ref=e1798]: "1"
+                  - gridcell "ライヒスアドラー" [ref=e1799]:
+                    - link "ライヒスアドラー" [ref=e1800] [cursor=pointer]:
+                      - /url: https://db.netkeiba.com/horse/2023103687
+                  - gridcell "36.0" [ref=e1801]
+                  - gridcell "35.4" [ref=e1802]
+                - row [ref=e1803]:
+                  - gridcell [ref=e1804]
+                  - gridcell [ref=e1805]
+                  - gridcell [ref=e1806]
+                  - gridcell [ref=e1807]
+          - generic [ref=e1808]:
+            - generic [ref=e1809]:
+              - generic [ref=e1810]:
+                - heading "コース情報 東京2400m芝 Cコース" [level=2] [ref=e1812]
+                - list [ref=e1814]:
+                  - listitem [ref=e1815]:
+                    - generic [ref=e1816]: ペース
+                    - generic [ref=e1817]: S
+                  - listitem [ref=e1818]:
+                    - generic [ref=e1819]: 推定タイム
+                  - listitem [ref=e1820]:
+                    - generic [ref=e1821]: 推定前半3F
+                  - listitem [ref=e1822]:
+                    - generic [ref=e1823]: 推定後半3F
+              - heading "バイアス" [level=2] [ref=e1826]
+            - generic [ref=e1829]:
+              - heading "AIロボ AIによるこのレースの見解・推奨馬" [level=2] [ref=e1832]:
+                - img "AIロボ" [ref=e1833]
+                - text: AIによるこのレースの見解・推奨馬
+              - generic [ref=e1834]:
+                - term [ref=e1835]:
+                  - text: AI
+                  - text: 勝負診断
+                - definition [ref=e1837]:
+                  - paragraph [ref=e1838]:
+                    - text: 日本ダービーはスローペースが予想されるため、前半の位置取りが重要になります。
+                    - text: 11.リアライズシリウスは3コーナーか...
+            - generic [ref=e1841]:
+              - term [ref=e1842]: 推奨馬の直近実績
+              - definition [ref=e1843] [cursor=pointer]:
+                - generic [ref=e1844]:
+                  - generic [ref=e1845]:
+                    - img [ref=e1846]
+                    - generic [ref=e1848]: 5/24
+                    - generic [ref=e1849]: 京都
+                    - generic [ref=e1850]: 6R
+                    - generic [ref=e1851]: ユアフェリシティ
+                    - emphasis [ref=e1852]: 3着
+                    - emphasis [ref=e1853]: 7番人気
+                    - generic [ref=e1855]: 5/24
+                    - generic [ref=e1856]: 東京
+                    - generic [ref=e1857]: 4R
+                    - generic [ref=e1858]: ダイヤテソーロ
+                    - emphasis [ref=e1859]: 1着
+                    - emphasis [ref=e1860]: 5番人気
+                    - generic [ref=e1862]: 5/24
+                    - generic [ref=e1863]: 東京
+                    - generic [ref=e1864]: 2R
+                    - generic [ref=e1865]: キタノドンカルロ
+                    - emphasis [ref=e1866]: 3着
+                    - emphasis [ref=e1867]: 8番人気
+                    - generic [ref=e1869]: 5/24
+                    - generic [ref=e1870]: 新潟
+                    - generic [ref=e1871]: 6R
+                    - generic [ref=e1872]: ホウオウストライク
+                    - emphasis [ref=e1873]: 1着
+                    - emphasis [ref=e1874]: 4番人気
+                    - generic [ref=e1876]: 5/23
+                    - generic [ref=e1877]: 京都
+                    - generic [ref=e1878]: 9R
+                    - generic [ref=e1879]: テイエムアイラン
+                    - emphasis [ref=e1880]: 1着
+                    - emphasis [ref=e1881]: 8番人気
+                  - generic [ref=e1883]:
+                    - img [ref=e1884]
+                    - generic [ref=e1886]: 5/24
+                    - generic [ref=e1887]: 京都
+                    - generic [ref=e1888]: 6R
+                    - generic [ref=e1889]: ユアフェリシティ
+                    - emphasis [ref=e1890]: 3着
+                    - emphasis [ref=e1891]: 7番人気
+                    - generic [ref=e1893]: 5/24
+                    - generic [ref=e1894]: 東京
+                    - generic [ref=e1895]: 4R
+                    - generic [ref=e1896]: ダイヤテソーロ
+                    - emphasis [ref=e1897]: 1着
+                    - emphasis [ref=e1898]: 5番人気
+                    - generic [ref=e1900]: 5/24
+                    - generic [ref=e1901]: 東京
+                    - generic [ref=e1902]: 2R
+                    - generic [ref=e1903]: キタノドンカルロ
+                    - emphasis [ref=e1904]: 3着
+                    - emphasis [ref=e1905]: 8番人気
+                    - generic [ref=e1907]: 5/24
+                    - generic [ref=e1908]: 新潟
+                    - generic [ref=e1909]: 6R
+                    - generic [ref=e1910]: ホウオウストライク
+                    - emphasis [ref=e1911]: 1着
+                    - emphasis [ref=e1912]: 4番人気
+                    - generic [ref=e1914]: 5/23
+                    - generic [ref=e1915]: 京都
+                    - generic [ref=e1916]: 9R
+                    - generic [ref=e1917]: テイエムアイラン
+                    - emphasis [ref=e1918]: 1着
+                    - emphasis [ref=e1919]: 8番人気
+                - button "実績詳細の開閉" [ref=e1921]
+        - generic [ref=e1922]:
+          - generic [ref=e1923]:
+            - heading "4コーナーポジション別の複勝率(%)" [level=2] [ref=e1926]
+            - generic [ref=e1927]:
+              - term [ref=e1928]: 中目有利
+              - definition [ref=e1929]:
+                - list [ref=e1930]:
+                  - listitem [ref=e1931]:
+                    - generic [ref=e1933]: 29%
+                    - generic [ref=e1935]: 50%
+                    - generic [ref=e1937]: 0%
+                  - listitem [ref=e1938]:
+                    - generic [ref=e1940]: 27%
+                    - generic [ref=e1942]: 25%
+                    - generic [ref=e1944]: 0%
+                  - listitem [ref=e1945]:
+                    - generic [ref=e1947]: 9%
+                    - generic [ref=e1949]: 40%
+                    - generic [ref=e1951]: 0%
+            - generic [ref=e1952]:
+              - term [ref=e1953]: 複勝率の色分け
+              - definition [ref=e1954]:
+                - list [ref=e1955]:
+                  - listitem [ref=e1956]: 1～25%
+                  - listitem [ref=e1958]: 26～50%
+                  - listitem [ref=e1960]: 51～75%
+                  - listitem [ref=e1962]: 76～100%
+            - paragraph [ref=e1964]: ※集計期間：直近1年
+          - generic [ref=e1965]:
+            - heading "推定ポジション有利馬" [level=2] [ref=e1968]
+            - list [ref=e1970]:
+              - listitem [ref=e1971]:
+                - generic [ref=e1972]: "6"
+                - link "コンジェスタス" [ref=e1973] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com/horse/2023106963/
+      - generic [ref=e1975]:
+        - heading "各データ上位3頭" [level=2] [ref=e1978]
+        - generic [ref=e1979]:
+          - table [ref=e1980]:
+            - rowgroup [ref=e1981]:
+              - row "能力 11 リアラ 12 アスク 16 グリー タイム指数へ" [ref=e1982]:
+                - rowheader "能力" [ref=e1983]:
+                  - generic [ref=e1984]: 能力
+                - cell "11 リアラ 12 アスク 16 グリー タイム指数へ" [ref=e1985]:
+                  - link "11 リアラ 12 アスク 16 グリー タイム指数へ" [ref=e1986] [cursor=pointer]:
+                    - /url: https://race.netkeiba.com/race/speed.html?race_id=202605021211
+                    - generic [ref=e1987]:
+                      - generic [ref=e1988]:
+                        - generic [ref=e1989]: "11"
+                        - generic [ref=e1990]: リアラ
+                      - generic [ref=e1991]:
+                        - generic [ref=e1992]: "12"
+                        - generic [ref=e1993]: アスク
+                      - generic [ref=e1994]:
+                        - generic [ref=e1995]: "16"
+                        - generic [ref=e1996]: グリー
+                      - generic [ref=e1997]: タイム指数へ
+          - table [ref=e1998]:
+            - rowgroup [ref=e1999]:
+              - row "上昇度 4 アルト 7 メイシ 17 ロブチ 調子偏差値へ" [ref=e2000]:
+                - rowheader "上昇度" [ref=e2001]:
+                  - generic [ref=e2002]: 上昇度
+                - cell "4 アルト 7 メイシ 17 ロブチ 調子偏差値へ" [ref=e2003]:
+                  - link "4 アルト 7 メイシ 17 ロブチ 調子偏差値へ" [ref=e2004] [cursor=pointer]:
+                    - /url: https://race.sp.netkeiba.com/barometer/score.html?race_id=202605021211&rf=be3
+                    - generic [ref=e2005]:
+                      - generic [ref=e2006]:
+                        - generic [ref=e2007]: "4"
+                        - generic [ref=e2008]: アルト
+                      - generic [ref=e2009]:
+                        - generic [ref=e2010]: "7"
+                        - generic [ref=e2011]: メイシ
+                      - generic [ref=e2012]:
+                        - generic [ref=e2013]: "17"
+                        - generic [ref=e2014]: ロブチ
+                      - generic [ref=e2015]: 調子偏差値へ
+          - table [ref=e2016]:
+            - rowgroup [ref=e2017]:
+              - row "騎手 6 西村淳 13 ルメー 16 戸崎圭 該当コースランキングへ" [ref=e2018]:
+                - rowheader "騎手" [ref=e2019]:
+                  - generic [ref=e2020]: 騎手
+                - cell "6 西村淳 13 ルメー 16 戸崎圭 該当コースランキングへ" [ref=e2021]:
+                  - link "6 西村淳 13 ルメー 16 戸崎圭 該当コースランキングへ" [ref=e2022] [cursor=pointer]:
+                    - /url: https://race.netkeiba.com/race/data.html?mode=ranking&race_id=202605021211
+                    - generic [ref=e2023]:
+                      - generic [ref=e2024]:
+                        - generic [ref=e2025]: "6"
+                        - generic [ref=e2026]: 西村淳
+                      - generic [ref=e2027]:
+                        - generic [ref=e2028]: "13"
+                        - generic [ref=e2029]: ルメー
+                      - generic [ref=e2030]:
+                        - generic [ref=e2031]: "16"
+                        - generic [ref=e2032]: 戸崎圭
+                      - generic [ref=e2033]: 該当コースランキングへ
+          - table [ref=e2034]:
+            - rowgroup [ref=e2035]:
+              - row "距離 1 ライヒ 2 マテン 14 ゴーイ 距離別成績へ" [ref=e2036]:
+                - rowheader "距離" [ref=e2037]:
+                  - generic [ref=e2038]: 距離
+                - cell "1 ライヒ 2 マテン 14 ゴーイ 距離別成績へ" [ref=e2039]:
+                  - link "1 ライヒ 2 マテン 14 ゴーイ 距離別成績へ" [ref=e2040] [cursor=pointer]:
+                    - /url: https://race.netkeiba.com/race/data.html?mode=distance&race_id=202605021211
+                    - generic [ref=e2041]:
+                      - generic [ref=e2042]:
+                        - generic [ref=e2043]: "1"
+                        - generic [ref=e2044]: ライヒ
+                      - generic [ref=e2045]:
+                        - generic [ref=e2046]: "2"
+                        - generic [ref=e2047]: マテン
+                      - generic [ref=e2048]:
+                        - generic [ref=e2049]: "14"
+                        - generic [ref=e2050]: ゴーイ
+                      - generic [ref=e2051]: 距離別成績へ
+      - iframe [ref=e2054]:
+        - iframe [ref=f22e4]:
+          - link [ref=f32e5] [cursor=pointer]:
+            - /url: https://k.zucks.net/rd/?k=ZGOK&p=fdwZCTdWmhsX5YlYGl61UyiX47-2DwJ6mrQOa9XHvEZAk5fXWkDBlWUO1ZmuUrdA_DCYAojBXuDKiYf9oSoUho4yvEF6m3BjGuliSvj9bjd9m8fY0K0b3IMcYDAyZrmQwMhW6QXFjRTGpuQR18f2_JZ1oFkiLx_UmWP3JEAKVArNqcz2MStJ8Q91zoLVvJ4gZMd-XFfgG2GrYLIZv9UZaVDtOsjxgxi7TDEqjHyi_sZFsk0Wsd96E1sSMxR6nESOaT3Qm3sFNH1c3izrBvVubnVAjOk8PGRphxB46Wy-EQ68CdJnY75oyaQu3RiPwXeD-mTWnopdQmlE8oBqpr93MqeXPVZqIdSbmPcQVpp85d-b-f4nWpDxnQcfg2oFznp_X6OUMc2t5yxerDwBlcS6SERNU2GL4SgCXEvveO0lMxx4DPp35_mmMtcZ7jriNSvceLsYwsEIGMM6tSSSK7sT7iCqtb1Nz5xiVfqL93C7VbT34SRS6jI3SQAldRgjjsICYhi0dChrmc8Je7wNJGX3wJketgY4xZF4Ti3YPnsNblbaeUNaL7CmCB_en4wCyYzL6bkTBtr9tf_8Om4zsxhX6IijKs6ivpGysAvgPE_NYOvSwJMyuleYwpOYivl_8efLCWSKmUWDCBSYjyqzkFhho_2t0owhfLwlckUoKBGit41lTrk8i3_eef3NWs4WMY5sCpxwuH_QwS-9WPKqJPXIKYk3B82RWLie7Z3rxwTtVTrRdQ7tSpHTbMpbJT261DA6P_qenGYOsSrwJpHPUQ7yZzBHRC3QfGQlBlBuhp5_2yCv6HPfyRTDKkbAiZqaVfavxsCWJqMqoaOj6L8IQSMR2wxjEgpV2CvKO6JPmtveOD9mnvJqqhPkt3XldGmFnm0TfoHJGBxas28qGMLbHDhGXdIguI67W-ZiAFbZgTZ3Ovqx58Ghj0s6rRgKqgE-h5_Xbr-O2M_1aHz0v91qD0GDzgEJJ1p-VdYmYb4_b3TmETNUzFErwm-NvjSbvGJrxTjLyqY5NSF9t1EtRHdY3Fzc_C_NxEKxCEilNqeP7copxyIC9FSeTPErdg&v=de9vJCA9vFs&l=84
+            - img [ref=f32e6]
+      - generic [ref=e2055]:
+        - heading "厳選予想 ウマい馬券" [level=2] [ref=e2057]:
+          - generic [ref=e2058]: 厳選予想 ウマい馬券
+        - img [ref=e2062]
+      - generic: 記者予想や全馬評価を掲載！
+      - generic [ref=e2066]:
+        - heading "あなたへのおすすめ" [level=3] [ref=e2068]
+        - generic [ref=e2070]:
+          - generic:
+            - generic [ref=e2071] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2072]:
+                - /url: https://izakasu.jp/lp/rent01d
+                - img "Image for Taboola Advertising Unit" [ref=e2074]
+              - 'link "持ち家が今いくらで貸せるか分かる いざ貸す in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) 続きを読む" [ref=e2076]':
+                - /url: https://izakasu.jp/lp/rent01d
+                - generic [ref=e2077]:
+                  - link "持ち家が今いくらで貸せるか分かる" [ref=e2078]
+                  - generic [ref=e2079]:
+                    - link "いざ貸す in Taboola advertising section" [ref=e2080]: いざ貸す
+                    - generic [ref=e2081]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e2083]':
+                      - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+                      - text: スポンサー
+                  - button "続きを読む" [ref=e2085]
+            - generic [ref=e2086] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2087]:
+                - /url: https://news.netkeiba.com/?pid=news_view&no=261629
+                - img "Image for Taboola Advertising Unit" [ref=e2089]
+              - link "【皐月賞・馬体重】レガレイラは456kg(+2)、ジャスティンミラノは512kg(+10)" [ref=e2091]:
+                - /url: https://news.netkeiba.com/?pid=news_view&no=261629
+                - link "【皐月賞・馬体重】レガレイラは456kg(+2)、ジャスティンミラノは512kg(+10)" [ref=e2093]
+            - generic [ref=e2094] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2095]:
+                - /url: https://sb-gaiheki-nuri.service-info.jp/ab/tb01
+                - img "Image for Taboola Advertising Unit" [ref=e2097]
+              - 'link "外壁塗装って10年に1度必要？塗装業者が教えてくれない外壁塗装を安くする方法とは？ ヌリカエ in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog)" [ref=e2099]':
+                - /url: https://sb-gaiheki-nuri.service-info.jp/ab/tb01
+                - generic [ref=e2100]:
+                  - link "外壁塗装って10年に1度必要？塗装業者が教えてくれない外壁塗装を安くする方法とは？" [ref=e2101]
+                  - generic [ref=e2102]:
+                    - link "ヌリカエ in Taboola advertising section" [ref=e2103]: ヌリカエ
+                    - generic [ref=e2104]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e2106]':
+                      - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+                      - text: スポンサー
+            - generic [ref=e2107] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2108]:
+                - /url: https://izakasu.jp/lp/rent01d
+                - img "Image for Taboola Advertising Unit" [ref=e2110]
+              - 'link "すげぇわ「持ち家を賃貸に出す」賃料査定サイトの結果にびっくり いざ貸す in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) 続きを読む" [ref=e2112]':
+                - /url: https://izakasu.jp/lp/rent01d
+                - generic [ref=e2113]:
+                  - link "すげぇわ「持ち家を賃貸に出す」賃料査定サイトの結果にびっくり" [ref=e2114]
+                  - generic [ref=e2115]:
+                    - link "いざ貸す in Taboola advertising section" [ref=e2116]: いざ貸す
+                    - generic [ref=e2117]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e2119]':
+                      - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+                      - text: スポンサー
+                  - button "続きを読む" [ref=e2121]
+            - generic [ref=e2122] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2123]:
+                - /url: https://kikoe-no-mikata.com/tab_ivemini_article
+                - img "Image for Taboola Advertising Unit" [ref=e2125]
+              - 'link "聞こえに「あれ？」と思ったら。両耳18900円で日常の会話がもっとラクに。 Olive Union in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) 続きを読む" [ref=e2127]':
+                - /url: https://kikoe-no-mikata.com/tab_ivemini_article
+                - generic [ref=e2128]:
+                  - link "聞こえに「あれ？」と思ったら。両耳18900円で日常の会話がもっとラクに。" [ref=e2129]
+                  - generic [ref=e2130]:
+                    - link "Olive Union in Taboola advertising section" [ref=e2131]: Olive Union
+                    - generic [ref=e2132]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e2134]':
+                      - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+                      - text: スポンサー
+                  - button "続きを読む" [ref=e2136]
+            - generic [ref=e2137] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2138]:
+                - /url: https://in.performancegolf.jp/mc_ssts_ppc_tb_2605
+                - img "Image for Taboola Advertising Unit" [ref=e2140]
+              - 'link "アイアンのトップとダフリを減らす打ち方 Performance Golf Japan in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog)" [ref=e2142]':
+                - /url: https://in.performancegolf.jp/mc_ssts_ppc_tb_2605
+                - generic [ref=e2143]:
+                  - link "アイアンのトップとダフリを減らす打ち方" [ref=e2144]
+                  - generic [ref=e2145]:
+                    - link "Performance Golf Japan in Taboola advertising section" [ref=e2146]: Performance Golf Japan
+                    - generic [ref=e2147]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e2149]':
+                      - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+                      - text: スポンサー
+            - generic [ref=e2150] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2151]:
+                - /url: https://lp.kaitekikobo.jp/lp/sh/origin/b045006_2915.html
+                - img "Image for Taboola Advertising Unit" [ref=e2153]
+              - 'link "アマゾンでバカ売れ「スゥーっと浸透した」爪に潜む菌まで殺菌する特殊ジェル クリアストロングショットアルファ in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) 詳細" [ref=e2155]':
+                - /url: https://lp.kaitekikobo.jp/lp/sh/origin/b045006_2915.html
+                - generic [ref=e2156]:
+                  - link "アマゾンでバカ売れ「スゥーっと浸透した」爪に潜む菌まで殺菌する特殊ジェル" [ref=e2157]
+                  - generic [ref=e2158]:
+                    - link "クリアストロングショットアルファ in Taboola advertising section" [ref=e2159]: クリアストロングショットアルファ
+                    - generic [ref=e2160]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e2162]':
+                      - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+                      - text: スポンサー
+                  - button "詳細" [ref=e2164]
+            - generic [ref=e2165] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2166]:
+                - /url: https://lp.kaitekikobo.jp/lp/sh/origin/b045006_3042.html
+                - img "Image for Taboola Advertising Unit" [ref=e2168]
+              - 'link "アマゾンで爆売れ「スゥーっと浸透した」爪に潜む菌まで殺菌する特殊ジェル クリアストロングショットアルファ in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) 詳細" [ref=e2170]':
+                - /url: https://lp.kaitekikobo.jp/lp/sh/origin/b045006_3042.html
+                - generic [ref=e2171]:
+                  - link "アマゾンで爆売れ「スゥーっと浸透した」爪に潜む菌まで殺菌する特殊ジェル" [ref=e2172]
+                  - generic [ref=e2173]:
+                    - link "クリアストロングショットアルファ in Taboola advertising section" [ref=e2174]: クリアストロングショットアルファ
+                    - generic [ref=e2175]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e2177]':
+                      - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+                      - text: スポンサー
+                  - button "詳細" [ref=e2179]
+            - generic [ref=e2180] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e2181]:
+                - /url: https://www.tomatobuzz.com/498-loyal-dog.html
+                - img "Image for Taboola Advertising Unit" [ref=e2183]
+              - 'link "犬が墓から離れない - 警察、墓を開けて愕然 TomatoBuzz in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) 続きを読む" [ref=e2185]':
+                - /url: https://www.tomatobuzz.com/498-loyal-dog.html
+                - generic [ref=e2186]:
+                  - link "犬が墓から離れない - 警察、墓を開けて愕然" [ref=e2187]
+                  - generic [ref=e2188]:
+                    - link "TomatoBuzz in Taboola advertising section" [ref=e2189]: TomatoBuzz
+                    - generic [ref=e2190]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e2192]':
+                      - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+                      - text: スポンサー
+                  - button "続きを読む" [ref=e2194]
+        - generic:
+          - link "AdChoices information (opens dialog)" [ref=e2196] [cursor=pointer]:
+            - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+          - link "About Taboola recommendations (opens dialog)" [ref=e2200] [cursor=pointer]:
+            - /url: "https://popup.taboola.com/tb-jp/?template=colorbox&utm_source=netkeiba&utm_medium=referral&utm_content=alternating-thumbnails-a-race:Below Article Thumbnails_race:"
+            - text: by Taboola
+      - iframe [ref=e2203]:
+        - iframe [ref=f23e4]:
+          - link [ref=f34e2] [cursor=pointer]:
+            - /url: https://insight.adsrvr.org/track/clk?imp=a35c02b9-a686-4eee-813e-49f7ed8ff780&ag=o24pdlj&sfe=1c524fdf&sig=0GbJxliY5g03SWJdS8jYu6plLVeKYwMvVFIXdaB0S5I.&crid=u7yghsve&cf=10680299&fq=0&t=1&td_s=race.netkeiba.com&rcats=7sp&mste=&mfld=3&mssi=&mfsi=&sv=fluct&uhow=164&agsa=&wp=0.045&rgz=144-0046&dt=PC&osf=OSX&os=OSX1015&br=Chrome&svpid=551&rlangs=ja,os&mlang=&did=&rcxt=Other&tmpc=23.950000000000045&vrtd=&osi=&osv=&daid=&dnr=0&vpb=&crrelr=&npt=&cc=3~KLUv_WPYfRZoZQJ1DgB0EGRmNGJkOGG5AlyjhqbuThGBPkn37Y_3gEIHbzI0cGRsakis89YNUOvviwVaCHU3eWdoc3ZlYPzX_hFyYWNrZXooZDE3YzIyZWU4MTAyMzVjZGRjMAPAAaQBNIj3-8O6vx0YHmZ4NXAyZTnQAtOPigPzNwhiMWF8ZGFtfNzblf-Fk58_MV8yX2ZyZcyDvuao4ikwZGU3NmQ3NS1iNzUwODhiNzhkOTMuN0ExKy9zaHV0IqTVvG-UhN-ONFHd9jPVIdWhqS8cSRG9DGmtXQH1zAsI6LbNutPOlgGrsvD4DA1dhM2eY4mdaQsDmBMAqBNa0BMA_RPXo5A_gBQBoBQBsBQAuBQAyBQAOvyMr-M2uYb3dAhQoE5I0MVKpKBmSBeOXytUxJeA7of-m_pxRFEMEyfl4B3KBtJsiltQlOpLsx5X6pjeAmWlFuDZe6w-NkjK20IJQXrjI7cHmlN2-W8KP5YDZyXi1hwmEn0XWe1CF_Ge00BrgB5M67LJnFHyQvC19h8Mm54QCuDqR03HC-HA_pawio-Hk9kKnOMq2a8KcOzyd1GHtgP9_-cTgwoPLUSFCxkbW-EoPP9ArOpwRAM5GdW80UFKZ2Bh2LY8vAI.&dur=1~KLUv_SMFoCgkXbUAAEggAigFTTOXIj4DfACfji89wd3jDnw.&durs=c0ddDX&bdc=13&mk=Apple&testid=b1a%7Cdam%7C&fpa=354&pcm=3&ict=Unknown&said=0de767cb-4fdb-4d75-b750-a4d388b78d93.7A10&auct=1&tail=1&r=https://netshort.onelink.me/XC68?pid=thetradedesk_int&af_siteid=race.netkeiba.com&c=fx5p2e9&af_c_id=fx5p2e9&af_adset_id=o24pdlj&af_ad_id=u7yghsve&af_click_lookback=7d&clickid=a35c02b9-a686-4eee-813e-49f7ed8ff780&idfa=&advertising_id=&android_id=&af_sig=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ0aGV0cmFkZWRlc2tfaW50IiwiYXVkIjpbImNsaWNrIl0sInZlciI6InYxIiwiaWF0IjoxNzgwMTQyMDQ3LCJleHAiOjE3ODAxNDU2NDcsImp0aSI6ImEzNWMwMmI5LWE2ODYtNGVlZS04MTNlLTQ5ZjdlZDhmZjc4MCIsInN1YiI6IlhDNjgiLCJwYXJhbXMiOnsicGlkIjoidGhldHJhZGVkZXNrX2ludCIsImMiOiJmeDVwMmU5IiwiYWZfc2l0ZWlkIjoicmFjZS5uZXRrZWliYS5jb20ifX0.BTswfW7YlDEKNcXCLV1WlfgZOUr7MmC8xvaStsvHXqU
+            - img [ref=f34e3]
+  - contentinfo [ref=e2204]:
+    - generic [ref=e2205]:
+      - link "ページトップへ" [ref=e2206] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - link "いま競輪が熱い！nerkeirinで競輪を気軽に楽しもう" [ref=e2208] [cursor=pointer]:
+        - /url: //keirin.netkeiba.com/?rf=nk_pc_footer
+        - img "いま競輪が熱い！nerkeirinで競輪を気軽に楽しもう" [ref=e2209]
+      - generic [ref=e2210]:
+        - term [ref=e2211]:
+          - link "netkeiba" [ref=e2212] [cursor=pointer]:
+            - /url: https://www.netkeiba.com/?rf=footer
+            - img "netkeiba" [ref=e2213]
+        - definition [ref=e2214]:
+          - paragraph [ref=e2215]:
+            - text: 利用者数
+            - strong [ref=e2216]: "1700"
+            - text: 万人突破！
+            - strong [ref=e2217]: No.1
+            - text: 競馬サイト
+      - generic [ref=e2218]:
+        - generic [ref=e2219]:
+          - term [ref=e2220]: カテゴリ
+          - definition [ref=e2221]:
+            - list [ref=e2222]:
+              - listitem [ref=e2223]:
+                - link "ニュース" [ref=e2224] [cursor=pointer]:
+                  - /url: https://news.netkeiba.com?rf=footer
+              - listitem [ref=e2225]:
+                - link "レース" [ref=e2226] [cursor=pointer]:
+                  - /url: https://race.netkeiba.com/top/?rf=footer
+              - listitem [ref=e2227]:
+                - link "ウマい馬券" [ref=e2228] [cursor=pointer]:
+                  - /url: https://yoso.netkeiba.com?rf=footer
+              - listitem [ref=e2229]:
+                - link "コラム" [ref=e2230] [cursor=pointer]:
+                  - /url: https://news.netkeiba.com?pid=column_top&rf=footer
+              - listitem [ref=e2231]:
+                - link "netkeibaTV" [ref=e2232] [cursor=pointer]:
+                  - /url: https://tv.netkeiba.com/?rf=footer
+              - listitem [ref=e2233]:
+                - link "地方競馬" [ref=e2234] [cursor=pointer]:
+                  - /url: https://nar.netkeiba.com/top/?rf=footer
+              - listitem [ref=e2235]:
+                - link "データベース" [ref=e2236] [cursor=pointer]:
+                  - /url: https://db.netkeiba.com?rf=footer
+              - listitem [ref=e2237]:
+                - link "俺プロ" [ref=e2238] [cursor=pointer]:
+                  - /url: https://orepro.netkeiba.com?rf=footer
+            - list [ref=e2239]:
+              - listitem [ref=e2240]:
+                - link "一口馬主" [ref=e2241] [cursor=pointer]:
+                  - /url: https://owner.netkeiba.com?pid=migration&rf=footer
+              - listitem [ref=e2242]:
+                - link "POG" [ref=e2243] [cursor=pointer]:
+                  - /url: https://pog.netkeiba.com?rf=footer
+              - listitem [ref=e2244]:
+                - link "競馬広場" [ref=e2245] [cursor=pointer]:
+                  - /url: https://bbs.pc.keiba.findfriends.jp?rf=footer
+              - listitem [ref=e2246]:
+                - link "まとめ" [ref=e2247] [cursor=pointer]:
+                  - /url: https://dir.netkeiba.com//keibamatome/index.html?rf=footer
+              - listitem [ref=e2248]:
+                - link "競馬新聞" [ref=e2249] [cursor=pointer]:
+                  - /url: https://yoso.netkeiba.com/senmonshi/?rf=footer
+              - listitem [ref=e2250]:
+                - link "お気に入り馬" [ref=e2251] [cursor=pointer]:
+                  - /url: https://race.netkeiba.com/bookmark/bookmark.html?rf=footer
+              - listitem [ref=e2252]:
+                - link "アカウント" [ref=e2253] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com?rf=footer
+        - generic [ref=e2254]:
+          - term [ref=e2255]: ヘルプ＆ガイド
+          - definition [ref=e2256]:
+            - list [ref=e2257]:
+              - listitem [ref=e2258]:
+                - link "お知らせ" [ref=e2259] [cursor=pointer]:
+                  - /url: https://info.netkeiba.com//?rf=footer
+              - listitem [ref=e2260]:
+                - link "プレミアムサービスのご案内" [ref=e2261] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com?pid=premium&rf=footer
+              - listitem [ref=e2262]:
+                - link "よくある質問・お問い合わせ" [ref=e2263] [cursor=pointer]:
+                  - /url: https://regist.netkeiba.com?pid=help&rf=footer
+              - listitem [ref=e2264]:
+                - link "のめり込む不安のある方へ" [ref=e2265] [cursor=pointer]:
+                  - /url: https://info.netkeiba.com/?pid=info_detail&id=1172
+        - generic [ref=e2266]:
+          - term [ref=e2267]: netkeibaについて
+          - definition [ref=e2268]:
+            - list [ref=e2269]:
+              - listitem [ref=e2270]:
+                - link "採用情報" [ref=e2271] [cursor=pointer]:
+                  - /url: https://www.netkeiba.com/recruit/?rf=footer
+              - listitem [ref=e2272]:
+                - link "広告掲載について" [ref=e2273] [cursor=pointer]:
+                  - /url: https://www.netkeiba.com/info/ad/?rf=footer
+              - listitem [ref=e2274]:
+                - link "利用規約" [ref=e2275] [cursor=pointer]:
+                  - /url: https://www.netkeiba.com/info/kiyaku.html?rf=footer
+              - listitem [ref=e2276]:
+                - link "プライバシーポリシー" [ref=e2277] [cursor=pointer]:
+                  - /url: https://www.netdreamers.co.jp/company/about/privacy.html?rf=footer
+              - listitem [ref=e2278]:
+                - link "投稿ガイドライン" [ref=e2279] [cursor=pointer]:
+                  - /url: https://www.netkeiba.com/info/guide.html?rf=footer
+              - listitem [ref=e2280]:
+                - link "特定商取引法に基づく表記" [ref=e2281] [cursor=pointer]:
+                  - /url: https://www.netkeiba.com/info/tokusyo.html?rf=footer
+              - listitem [ref=e2282]:
+                - link "ライセンス" [ref=e2283] [cursor=pointer]:
+                  - /url: https://www.netkeiba.com/info/license.html?rf=footer
+              - listitem [ref=e2284]:
+                - link "運営会社" [ref=e2285] [cursor=pointer]:
+                  - /url: https://www.netdreamers.co.jp/?rf=footer
+        - generic [ref=e2286]:
+          - term [ref=e2287]: スマホでnetkeiba
+          - definition [ref=e2288]:
+            - img "検索" [ref=e2289]
+            - img "バーコード" [ref=e2290]
+          - term [ref=e2291]: アプリでサクサクnetkeiba
+          - definition [ref=e2292]:
+            - list [ref=e2293]:
+              - listitem [ref=e2294]:
+                - link "Appstore" [ref=e2295] [cursor=pointer]:
+                  - /url: https://itunes.apple.com/jp/app/id464562684/
+                  - img "Appstore" [ref=e2296]
+              - listitem [ref=e2297]:
+                - link "googleplay" [ref=e2298] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=jp.co.netdreamers.netkeiba
+                  - img "googleplay" [ref=e2299]
+          - term [ref=e2300]: みんなで一緒に競馬を楽しもう!
+          - definition [ref=e2301]:
+            - generic [ref=e2302]:
+              - generic [ref=e2303]:
+                - generic [ref=e2304]: netkeibaを
+                - text: おすすめする
+              - list [ref=e2305]:
+                - listitem [ref=e2306]:
+                  - link [ref=e2307] [cursor=pointer]:
+                    - /url: https://twitter.com/intent/tweet?text=%E3%80%8C%E3%83%8D%E3%83%83%E3%83%88%E3%82%B1%E3%82%A4%E3%83%90%E3%80%8D%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%AB%B6%E9%A6%AC%E3%82%92%E6%A5%BD%E3%81%97%E3%82%82%E3%81%86%EF%BC%81%0A%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%84%E3%83%AC%E3%83%BC%E3%82%B9%E3%81%AE%E6%83%85%E5%A0%B1%E3%81%AA%E3%81%A9%E7%84%A1%E6%96%99%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%81%8C%E7%9B%9B%E3%82%8A%E3%81%A0%E3%81%8F%E3%81%95%E3%82%93%EF%BC%81%0A%0A%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%AF%E2%86%93%E3%81%93%E3%81%A1%E3%82%89%E3%81%8B%E3%82%89%0Ahttps%3A%2F%2Fnetkeiba.onelink.me%2Fcexk%2Fyj5ftwq9
+                    - img [ref=e2308]
+                - listitem [ref=e2309]:
+                  - link [ref=e2310] [cursor=pointer]:
+                    - /url: https://line.me/R/share?text=netkeiba%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%97%E3%81%A6%E7%AB%B6%E9%A6%AC%E3%82%92%E3%82%82%E3%81%A3%E3%81%A8%E6%A5%BD%E3%81%97%E3%82%82%E3%81%86%EF%BC%81%0D%0Ahttps%3A%2F%2Fnetkeiba.onelink.me%2Fcexk%2Fki89eacp
+                    - img [ref=e2311]
+                - listitem [ref=e2312]:
+                  - link [ref=e2313] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e2314]
+              - generic [ref=e2315]:
+                - img [ref=e2316]
+                - text: URLリンクをコピーしました
+          - term [ref=e2320]: netkeiba公式SNS!
+          - definition [ref=e2321]:
+            - list [ref=e2322]:
+              - listitem [ref=e2323]:
+                - link "公式 X" [ref=e2324] [cursor=pointer]:
+                  - /url: https://twitter.com/netkeiba
+                  - img [ref=e2325]
+              - listitem [ref=e2327]:
+                - link "公式 Facebook" [ref=e2328] [cursor=pointer]:
+                  - /url: https://ja-jp.facebook.com/netkeiba
+                  - img [ref=e2329]
+              - listitem [ref=e2331]:
+                - link "LINE" [ref=e2332] [cursor=pointer]:
+                  - /url: https://line.me/R/ti/p/%40oa-netkeiba
+                  - img [ref=e2333]
+              - listitem [ref=e2340]:
+                - link "netkeibaチャンネル" [ref=e2341] [cursor=pointer]:
+                  - /url: http://www.youtube.com/user/netkeibaTV
+                  - img [ref=e2342]
+              - listitem [ref=e2345]:
+                - link "Instagram" [ref=e2346] [cursor=pointer]:
+                  - /url: https://www.instagram.com/netkeiba/
+                  - img [ref=e2347]
+              - listitem [ref=e2351]:
+                - link "RSS" [ref=e2352] [cursor=pointer]:
+                  - /url: https://www.netkeiba.com/?pid=rss
+                  - img [ref=e2353]
+    - generic [ref=e2355]:
+      - generic [ref=e2356]:
+        - generic [ref=e2357]:
+          - term [ref=e2358]: netkeiba 公式競馬ゲーム
+          - definition [ref=e2359]:
+            - list [ref=e2360]:
+              - listitem [ref=e2361]:
+                - link "みんなの愛馬とバトル！ うまいるスタジアム" [ref=e2362] [cursor=pointer]:
+                  - /url: https://www.netkeiba.com/game/umasta.html?rf=footer
+                  - text: みんなの愛馬とバトル！
+                  - strong [ref=e2363]: うまいるスタジアム
+          - term [ref=e2364]: netkeiba 姉妹サイト
+          - definition [ref=e2365]:
+            - list [ref=e2366]:
+              - listitem [ref=e2367]:
+                - link "愛馬の管理はお任せ！ netkeibaオーナーズ" [ref=e2368] [cursor=pointer]:
+                  - /url: //own.netkeiba.com/?rf=footer
+                  - text: 愛馬の管理はお任せ！
+                  - strong [ref=e2369]: netkeibaオーナーズ
+              - listitem [ref=e2370]:
+                - link "競輪総合メディア netkeirin(ネットケイリン)" [ref=e2371] [cursor=pointer]:
+                  - /url: //keirin.netkeiba.com/?rf=footer
+                  - text: 競輪総合メディア
+                  - strong [ref=e2372]: netkeirin(ネットケイリン)
+        - generic [ref=e2373]:
+          - term [ref=e2374]: 関連メディア
+          - definition [ref=e2375]:
+            - list [ref=e2376]:
+              - listitem [ref=e2377]:
+                - link "徹底取材！野球情報は 週刊ベースボールONLINE" [ref=e2378] [cursor=pointer]:
+                  - /url: https://sp.baseball.findfriends.jp/?rf=footer
+                  - text: 徹底取材！野球情報は
+                  - strong [ref=e2379]: 週刊ベースボールONLINE
+              - listitem [ref=e2380]:
+                - link "ゴルフレッスン情報サイト ワッグルオンライン" [ref=e2381] [cursor=pointer]:
+                  - /url: https://sp.golf.findfriends.jp/?rf=footer
+                  - text: ゴルフレッスン情報サイト
+                  - strong [ref=e2382]: ワッグルオンライン
+              - listitem [ref=e2383]:
+                - link "小林カツ代直伝！ KATSUYOレシピ" [ref=e2384] [cursor=pointer]:
+                  - /url: https://recipe.sp.findfriends.jp/?rf=footer
+                  - text: 小林カツ代直伝！
+                  - strong [ref=e2385]: KATSUYOレシピ
+        - generic [ref=e2386]:
+          - term [ref=e2387]: ソフトウェア・プロダクト
+          - definition [ref=e2388]:
+            - list [ref=e2389]:
+              - listitem [ref=e2390]:
+                - link "もっともセキュアな店舗売上向上アプリ SMART会員証" [ref=e2391] [cursor=pointer]:
+                  - /url: https://smart.lets-ktai.jp/?rf=footer
+                  - text: もっともセキュアな店舗売上向上アプリ
+                  - strong [ref=e2392]: SMART会員証
+              - listitem [ref=e2393]:
+                - link "サイト運営を劇的に効率化するCMS WEB SPIRAL" [ref=e2394] [cursor=pointer]:
+                  - /url: https://webspiral.jp/?rf=footer
+                  - text: サイト運営を劇的に効率化するCMS
+                  - strong [ref=e2395]: WEB SPIRAL
+      - paragraph [ref=e2396]: © NET DREAMERS, Co., Ltd. All Rights Reserved.
+    - iframe [ref=e2401]:
+      - iframe [ref=f21e2]:
+        - iframe [ref=f30e2]:
+          - generic [ref=f33e2] [cursor=pointer]:
+            - link [ref=f33e4]:
+              - /url: https://privacy.as.criteo.com/adchoices?cppv=3&cpp=kPclLfdUXyH_FugulzaZg6QPcccdb0pfyk8LsWvpMUAXWneRwZrxHO1O8FaSf4Yw0WmDwaChLjDypLU40AObCuMrjO0EK62nOK-r4I4XiEXx84XensIMQf0JOQriFw4g2E_kkc2v0mFwpfFtS3N0B9Vv_kE
+              - img [ref=f33e5]
+            - img [ref=f33e7]
+            - generic [ref=f33e8]:
+              - link [ref=f33e9]:
+                - /url: https://cat.jp2.as.criteo.com/delivery/ck.php?cppv=3&cpp=OgbTV07zuv6xnY9esgxumka8PfRVYnlvgIIioF4dkSsyMf56l5DBl2mR6x8Qi2ayfEFcPEPp8zB852EL1O6f5nSLiwzHzIUp0pAegNasDbMcgqXvHCMR8kJcVhI5WrsEvFZIgdWDM-eP0NU6yA6Xje8iQDlqE7lqAdOzZ_lGyt_PDLsD3rD-mHnWpdFflH32kVvewGiGrdmJmcZlGFx8fzEICajJSINkhOXItX9Dy4C0GvdoOMAmnx6RdRpUxjWGYJYWHrprSJz1OBl60WC9qLqDE4ESQiAdFkPD6F9BOsf-r8mXYeTcwr1IVt7flqlb5B7cnou2hiIveZoZt3rENsoyCwOjGe8Qo1f_ovKuoHmJ505aJZODeOhO1zeCOKnwQB3HS7ejyPa1uep0kyPutcZjWyqNSOqrPFZwmxqXuSBOFCGRIke-UQUi_nOwhD53buDuENOKbcjiQN3aq0u3G8V3CFJYLbFPdw4psx3QL_ymWCGNfxq8eVQedoXpXnIW-Qr2TnU18oh9dvMvgJiNSPulAafBFGdKfknUCVMAfUPBkddW3z-SAJC2Pf6x0plS7L85H60sK0PKw38Ll021AnjyuzPhCidmUkCnYHmWeTrjAdqsupcxkKfk8uQ9ARYZ1qXynAElexELfiQUThtExjVK0QY&maxdest=http%3A%2F%2Fwww.leopalace21.com%2F%3Futm_source%3Dcriteo%26utm_medium%3Ddisplay%26utm_campaign%3Dprospecting%26utm_content%3D2025-10-01-dynamic-property-1x1-feed-jp-prospectinggo%26utm_id%3D568090%26cto_pld%3DhV68fCwSAAA94gffns5bxQ
+              - generic [ref=f33e13]:
+                - link [ref=f33e14]:
+                  - /url: https://cat.jp2.as.criteo.com/delivery/ck.php?cppv=3&cpp=K8FTck7zuv6xnY9esgxumka8PfRVYnlvgIIioF4dkSsyMf56l5DBl2mR6x8Qi2ayfEFcPEPp8zB852EL1O6f5nSLiwzHzIUp0pAegNasDbMcgqXvHCMR8kJcVhI5WrsEvFZIgdWDM-eP0NU6yA6Xje8iQDlqE7lqAdOzZ_lGyt_PDLsD3rD-mHnWpdFflH32kVvewGiGrdmJmcZlGFx8fzEICajJSINkhOXItX9Dy4C0GvdoOMAmnx6RdRpUxjWGYJYWHrprSJz1OBl60WC9qLqDE4ESQiAdFkPD6F9BOsf-r8mXYeTcwr1IVt7flqlb5B7cnou2hiIveZoZt3rENsoyCwOjGe8Qo1f_ovKuoHmJ505aJZODeOhO1zeCOKnwQB3HS7ejyPa1uep0kyPutcZjWyqNSOqrPFZwmxqXuSBOFCGRIke-UQUi_nOwhD53buDuENOKbcjiQN3aq0u3G8V3CFK3UQ7utyXQUQN12xaxpdW5VeUVrkJHSp5CgntymWfr5pk1G_ftP8NfBtS5iKJSfp-IXVkhGNgW-H2-b0w2aEbqgQ7dMdjUWDDY4ek6yswWNnSIdnHoPJApyNYQJIyJRzK-a2HC1laPwqHLbtub-OP41jY6feaXrBYFZJFjBWEK6ooThTqfmrESGAx3-AAiQoM&maxdest=http%3A%2F%2Fwww.leopalace21.com%2F%3Futm_source%3Dcriteo%26utm_medium%3Ddisplay%26utm_campaign%3Dprospecting%26utm_content%3D2025-10-01-dynamic-property-1x1-feed-jp-prospectinggo%26utm_id%3D568090%26cto_pld%3DzmmIciwSAACp5VnHSXWN0Q
+                - generic [ref=f33e24]:
+                  - link "鎌倉市 ¥106,000" [ref=f33e26]:
+                    - /url: https://cat.jp2.as.criteo.com/delivery/ck.php?cppv=3&cpp=TRs8aU7zuv6xnY9esgxumka8PfRVYnlvgIIioF4dkSsyMf56l5DBl2mR6x8Qi2ayfEFcPEPp8zB852EL1O6f5nSLiwzHzIUp0pAegNasDbMcgqXvHCMR8kJcVhI5WrsEvFZIgdWDM-eP0NU6yA6Xje8iQDlqE7lqAdOzZ_lGyt_PDLsDrfHQKWKwBcPnqKhkrnioGQ4a8McEyrxGmxsmGKMkksEH8lWP3ezm5Elg2SC2wVj7-hm-bApTxkvvtG7avWTMmzwOENEDZJzZlDTMuUM-PrGEH_kOtKkf8F8Yd6GM_7r0PfBwVUTQV3_PhirXVkJLwTXHhbfJooTX57JGqrElBZDx4NSOXS9qLR41PmjXBXFSGo05SYal-O-viSXqjmqW3ZcXhMUif82hHn3gdKAxUKWIJax8CBT4Eseu1NiqKqm2oxZUhjvxy7-CYPyJr9n6bytPv3NaXsm8XKujo4wiew1vtgfDU5TwU_NM4tV5KuvRZi47YAic-_pv3msLDaBTtsWlQM4ALt-DTNJnc_MogyNe_bV7jF3UeznAzJjeWYynZcnfZW2s5o53MkVJbRpqTUQz1vP_RFNsVVGkWXbtQJ8paiqIt5o4Huz2PjPo7x5BtIBaWAgMQd2QnT-dJVNmP6HBQXK0n95__FlgxzjgnNdCs4FJwPvAhAKtxCG4ysoR&maxdest=https%3A%2F%2Fwww.leopalace21.com%2Fproperties%2Fchintai%2Fkanagawa%2Fkamakura-shi-14204%2Fkamakura-dainomineso-55326%2F204%3Futm_source%3Dcriteo%26utm_medium%3Ddisplay%26utm_campaign%3Dprospecting%26utm_content%3D2025-10-01-dynamic-property-1x1-feed-jp-prospectinggo%26utm_id%3D568090%26cto_pld%3DtmmTMSwSAAC-lwRF-DHLDg
+                    - generic [ref=f33e38]:
+                      - generic [ref=f33e42]: 鎌倉市
+                      - generic [ref=f33e47]: ¥106,000
+                  - link "一宮市 ¥45,000" [ref=f33e49]:
+                    - /url: https://cat.jp2.as.criteo.com/delivery/ck.php?cppv=3&cpp=U_0AK07zuv6xnY9esgxumka8PfRVYnlvgIIioF4dkSsyMf56l5DBl2mR6x8Qi2ayfEFcPEPp8zB852EL1O6f5nSLiwzHzIUp0pAegNasDbMcgqXvHCMR8kJcVhI5WrsEvFZIgdWDM-eP0NU6yA6Xje8iQDlqE7lqAdOzZ_lGyt_PDLsD7-5LkGp421BMorfm9zHe-8vbPCaTQkQBKD4983Cxf8e6kB--Y6V7zmvjJHq0CQ8a5RwGtIs3_k9OzdjxjxmzWlm5ux0prlMp9z3Tg-3L1D2bhczd7VozNqPuMQiXx7xNs073rNUmSQyj0aum1qhbLvgDokpOB84Y8a-JMFY96UwmXriL3IxVLtpz6sNnfLbje3KZz7lk-_MpdsiBRmjFYGXciUs_ogKREiUQgbki2QgTyJe28B3V3kYbQPwMlo_c_9EvC4BhQCkhXpROStkhqaRTGa2EZF8TvDWU8qRaXG6jSXZLWysVBK0rnQi8WM4Q54vIPYmlMUM1lQon2cYvrbrKxj4-b4pmNd4dSa9Yw18ngTzXGH2qDmwTnoMZAvjGpbW3BGOYOWat5sfN1MGx0L4RN5EmQqB0jFl8Fh5aQgqDyEEuQwVD_nLxFOm_QOyorfYn8IxqD53MK7xQhNMRgOZoh0XH6cFxVySXHkqkZUqmLMIlk5fkEF2xeeHF-vjt&maxdest=https%3A%2F%2Fwww.leopalace21.com%2Fproperties%2Fchintai%2Faichi%2Fichinomiya-shi-23203%2Fnoah-32194%2F110%3Futm_source%3Dcriteo%26utm_medium%3Ddisplay%26utm_campaign%3Dprospecting%26utm_content%3D2025-10-01-dynamic-property-1x1-feed-jp-prospectinggo%26utm_id%3D568090%26cto_pld%3DhiQOISwSAADQlHV7-SVdhw
+                    - generic [ref=f33e61]:
+                      - generic [ref=f33e65]: 一宮市
+                      - generic [ref=f33e70]: ¥45,000
+                  - link "板橋区 ¥90,000" [ref=f33e72]:
+                    - /url: https://cat.jp2.as.criteo.com/delivery/ck.php?cppv=3&cpp=SqgLJE7zuv6xnY9esgxumka8PfRVYnlvgIIioF4dkSsyMf56l5DBl2mR6x8Qi2ayfEFcPEPp8zB852EL1O6f5nSLiwzHzIUp0pAegNasDbMcgqXvHCMR8kJcVhI5WrsEvFZIgdWDM-eP0NU6yA6Xje8iQDlqE7lqAdOzZ_lGyt_PDLsDSbs9yLPzjogLpyb8b4rCFaivvsLbMQsHcz0POgY7RVB2m2KwFeMhCwSGhyQHZBzKh7KRimFFmm68JZAemHAZgv-BaXoQ3ytM-KMYMT4rcEDruqrRoJ2taYewx9EPR88dVLgvgf5bkgM6gy05dqY5AACcTs0gXHFxvTywXDsE96UlhCoc3Avogoty99NywiXnXiM6q7dNK4s7Co7S0ZJT0gsIQVth6BJP4qYgDZ-BKO5JjMx51dn8dOKfyCLYDht9GByjaxVNnVNcfADhaw7KOeEHtYzSLAw3rAzKDARJsK242ESVxBP_qyS3tClUu4O_XDdTumR8Uzhw7bUv61zvCBxojHOUt4GRm7snRCaTJ3P-6sEkmV6OEf3nLKkpIo4PUnnB5uHNBq7mQdTBIAxAypu1MhX-FNcQaYliJ2wR8DFzdN5FdnLSVtodEOwUjgkxyImaCa40PSAj6qfMAjp5JYMmY_lznfF_xZNi51WG04XsFsSKeoMxiXGbsQIVDK9m&maxdest=https%3A%2F%2Fwww.leopalace21.com%2Fproperties%2Fchintai%2Ftokyo%2Fitabashi-ku-13119%2Flumiere-nishidai-36682%2F209%3Futm_source%3Dcriteo%26utm_medium%3Ddisplay%26utm_campaign%3Dprospecting%26utm_content%3D2025-10-01-dynamic-property-1x1-feed-jp-prospectinggo%26utm_id%3D568090%26cto_pld%3D1H-1-SwSAAAKQYataVqsrQ
+                    - generic [ref=f33e84]:
+                      - generic [ref=f33e88]: 板橋区
+                      - generic [ref=f33e93]: ¥90,000
+                  - link "港区 ¥184,000" [ref=f33e95]:
+                    - /url: https://cat.jp2.as.criteo.com/delivery/ck.php?cppv=3&cpp=fMWIsk7zuv6xnY9esgxumka8PfRVYnlvgIIioF4dkSsyMf56l5DBl2mR6x8Qi2ayfEFcPEPp8zB852EL1O6f5nSLiwzHzIUp0pAegNasDbMcgqXvHCMR8kJcVhI5WrsEvFZIgdWDM-eP0NU6yA6Xje8iQDlqE7lqAdOzZ_lGyt_PDLsDd9YtTr2gAm3LU7BboSuGIhguz5Kyc_gp8i73lDBeM4pil2dWhpitB76OlFYLvwgOgJDIaFdLvoWqcrbamPDiajXk5k9_nuESJHJenLaWq-9vlyhybqzVNT_LqR7s1T9YZxhS5GEjNhvqI8Wqb8LyQRoAk69wh5S78gHqEYwqnVDZGSjXVs-kO2JBjH5-nr3QjHlkv-DHFQCMqJ--BieA9JdOS2P1H2QoOVOt5CkKcrTGOmthnLZHzyJ3iXCF8_cBhLvE5-ty3MSRNrA-0aYo7E6nINFbaJo8opgwiRXWli-G9ZPvMH3cRbCfSWLX6s1W9DG2rkUe7KMeNZEQ3vdURVjznamScDJuQ3B62K_gwyB8gw_10ZVQS4s65XI_sQFOD1eSauXeVVfoloUPivgdxfz0hX7yuHFJDOpuEfoC7bDSkwV_dm4SklVSbGJxPgGhnvGiMyLvObYABu12WWQHiWgi_ZvNIMJ8AXg_dGeHGw_-JITvDTQHIKYJoE4VSqm_&maxdest=https%3A%2F%2Fwww.leopalace21.com%2Fproperties%2Fchintai%2Ftokyo%2Fminato-ku-13103%2Fazabujuuban-57371%2F402%3Futm_source%3Dcriteo%26utm_medium%3Ddisplay%26utm_campaign%3Dprospecting%26utm_content%3D2025-10-01-dynamic-property-1x1-feed-jp-prospectinggo%26utm_id%3D568090%26cto_pld%3D6m9-xiwSAAABwRepiXVY1g
+                    - generic [ref=f33e107]:
+                      - generic [ref=f33e111]: 港区
+                      - generic [ref=f33e116]: ¥184,000
+  - log [ref=e2402]
+  - log [ref=e2403]
+  - log [ref=e2404]
+  - log [ref=e2405]
+  - log [ref=e2406]
+  - log [ref=e2407]
+  - log [ref=e2408]
+  - log [ref=e2409]
+  - log [ref=e2410]
+  - log [ref=e2411]
+  - log [ref=e2412]
+  - log [ref=e2413]
+  - log [ref=e2414]
+  - log [ref=e2415]
+  - log [ref=e2416]
+  - log [ref=e2417]
+  - log [ref=e2418]
+  - log [ref=e2419]
+  - iframe
+  - generic [ref=e2424]:
+    - link "Ad" [ref=e2425] [cursor=pointer]:
+      - /url: https://popup.taboola.com/en
+    - link [ref=e2426] [cursor=pointer]:
+      - /url: https://popup.taboola.com/en
