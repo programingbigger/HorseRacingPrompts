@@ -2,3 +2,4 @@
 .gemini/
 *.log
 Info/
+agent-memory/
