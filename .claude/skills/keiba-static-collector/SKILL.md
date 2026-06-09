@@ -58,7 +58,7 @@ description: >
 |---|---|---|
 | 1 | 対象日・対象レースの特定 | [reference/step1_target.md](reference/step1_target.md) |
 | 2 | 競馬場情報の収集（コース状態） | [reference/step2_course.md](reference/step2_course.md) |
-| 3 | 馬情報の収集（⑧⑪⑫） | [reference/step3_horse.md](reference/step3_horse.md) |
+| 3 | 馬情報の収集（⑧⑪⑫⑬） | [reference/step3_horse.md](reference/step3_horse.md) |
 | 4 | 騎手情報の収集（⑥） | [reference/step4_jockey.md](reference/step4_jockey.md) |
 | 5 | 調教師情報の収集 | [reference/step5_trainer.md](reference/step5_trainer.md) |
 | 7 | その他の情報収集 | [reference/step7_other.md](reference/step7_other.md) |

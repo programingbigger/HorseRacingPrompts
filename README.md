@@ -35,13 +35,13 @@ keiba-tansho-pickerエージェントを使って、直近の安田記念に向�
 keiba-tansho-pickerエージェントを使って、予想して https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
 ```
 
-### 当日収集（開発中）
+### 当日収集
 
 ```
-keiba-tansho-pickerエージェントを使って、当日収集して
+keiba-tansho-pickerエージェントを使って、当日情報を収集して {URL}
 ```
 
-> ⚠️ 当日収集機能は現在開発中です。当日はキャッシュ情報で予想してください。
+URL を省略した場合は入力を促されます。`keiba-dynamic-collector` スキルが起動し、当日馬場傾向を `Info/dynamic/` に保存します。
 
 ## ファイル構成
 
@@ -52,15 +52,19 @@ HorseRacingPrompts/
 │   ├── agents/
 │   │   └── keiba-tansho-picker.md          # エージェント定義
 │   └── skills/
-│       └── keiba-static-collector/
-│           └── SKILL.md                    # 情報収集スキル定義
+│       ├── keiba-static-collector/
+│       │   └── SKILL.md                    # 前日情報収集スキル定義
+│       └── keiba-dynamic-collector/
+│           └── SKILL.md                    # 当日馬場傾向収集スキル定義
 │
 ├── Info/                                   # ← gitignore 対象（ローカルのみ）
-│   └── static/
-│       ├── 馬情報/{馬ID}.md
-│       ├── 騎手/{騎手ID}.md
-│       ├── 競馬場/{中央or地方}/{競馬場名}.md
-│       └── その他/
+│   ├── static/                             # 前日収集キャッシュ
+│   │   ├── 馬情報/{馬ID}.md
+│   │   ├── 騎手/{騎手ID}.md
+│   │   ├── 競馬場/{中央or地方}/{競馬場名}.md
+│   │   └── その他/
+│   └── dynamic/                            # 当日収集キャッシュ
+│       └── {YYYY-MM-DD}/{競馬場名}/馬場傾向_{N}R向け.md
 │
 ├── README.md
 ├── SPEC.md                                 # 詳細仕様・TODO
@@ -77,7 +81,7 @@ HorseRacingPrompts/
 |--------|-----------|------|
 | **情報収集モード** | 「前日情報を収集して」「直近の〇〇記念に向けて収集」 | `keiba-static-collector` スキルを起動し `Info/static/` にキャッシュ保存 |
 | **予想モード** | 出走表URL + 「予想して」 | `Info/static/` のキャッシュを参照し単勝3頭を推奨 |
-| **当日収集モード** | 「当日収集して」 | 開発中の旨をアナウンス |
+| **当日収集モード** | 「当日収集して」「当日情報を収集して {URL}」 | `keiba-dynamic-collector` スキルを起動し `Info/dynamic/` に保存 |
 
 ### `keiba-static-collector` スキル
 
@@ -91,6 +95,16 @@ HorseRacingPrompts/
 
 保存先：`Info/static/` 配下（ローカルのみ・gitignore 対象）
 
+### `keiba-dynamic-collector` スキル
+
+当日の馬場傾向をリアルタイム収集するスキルです。
+
+収集するデータ：
+- コーナー通過順位（直近3R分、脚質・バイアス判定）
+- 天気・馬場状態（tenki.jp / JRA公式）
+
+保存先：`Info/dynamic/{日付}/{競馬場}/` 配下（ローカルのみ・gitignore 対象）
+
 ## 現状のデータフロー
 
 ```
@@ -101,7 +115,17 @@ keiba-static-collector スキルが起動
   ↓
 Info/static/ 配下に馬・騎手・競馬場情報をキャッシュ保存
 
-【当日】
+【当日・馬場傾向収集】
+keiba-tansho-pickerエージェントを使って、当日情報を収集して {URL}
+  ↓
+keiba-dynamic-collector スキルが起動
+  ↓
+直近3R分のコーナー通過順位を収集（netkeiba）
+脚質・バイアス判定 + tenki.jp から天気取得
+  ↓
+Info/dynamic/{日付}/{競馬場}/馬場傾向_{N}R向け.md に保存
+
+【当日・予想】
 keiba-tansho-pickerエージェントを使って、予想して {URL}
   ↓
 Info/static/ のキャッシュを参照して期待値計算・スコアリング
