@@ -12,6 +12,8 @@
 
 単純に当てにいくのではなく、**「過小評価されている馬（オッズ妙味がある馬）」を見つける**ことを最優先とします。
 
+> ファイル構成・各コンポーネントの詳細仕様・データフロー・今後の改修計画（TODO）は [SPEC.md](SPEC.md) を参照してください。本 README は使い方と運用ルールのみを扱います。
+
 ## 使い方
 
 Claude Code 上でチャットする際は、**必ず以下の形式でエージェントを指定してください。**
@@ -29,121 +31,24 @@ keiba-tansho-pickerエージェントを使って、前日情報を収集して
 keiba-tansho-pickerエージェントを使って、直近の安田記念に向けて収集して
 ```
 
+`keiba-static-collector` スキルが起動し、馬・騎手・調教師・競馬場情報を `Info/static/` にキャッシュします。
+
+### 当日収集（予想の直前に推奨）
+
+```
+keiba-tansho-pickerエージェントを使って、当日情報を収集して {URL}
+```
+
+URL を省略した場合は入力を促されます。`keiba-dynamic-collector` スキルが起動し、当日馬場傾向（脚質・バイアス・馬場発表）を `Info/dynamic/` に保存します。
+
 ### 予想
 
 ```
 keiba-tansho-pickerエージェントを使って、予想して https://race.netkeiba.com/race/shutuba.html?race_id=202605021211
 ```
 
-### 当日収集
-
-```
-keiba-tansho-pickerエージェントを使って、当日情報を収集して {URL}
-```
-
-URL を省略した場合は入力を促されます。`keiba-dynamic-collector` スキルが起動し、当日馬場傾向を `Info/dynamic/` に保存します。
-
-## ファイル構成
-
-```
-HorseRacingPrompts/
-│
-├── .claude/
-│   ├── agents/
-│   │   └── keiba-tansho-picker.md          # エージェント定義
-│   └── skills/
-│       ├── keiba-static-collector/
-│       │   └── SKILL.md                    # 前日情報収集スキル定義
-│       └── keiba-dynamic-collector/
-│           └── SKILL.md                    # 当日馬場傾向収集スキル定義
-│
-├── Info/                                   # ← gitignore 対象（ローカルのみ）
-│   ├── static/                             # 前日収集キャッシュ
-│   │   ├── 馬情報/{馬ID}.md
-│   │   ├── 騎手/{騎手ID}.md
-│   │   ├── 競馬場/{中央or地方}/{競馬場名}.md
-│   │   └── その他/
-│   └── dynamic/                            # 当日収集キャッシュ
-│       └── {YYYY-MM-DD}/{競馬場名}/馬場傾向_{N}R向け.md
-│
-├── README.md
-├── SPEC.md                                 # 詳細仕様・TODO
-└── LICENSE
-```
-
-## コンポーネント
-
-### `keiba-tansho-picker` エージェント
-
-ユーザーの指示を受け取り、以下の3つのモードで動作します。
-
-| モード | トリガー例 | 動作 |
-|--------|-----------|------|
-| **情報収集モード** | 「前日情報を収集して」「直近の〇〇記念に向けて収集」 | `keiba-static-collector` スキルを起動し `Info/static/` にキャッシュ保存 |
-| **予想モード** | 出走表URL + 「予想して」 | `Info/static/` のキャッシュを参照し単勝3頭を推奨 |
-| **当日収集モード** | 「当日収集して」「当日情報を収集して {URL}」 | `keiba-dynamic-collector` スキルを起動し `Info/dynamic/` に保存 |
-
-### `keiba-static-collector` スキル
-
-前日情報を事前収集・キャッシュするスキルです。スケジューラによる自動実行を想定しています。
-
-収集するデータ：
-- 馬情報（距離適性・前走展開・体重ベスト値）
-- 騎手情報（当コース成績）
-- 調教師情報
-- 競馬場情報（コース状態・内外有利）
-
-保存先：`Info/static/` 配下（ローカルのみ・gitignore 対象）
-
-### `keiba-dynamic-collector` スキル
-
-当日の馬場傾向をリアルタイム収集するスキルです。
-
-収集するデータ：
-- コーナー通過順位（直近3R分、脚質・バイアス判定）
-- 天気・馬場状態（tenki.jp / JRA公式）
-
-保存先：`Info/dynamic/{日付}/{競馬場}/` 配下（ローカルのみ・gitignore 対象）
-
-## 現状のデータフロー
-
-```
-【前日】
-keiba-tansho-pickerエージェントを使って、前日情報を収集して
-  ↓
-keiba-static-collector スキルが起動
-  ↓
-Info/static/ 配下に馬・騎手・競馬場情報をキャッシュ保存
-
-【当日・馬場傾向収集】
-keiba-tansho-pickerエージェントを使って、当日情報を収集して {URL}
-  ↓
-keiba-dynamic-collector スキルが起動
-  ↓
-直近3R分のコーナー通過順位を収集（netkeiba）
-脚質・バイアス判定 + tenki.jp から天気取得
-  ↓
-Info/dynamic/{日付}/{競馬場}/馬場傾向_{N}R向け.md に保存
-
-【当日・予想】
-keiba-tansho-pickerエージェントを使って、予想して {URL}
-  ↓
-Info/static/ のキャッシュを参照して期待値計算・スコアリング
-  ↓
-単勝推奨3頭（◎本命・○対抗・▲単穴）をチャットで提示
-```
-
-## 今後（v2）
-
-フィードバックループの確立に向けて以下を追加予定：
-
-| フォルダ | 内容 |
-|----------|------|
-| `data/` | 純粋な情報素材（AIの判断なし） |
-| `predictions/` | AIの予想・推奨（新設） |
-| `feedback/` | レース結果との照合・自己反省（新設） |
-
-詳細は [SPEC.md](SPEC.md) を参照してください。
+`Info/static/` と `Info/dynamic/`（当日傾向・ある場合）のキャッシュを参照し、単勝推奨3頭（◎本命・○対抗・▲単穴）を提示します。
+当日傾向キャッシュがない状態でも予想は可能ですが、馬場バイアスが反映されないため、**当日収集 → 予想** の順での実行を推奨します。
 
 ## ブランチ設計
 
