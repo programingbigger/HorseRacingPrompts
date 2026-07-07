@@ -1,6 +1,6 @@
 # HorseRacingPrompts — プロジェクト仕様書
 
-**最終更新：** 2026年06月10日  
+**最終更新：** 2026年07月07日  
 **目的：** 単勝馬券の回収率をプラスにする自己改善型AIシステムの構築
 
 ---
@@ -35,7 +35,9 @@ keiba-tansho-pickerエージェントを使って、{指示}
 | 前日情報を収集する | `keiba-tansho-pickerエージェントを使って、前日情報を収集して` |
 | 特定レース向けに収集 | `keiba-tansho-pickerエージェントを使って、直近の安田記念に向けて収集して` |
 | 予想する | `keiba-tansho-pickerエージェントを使って、予想して https://race.netkeiba.com/race/shutuba.html?race_id=XXXXXX` |
-| 当日情報を収集（開発中） | `keiba-tansho-pickerエージェントを使って、当日収集して` |
+| 当日情報を収集 | `keiba-tansho-pickerエージェントを使って、当日収集して` |
+| 結果を記録・振り返る | `keiba-tansho-pickerエージェントを使って、結果を記録して` |
+| サマリーを生成する | `keiba-tansho-pickerエージェントを使って、サマリーを作って` |
 
 ---
 
@@ -52,12 +54,23 @@ HorseRacingPrompts/
 │   │   │   ├── SKILL.md                    # 前日情報収集スキルの定義
 │   │   │   ├── assets/                     # MDフォーマット等
 │   │   │   └── reference/                  # 各ステップの詳細仕様
-│   │   └── keiba-dynamic-collector/
-│   │       ├── SKILL.md                    # 当日馬場傾向収集スキルの定義
-│   │       ├── assets/                     # MDフォーマット等
-│   │       └── reference/                  # 各ステップの詳細仕様
+│   │   ├── keiba-dynamic-collector/
+│   │   │   ├── SKILL.md                    # 当日馬場傾向収集スキルの定義
+│   │   │   ├── assets/                     # MDフォーマット等
+│   │   │   └── reference/                  # 各ステップの詳細仕様
+│   │   ├── keiba-result-recorder/
+│   │   │   ├── SKILL.md                    # 結果記録・振り返りスキルの定義
+│   │   │   ├── assets/csv_format.md        # 予想レコードDBの列定義（真実源）
+│   │   │   └── reference/analysis_guide.md # 現状分析・ネクストアクションの観点
+│   │   └── keiba-summary-reporter/
+│   │       ├── SKILL.md                    # 構築者向けサマリー生成スキルの定義
+│   │       └── assets/summary_format.md    # summary.md のフォーマット
 │   └── agent-memory/
 │       └── keiba-tansho-picker/            # エージェントの記憶（蓄積型）
+│
+├── records/                                # ← 結果を貯めるDB（git管理対象）
+│   ├── predictions.csv                     # 1予想=1レコード（予想/結果/参照情報/判断理由/分析/ネクストアクション）
+│   └── summary.md                          # 構築者レビュー用サマリー（依頼時に生成）
 │
 ├── Info/                                   # ← gitignore 対象（ローカルのみ）
 │   ├── static/                             # 前日収集キャッシュ
@@ -85,7 +98,7 @@ HorseRacingPrompts/
 
 | 項目 | 内容 |
 |------|------|
-| **役割** | ユーザーの指示を受け取り、3つのモードで動作するエージェント |
+| **役割** | ユーザーの指示を受け取り、5つのモードで動作するエージェント |
 | **モデル** | Claude Opus（高精度分析のため） |
 | **起動方法** | `keiba-tansho-pickerエージェントを使って、{指示}` |
 | **記憶** | `.claude/agent-memory/keiba-tansho-picker/` に経験を蓄積 |
@@ -95,8 +108,10 @@ HorseRacingPrompts/
 | モード | トリガー例 | 動作 |
 |--------|-----------|------|
 | **情報収集モード** | 「前日情報を収集して」「直近の〇〇記念に向けて収集」 | `keiba-static-collector` スキルを起動し `Info/static/` にキャッシュ保存 |
-| **予想モード** | 出走表URL + 「予想して」 | `Info/static/`・`Info/dynamic/` のキャッシュを参照し単勝3頭を推奨 |
+| **予想モード** | 出走表URL + 「予想して」 | `Info/static/`・`Info/dynamic/` のキャッシュを参照し単勝3頭を推奨。予想レコードを `records/predictions.csv` に追記（status=結果待ち） |
 | **当日収集モード** | 「当日収集して」「当日情報を収集して {URL}」 | `keiba-dynamic-collector` スキルを起動し `Info/dynamic/` に保存 |
+| **結果記録モード** | 「結果を記録して」「答え合わせして」 | `keiba-result-recorder` スキルを起動し、結果待ちレコードに結果・現状分析・ネクストアクションを記入 |
+| **サマリーモード** | 「サマリーを作って」「成績をまとめて」 | `keiba-summary-reporter` スキルを起動し `records/summary.md` を生成（依頼時のみ） |
 
 #### 情報参照先（予想モード）
 
@@ -146,6 +161,34 @@ HorseRacingPrompts/
 | **注意** | `.gitignore` 対象。リポジトリには含まれない |
 | **運用** | 当日収集モードを実行することで自動作成される |
 
+### 4-6. `keiba-result-recorder` スキル（`.claude/skills/`）
+
+| 項目 | 内容 |
+|------|------|
+| **役割** | レース結果を取得し、予想レコードに結果・現状分析・ネクストアクションを記入するスキル |
+| **記入内容** | 着順・的中区分・回収率／現状分析（的中精度・見逃し分析・判断根拠検証・オッズ妙味・見逃しパターン）／ネクストアクション（追加観点の提案・取得方法・構成修正箇所） |
+| **保存先** | `records/predictions.csv`（既存行を更新し `status=記録済み` へ） |
+| **使い方** | 結果記録モードで `keiba-tansho-picker` から自動起動 |
+| **取得方法** | Chrome in Claude 優先 → WebFetch → 取得不可時はユーザーに手入力を依頼 |
+
+### 4-7. `keiba-summary-reporter` スキル（`.claude/skills/`）
+
+| 項目 | 内容 |
+|------|------|
+| **役割** | 蓄積レコードを横断集計し、構築者レビュー用サマリーを生成するスキル |
+| **集計内容** | 成績ダッシュボード（的中率・回収率）／予想・結果一覧／参照情報の傾向／判断基準の有効性／現状分析まとめ／ネクストアクション優先度リスト |
+| **保存先** | `records/summary.md`（生成のたびに上書き） |
+| **使い方** | サマリーモードで `keiba-tansho-picker` から自動起動。**依頼時のみ生成**（自動更新なし） |
+
+### 4-8. `records/` 予想レコードDB
+
+| 項目 | 内容 |
+|------|------|
+| **役割** | 予想と結果を貯めるDB。**1予想=1レコード（CSVの1行）** |
+| **レコード内容** | ①予想（◎○▲）②結果（着順・的中・回収率）③参照情報（リンク付き）④判断理由（判断基準）＋現状分析＋ネクストアクション＋status |
+| **列定義** | `.claude/skills/keiba-result-recorder/assets/csv_format.md` が真実源 |
+| **注意** | git管理対象（`Info/` と異なりリポジトリに含める）。学習資産として蓄積する |
+
 ---
 
 ## 5. 現状のデータフロー
@@ -186,7 +229,28 @@ Info/static/ と Info/dynamic/（当日傾向・ある場合）のキャッシ�
   - コース別脚質傾向との一致（中）
   ↓
 単勝推奨3頭（◎本命・○対抗・▲単穴）と全頭評価サマリーをチャット出力
+  ↓
+records/predictions.csv に予想レコードを追記（予想・参照情報・判断理由、status=結果待ち）
 ※当日傾向キャッシュがない場合は「当日収集モードの実行を推奨」と明記される
+
+【レース後・結果記録】
+keiba-tansho-pickerエージェントを使って、結果を記録して
+  ↓
+keiba-result-recorder スキルが起動
+  ↓
+netkeiba 結果ページから着順・オッズを取得
+  ↓
+結果待ちレコードに 結果 / 現状分析（5観点） / ネクストアクション（観点提案・取得方法・構成修正案）を記入
+  → status=記録済み
+
+【任意・構築者レビュー】
+keiba-tansho-pickerエージェントを使って、サマリーを作って
+  ↓
+keiba-summary-reporter スキルが起動
+  ↓
+records/predictions.csv の記録済みレコードを横断集計
+  ↓
+records/summary.md を生成（的中率・回収率・判断基準の有効性・ネクストアクション優先度リスト）
 ```
 
 **現状の課題：** オッズのリアルタイム取得が未実装。当日のオッズは手動で確認が必要。
@@ -199,46 +263,19 @@ Info/static/ と Info/dynamic/（当日傾向・ある場合）のキャッシ�
 
 ---
 
-#### TODO-01：フォルダ構造の分離（情報収集 vs AI予想）
+#### ~~TODO-01：フォルダ構造の分離（情報収集 vs AI予想）~~ ✅ 完了（設計変更）
 
-**背景：** 現在は予想結果をキャッシュと分離できていない。情報の純度を保つため、フォルダを分離する。
-
-**改修後のフォルダ構造：**
-
-```
-HorseRacingPrompts/
-│
-├── data/                               # ← 純粋な情報・素材（AIの判断なし）
-│   └── {競馬場名}/
-│       └── {YYYY年MM月}/
-│           └── {コース}_{距離}m_{レース名}.md
-│
-├── predictions/                        # ← AIの予想・推奨（⭐️ 新設）
-│   └── {競馬場名}/
-│       └── {YYYY年MM月}/
-│           └── {コース}_{距離}m_{レース名}_prediction.md
-│
-└── feedback/                           # ← 自己フィードバック（⭐️ 新設）
-    └── {競馬場名}/
-        └── {YYYY年MM月}/
-            └── {コース}_{距離}m_{レース名}_feedback.md
-```
+予想・結果は `records/predictions.csv`（1予想=1レコードのCSV DB）に一元化する設計に変更して実装済み。
+情報キャッシュ（`Info/`・gitignore対象）とAIの予想・フィードバック（`records/`・git管理対象）が分離された。
 
 ---
 
-#### TODO-02：自己反省ループの実装（predictions → feedback）
+#### ~~TODO-02：自己反省ループの実装（predictions → feedback）~~ ✅ 完了
 
-**背景：** レースが終わったら「予想は正しかったか？」を自動で振り返り、次回の判断軸の改善につなげたい。
-
-**フィードバックの観点（整理）：**
-
-| # | 観点 | 具体的な問い |
-|---|------|-------------|
-| 1 | **的中精度** | 推奨した馬は何着だったか？期待値は実際に1.0を超えていたか？ |
-| 2 | **見逃し分析** | 実際の1着馬を予想に入れていたか？入れていなかった場合、なぜ見落としたか？ |
-| 3 | **判断根拠の検証** | 推奨理由として挙げたデータポイント（枠順・血統・騎手等）は実際に有効だったか？ |
-| 4 | **オッズ妙味の検証** | 低オッズ馬（3倍以下）を本命にした場合、長期回収率は悪化していないか？ |
-| 5 | **見逃しパターン** | 荒れるレースで固い予想をしていないか？人気馬に引きずられていないか？ |
+`keiba-result-recorder` スキルとして実装済み。
+フィードバックの5観点（的中精度・見逃し分析・判断根拠の検証・オッズ妙味の検証・見逃しパターン）は
+`.claude/skills/keiba-result-recorder/reference/analysis_guide.md` に定義され、`analysis` 列に記録される。
+加えてネクストアクション（追加観点の提案・取得方法・構成修正箇所）を `next_action` 列に記録する。
 
 ---
 
@@ -246,11 +283,12 @@ HorseRacingPrompts/
 
 **背景：** フィードバックを積み重ねることで「これなら当たる」という判断軸を自動でアップデートしたい。
 
-**仕組み：**
+**現状：** `keiba-summary-reporter` が「有効だった判断軸」「無効だった判断軸」の集計まで実装済み（`records/summary.md` セクション4）。
 
-1. `feedback/` フォルダに蓄積されたファイルを読み込む
-2. 「有効だった判断軸」「無効だった判断軸」を集計
-3. `judgment_criteria.md`（判断軸マスタードキュメント）を自動更新
+**残作業：**
+
+1. 集計結果から `judgment_criteria.md`（判断軸マスタードキュメント）を自動更新する
+2. 予想モードの評価軸・重みを `judgment_criteria.md` から読み込むように変更する
 
 ---
 
@@ -267,13 +305,10 @@ HorseRacingPrompts/
 
 ---
 
-#### TODO-05：`predictions/` 出力のスキル化
+#### ~~TODO-05：予想結果の永続化~~ ✅ 完了（設計変更）
 
-**新規スキルまたはエージェントの動作として追加。**
-
-- `data/` ファイルを読み込んで期待値計算・推奨馬選定を行う
-- 結果を `predictions/` に保存する
-- レース後に結果を記入できる空フィールドを含む
+予想モードの最終ステップとして `records/predictions.csv` への1行追記を実装済み。
+レース後に結果を記入できる空フィールド（result_*・analysis・next_action、`status=結果待ち`）を含む。
 
 ---
 
@@ -289,18 +324,18 @@ keiba-static-collector スキル
 【当日・予想】
 keiba-tansho-pickerエージェントを使って、予想して {URL}
   ↓
-① Info/static/ キャッシュ参照
-② judgment_criteria.md（判断軸マスタ）で重み付け
+① Info/static/・Info/dynamic/ キャッシュ参照
+② judgment_criteria.md（判断軸マスタ）で重み付け（⭐️ 未実装・TODO-03）
 ③ 期待値計算・推奨選定
-④ predictions/{競馬場}/{年月}/{レース名}_prediction.md に保存
+④ records/predictions.csv に予想レコードを追記（✅ 実装済み）
 ⑤ ユーザーへ推奨をチャット出力
 
 【レース後】
-ユーザーが結果を報告 or 自動取得
+keiba-tansho-pickerエージェントを使って、結果を記録して
   ↓
-① prediction ファイルと結果を照合
-② feedback/{競馬場}/{年月}/{レース名}_feedback.md を生成
-③ judgment_criteria.md を自動更新
+① 予想レコードと結果を照合（✅ keiba-result-recorder 実装済み）
+② 現状分析・ネクストアクションをレコードに記入（✅ 実装済み）
+③ judgment_criteria.md を自動更新（⭐️ 未実装・TODO-03。現状は keiba-summary-reporter による集計まで）
 ```
 
 ---
